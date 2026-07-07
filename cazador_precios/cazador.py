@@ -45,12 +45,10 @@ DIAS_HISTORIAL: int = 0
 
 
 def _cargar_historial(ruta_historial: str) -> dict:
-    """Carga el historial de precios desde el archivo JSON de la tienda."""
-    if not os.path.exists(ruta_historial):
-        return {}
+    """Carga el historial de la tienda (JSON legado o SQLite, según migración)."""
     try:
-        with open(ruta_historial, "r", encoding="utf-8") as f:
-            return json.load(f)
+        from analizador.historial_precios import cargar_historial
+        return cargar_historial(ruta_historial)
     except (json.JSONDecodeError, IOError):
         return {}
 

@@ -30,7 +30,7 @@ __pycache__/
 telegram_bot/config.py
 
 # Configuración local de Claude Code (permisos de esta máquina)
-.claude/settings.local.json
+.claude/settings.local.json*
 
 # Node (dashboard, por si algún día se instalan dependencias)
 web/node_modules/

@@ -6,6 +6,19 @@
 
 ---
 
+## 2026-07-07 — Git (Etapa 0) + historial SQLite en marcha (Etapa 1 de webscraping2.0.md)
+
+- **Descripción corta:** (1) El proyecto ya es repo git (commit inicial: solo código/docs; datos, logs y `telegram_bot/config.py` —el token— excluidos vía `.gitignore`; plantilla nueva `config.example.py`). (2) Historial de precios migrando de JSON a SQLite con modo dual por tienda: **Shopstar y EFE ya operan en SQLite**; el resto sigue en JSON hasta validar el ciclo. Motivación térmica: el JSON de Plaza Vea (474 MB ≈ ~2 GB RAM) se parsea entero cada ciclo.
+- **Módulos Afectados:** `analizador/almacen.py` (NUEVO), `mantenimiento/migrar_sqlite.py` (NUEVO), `analizador/historial_precios.py`, `cazador_precios/cazador.py`, `web/build_data.py`, `.gitignore`, `telegram_bot/config.example.py`.
+- **Detalle Técnico del Cambio:**
+  - **Modo dual:** si `tiendas/<t>/datos/historial.db` existe, la tienda opera 100% en SQLite y su JSON queda CONGELADO como respaldo; si no, JSON legado sin cambios. `cargar_historial()` y `registrar_precios()` despachan solos; el resto del código no distingue. Revertir una tienda = borrar sus `historial.db*`.
+  - **`almacen.py`:** esquema `productos(id PK, nombre, marca, url, ultima_fecha)` + `registros(id PK, producto_id, fecha, precios, sospechoso)` con índice `(producto_id, id)`; WAL. `HistorialSQLite` es una vista `Mapping` de SOLO lectura con forma de dict {pid: nodo} que materializa un producto a la vez (cache del último pid) — detector/cazador/dashboard/analizar_ahora funcionan sin cambios. `registrar_precios()` replica EXACTAMENTE la lógica JSON (cuarentena, confirmación ±15%, mediana ventana 30, poda 60 días) con constantes importadas de `historial_precios.py` (única fuente de verdad).
+  - **Migrador:** parsea el JSON (última vez), inserta en una transacción, verifica conteos + nodo a nodo (completo ≤100K productos, muestra 5K si más), `--verificar` exige además ofertas/mínimos idénticos con el último snapshot. `ultima_fecha` = fecha del último registro (semántica de poda del JSON).
+  - **Prueba de paridad (Promart, copias):** migración de 46,921 productos / 413,775 registros con comparación completa + 3 pasadas de registro simulando cambio masivo, outlier ×10 (cuarentena) y persistencia +5% (confirmación): línea 📊, estado producto a producto y análisis IDÉNTICOS en ambos modos. `web/build_data.py` regenerado OK con tiendas mixtas (248,995 productos).
+- **Actualización de Contexto para IA:** El repo git existe desde hoy — commitear cambios significativos (mensaje en español, terminar con `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`). Para migrar las tiendas restantes tras validar el ciclo: `python mantenimiento/migrar_sqlite.py <tienda> --verificar` (Plaza Vea al final). Los JSON congelados de tiendas migradas NO se actualizan más (no confundirse si su mtime queda viejo); borrarlos solo cuando la BD lleve semanas estable.
+
+---
+
 ## 2026-07-07 — Temperatura: freno suave + Inkafarma sin Chromium + historial 1 sola vez
 
 - **Descripción corta:** Los avisos del 05 y 06/07 mostraban Plaza Vea a 73 °C e Inkafarma a 70 °C (resto: 43–64 °C). Tres medidas: (1) freno térmico SUAVE que congela el scraper a ≥72 °C y lo reanuda al enfriar (además del freno duro de 85 °C que mata la tienda); (2) Inkafarma ya no lanza Chromium — los IDs salen del índice Algolia público con `requests`; (3) el historial (474 MB en Plaza Vea) se parsea 1 vez por tienda en lugar de 3.

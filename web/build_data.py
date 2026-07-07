@@ -13,6 +13,11 @@ TIENDAS_DIR = os.path.join(ROOT_DIR, "tiendas")
 WEB_DIR = os.path.join(ROOT_DIR, "web")
 PUBLIC_DIR = os.path.join(WEB_DIR, "public")
 
+# cargar_historial despacha JSON legado o SQLite según cómo esté cada tienda
+# (Etapa 1 de webscraping2.0.md); la vista SQLite se usa igual que un dict.
+sys.path.insert(0, ROOT_DIR)
+from analizador.historial_precios import cargar_historial
+
 TIENDAS = [
     "inkafarma",
     "plaza_vea",
@@ -53,15 +58,13 @@ def procesar_datos():
 
         print(f"✅ Procesando {tienda}: {os.path.basename(ultimo_archivo)}")
         
-        # Leer el historial de precios general
+        # Leer el historial de precios general (JSON legado o SQLite)
         historial_file = os.path.join(TIENDAS_DIR, tienda, "datos", "historial_precios.json")
         historial_datos = {}
-        if os.path.exists(historial_file):
-            try:
-                with open(historial_file, 'r', encoding='utf-8') as f:
-                    historial_datos = json.load(f)
-            except Exception as e:
-                print(f"❌ Error leyendo historial de {tienda}: {e}")
+        try:
+            historial_datos = cargar_historial(historial_file)
+        except Exception as e:
+            print(f"❌ Error leyendo historial de {tienda}: {e}")
         
         # Leer favoritos
         favoritos_file = os.path.join(TIENDAS_DIR, tienda, "datos", "favoritos.json")

@@ -21,6 +21,8 @@ import json
 import os
 from datetime import datetime, timezone, timedelta
 
+from analizador import almacen
+
 TZ_PERU = timezone(timedelta(hours=-5))
 
 # Un producto cuyo último registro tenga más de estos días sin actualizarse se
@@ -73,7 +75,13 @@ def _registros_confiables(registros: list) -> list:
 
 
 def cargar_historial(ruta_historial: str) -> dict:
-    """Carga el historial desde archivo JSON. Retorna dict vacío si no existe."""
+    """Carga el historial de una tienda. Retorna algo con forma de dict.
+
+    Si la tienda ya migró a SQLite (existe historial.db junto al JSON),
+    devuelve una vista de solo lectura sobre la BD (misma interfaz de dict,
+    RAM mínima). Si no, el JSON legado de siempre; vacío si no existe."""
+    if almacen.usa_sqlite(ruta_historial):
+        return almacen.HistorialSQLite(ruta_historial)
     if os.path.exists(ruta_historial):
         with open(ruta_historial, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -114,15 +122,35 @@ def podar_historial(historial: dict, dias: int = DIAS_RETENER_PRODUCTO, hoy=None
     return len(muertos)
 
 
+def _imprimir_resumen_registro(nuevos, actualizados, cuarentenados, confirmados, podados):
+    msg = f"+{nuevos} nuevos, {actualizados} actualizados"
+    if cuarentenados:
+        msg += f", {cuarentenados} en cuarentena (precio atípico)"
+    if confirmados:
+        msg += f", {confirmados} confirmados (salen de cuarentena)"
+    if podados:
+        msg += f", -{podados} muertos podados"
+    print(f"    📊 Historial: {msg}")
+
+
 def registrar_precios(productos: list, ruta_historial: str):
     """
     Registra los precios actuales de una lista de productos en el historial.
     Solo agrega un registro si el precio cambió respecto al último registro.
-    
+
     Args:
         productos: Lista de dicts con campos: id, nombre, precio_normal, precio_oferta, precio_minimo
         ruta_historial: Ruta al archivo JSON del historial
+
+    Devuelve el historial listo para consultar (dict en modo JSON; vista
+    SQLite con interfaz de dict si la tienda ya migró).
     """
+    if almacen.usa_sqlite(ruta_historial):
+        vista, s = almacen.registrar_precios(productos, ruta_historial)
+        _imprimir_resumen_registro(s["nuevos"], s["actualizados"],
+                                   s["cuarentenados"], s["confirmados"], s["podados"])
+        return vista
+
     historial = cargar_historial(ruta_historial)
     hoy = datetime.now(TZ_PERU).strftime("%Y-%m-%d")
     nuevos = 0
@@ -211,14 +239,7 @@ def registrar_precios(productos: list, ruta_historial: str):
     podados = podar_historial(historial)
 
     guardar_historial(historial, ruta_historial)
-    msg = f"+{nuevos} nuevos, {actualizados} actualizados"
-    if cuarentenados:
-        msg += f", {cuarentenados} en cuarentena (precio atípico)"
-    if confirmados:
-        msg += f", {confirmados} confirmados (salen de cuarentena)"
-    if podados:
-        msg += f", -{podados} muertos podados"
-    print(f"    📊 Historial: {msg}")
+    _imprimir_resumen_registro(nuevos, actualizados, cuarentenados, confirmados, podados)
     return historial
 
 

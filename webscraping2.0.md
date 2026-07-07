@@ -42,7 +42,7 @@ Deudas que este plan ataca, por orden de gravedad:
 
 ---
 
-## Etapa 0 — Control de versiones con git 🏗️
+## Etapa 0 — Control de versiones con git 🏗️ — ✅ COMPLETADA (2026-07-07)
 
 **Qué es:** `git init` crea un repositorio LOCAL (una carpeta oculta `.git/` dentro del
 proyecto). Desde ahí, cada "commit" es una foto exacta del código en ese momento, con
@@ -73,7 +73,14 @@ cualquier archivo muestra las líneas cambiadas; `git checkout -- archivo` lo re
 
 ---
 
-## Etapa 1 — Historial en SQLite 🗄️ *(= "Fase 2" del plan de optimización acordado)*
+## Etapa 1 — Historial en SQLite 🗄️ *(= "Fase 2" del plan de optimización acordado)* — 🔄 EN CURSO
+
+> **Estado 2026-07-07:** capa de acceso (`analizador/almacen.py`), migrador
+> (`mantenimiento/migrar_sqlite.py`) y despacho dual LISTOS y probados (paridad
+> total contra Promart: 46,921 productos / 413,775 registros, cuarentena y
+> confirmación incluidas). **Shopstar y EFE ya operan en SQLite.** Falta: tras
+> validar el ciclo del 08/07, migrar el resto (Plaza Vea al final) con
+> `python mantenimiento/migrar_sqlite.py <tienda> --verificar`.
 
 **Problema:** cada ciclo carga, actualiza y reescribe el JSON entero de cada tienda.
 Plaza Vea: 474 MB de disco ≈ ~2 GB en RAM, minutos de CPU al 100% (uno de los focos
