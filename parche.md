@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-07-07 — Etapa 1 COMPLETADA: las 9 tiendas operan en SQLite
+
+- **Descripción corta:** Migradas las 6 tiendas restantes (sodimac, dermo, tailoy, inkafarma, saga_falabella, promart) en 8 segundos, todas con `--verificar` OK: comparación nodo a nodo COMPLETA e idéntica, y análisis (ofertas/mínimos) exactamente igual al del ciclo de hoy. Con Shopstar, EFE y Plaza Vea ya migradas, **el historial JSON dejó de usarse en las 9 tiendas** (~340K productos, ~5.7M registros en total).
+- **Módulos Afectados:** ninguno (solo datos: `historial.db` nuevo en las 6 tiendas; los JSON quedan congelados de respaldo).
+- **Actualización de Contexto para IA:** El ciclo del 08/07 12:10 es el PRIMERO 100% SQLite — validar: línea 📊 normal en las 9 tiendas, pico de Plaza Vea fuera de la ventana de análisis y por debajo de 72 °C, aviso de Telegram con las mismas secciones de siempre. Los mtime de TODOS los `historial_precios.json` quedarán congelados (no es un bug). Revertir una tienda = borrar sus `historial.db*`. Cuando la BD lleve semanas estable: borrar los JSON congelados y retirar la ruta JSON del código (paso 4 de la Etapa 1).
+
+---
+
 ## 2026-07-07 — Plaza Vea migrada a SQLite (el foco térmico, adelantada tras confirmar el culpable)
 
 - **Descripción corta:** Tras confirmar por experimento que el pico de 72 °C era el `json.dump` del historial de 481 MB, se adelantó la migración de Plaza Vea a SQLite (estaba planeada para el 08/07 al final). `python mantenimiento/migrar_sqlite.py plaza_vea --verificar` OK en 0.8 min: **269,107 productos / 5,137,931 registros**, muestra de 5,000 nodos idéntica, análisis (45,584 ofertas, 3,143 mínimos) EXACTAMENTE igual al del ciclo de hoy 13:22. Disco: 481 MB (JSON) → 397 MB (SQLite). CPU durante la migración: 67–75 °C (~48 s, costo de una sola vez).

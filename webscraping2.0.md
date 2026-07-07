@@ -73,18 +73,18 @@ cualquier archivo muestra las líneas cambiadas; `git checkout -- archivo` lo re
 
 ---
 
-## Etapa 1 — Historial en SQLite 🗄️ *(= "Fase 2" del plan de optimización acordado)* — 🔄 EN CURSO
+## Etapa 1 — Historial en SQLite 🗄️ *(= "Fase 2" del plan de optimización acordado)* — ✅ COMPLETADA (2026-07-07)
 
-> **Estado 2026-07-07 (tarde):** capa de acceso (`analizador/almacen.py`), migrador
-> (`mantenimiento/migrar_sqlite.py`) y despacho dual LISTOS y probados (paridad
-> total contra Promart: 46,921 productos / 413,775 registros, cuarentena y
-> confirmación incluidas). **Shopstar, EFE y PLAZA VEA ya operan en SQLite.**
-> Plaza Vea (el foco térmico: su `json.dump` de 481 MB causaba el pico de 72 °C,
-> verificado por experimento) migró el 07/07 15:07 con `--verificar` OK:
-> 269,107 productos / 5,137,931 registros, análisis idéntico, 481 MB → 397 MB.
-> Falta: tras validar el ciclo del 08/07, migrar las 6 restantes
-> (sodimac, dermo, tailoy, inkafarma, saga_falabella, promart) con
-> `python mantenimiento/migrar_sqlite.py <tienda> --verificar`.
+> **Estado 2026-07-07 (tarde):** **LAS 9 TIENDAS OPERAN EN SQLITE** (~340K
+> productos, ~5.7M registros). Todas migraron con `--verificar` OK: comparación
+> nodo a nodo (completa en 8 tiendas, muestra de 5,000 en Plaza Vea) y análisis
+> idéntico contra el snapshot del día. Plaza Vea (el foco térmico: su `json.dump`
+> de 481 MB causaba el pico de 72 °C, verificado por experimento): 269,107
+> productos / 5,137,931 registros, 481 MB → 397 MB. Los JSON quedan CONGELADOS
+> de respaldo (revertir una tienda = borrar sus `historial.db*`); se borran
+> cuando la BD lleve semanas estable. El primer ciclo 100% SQLite es el del
+> 08/07 12:10 — validar ahí. El paso 4 (retirar la ruta JSON del código) espera
+> a esa estabilidad.
 
 **Problema:** cada ciclo carga, actualiza y reescribe el JSON entero de cada tienda.
 Plaza Vea: 474 MB de disco ≈ ~2 GB en RAM, minutos de CPU al 100% (uno de los focos
