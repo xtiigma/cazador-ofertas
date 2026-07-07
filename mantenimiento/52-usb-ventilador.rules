@@ -1,0 +1,8 @@
+# Permite a los usuarios del grupo dialout controlar la energía de los puertos
+# USB (uhubctl) sin sudo — necesario para que cazador-ventilador.service (que
+# corre como usuario) pueda encender/apagar el ventilador.
+# Instalación:
+#   sudo cp mantenimiento/52-usb-ventilador.rules /etc/udev/rules.d/
+#   sudo udevadm control --reload-rules && sudo udevadm trigger
+#   sudo usermod -aG dialout diego   # y cerrar sesión / volver a entrar
+SUBSYSTEM=="usb", DRIVER=="hub", MODE="0664", GROUP="dialout"

@@ -1,0 +1,31 @@
+[
+  {
+    "fecha": "2026-06-28",
+    "hora": "19:36:34",
+    "fecha_hora": "2026-06-28 19:36:34",
+    "tipo": "DASHBOARD",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 1,
+    "contenido": {
+      "url": "https://ofertas.entsanjeronimo.lat"
+    }
+  },
+  {
+    "fecha": "2026-06-28",
+    "hora": "20:18:48",
+    "fecha_hora": "2026-06-28 20:18:48",
+    "tipo": "AVISO",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 1,
+    "contenido": {
+      "tiendas_procesadas": 7,
+      "total_productos": 223185,
+      "total_ofertas_reales": 89286,
+      "total_minimos": 9538,
+      "duracion_seg": 938.0,
+      "fecha": "28/06/2026 20:02"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+# Control automático del ventilador USB por temperatura del CPU.
+# Instalación (tras configurar HUB_LOCATION/PUERTO en mantenimiento/ventilador.py):
+#   cp mantenimiento/cazador-ventilador.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload
+#   systemctl --user enable --now cazador-ventilador.service
+# Ver estado / logs:
+#   systemctl --user status cazador-ventilador
+#   journalctl --user -u cazador-ventilador -f
+
+[Unit]
+Description=Cazador de Ofertas — ventilador USB según temperatura del CPU
+
+[Service]
+WorkingDirectory=/home/diego/Documentos/WEBSCRAPING
+ExecStart=/home/diego/.venvs/cazador-ofertas/bin/python -m mantenimiento.ventilador --daemon
+Restart=on-failure
+RestartSec=30
+# Prioridad mínima: solo lee un sensor y llama a uhubctl cada 30 s.
+Nice=15
+
+[Install]
+WantedBy=default.target

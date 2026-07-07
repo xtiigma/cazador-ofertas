@@ -1,0 +1,1972 @@
+{
+  "generado_en": "2026-04-14T18:33:40.172050-05:00",
+  "total_categorias": 8,
+  "total_subcategorias": 52,
+  "total_sub_subcategorias": 309,
+  "categorias": [
+    {
+      "nombre": "Tecnología",
+      "id": 678,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Audio",
+          "id": 682,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Audífonos",
+              "id": 761,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/761/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Soundbar y Home Theater",
+              "id": 762,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/762/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Equipos de Sonido",
+              "id": 763,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/763/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Parlantes",
+              "id": 764,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/764/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Instrumentos Musicales",
+              "id": 1378,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/1378/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios de audio",
+              "id": 4281,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/682/4281/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Computo",
+          "id": 683,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Teclados",
+              "id": 758,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/758/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mouses",
+              "id": 759,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/759/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tarjetas de Memoria",
+              "id": 760,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/760/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "All in One",
+              "id": 765,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/765/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Laptops",
+              "id": 766,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/766/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Impresoras y Multifuncionales",
+              "id": 767,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/767/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Proyectores",
+              "id": 797,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/797/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tintas para Impresora y Toners",
+              "id": 799,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/799/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios de Computo",
+              "id": 801,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/801/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tablets",
+              "id": 940,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/940/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Memorias USB y Discos Duros",
+              "id": 1028,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/1028/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Laptops Gamers",
+              "id": 1090,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/1090/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Monitores",
+              "id": 1444,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/1444/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Fundas para Laptop y Estuches",
+              "id": 1445,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/1445/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Software",
+              "id": 1669,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/683/1669/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Fotografía",
+          "id": 685,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/685/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Accesorios de Fotografía",
+              "id": 769,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/685/769/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cámaras",
+              "id": 770,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/685/770/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Filmadoras",
+              "id": 771,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/685/771/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Drones",
+              "id": 4213,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/685/4213/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Telefonía",
+          "id": 686,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Celulares y Smartphones",
+              "id": 917,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/917/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cargadores y Cables",
+              "id": 1038,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/1038/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios para Celulares",
+              "id": 1067,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/1067/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Smartwatch",
+              "id": 1447,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/1447/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cases y Micas",
+              "id": 1448,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/686/1448/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Televisores",
+          "id": 687,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "TV LED",
+              "id": 776,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/776/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV OLED",
+              "id": 777,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/777/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV NanoCell",
+              "id": 778,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/778/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV QLED",
+              "id": 1083,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/1083/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV CRYSTAL UHD",
+              "id": 1265,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/1265/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV QNED",
+              "id": 1747,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/1747/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "TV Neo QLED",
+              "id": 1762,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/687/1762/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Videojuegos",
+          "id": 689,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Accesorios Gamer",
+              "id": 781,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/781/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas Gamer",
+              "id": 1451,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1451/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Otras consolas y juegos",
+              "id": 1748,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1748/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Ps5",
+              "id": 1749,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1749/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos ps5",
+              "id": 1750,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1750/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Ps4",
+              "id": 1751,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1751/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos PS4",
+              "id": 1752,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1752/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Consola Nintendo Switch",
+              "id": 1753,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1753/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos Nintendo Switch",
+              "id": 1754,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1754/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Consola Xbox",
+              "id": 1755,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1755/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos Xbox",
+              "id": 1756,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1756/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mando ps4",
+              "id": 1757,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1757/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mando PS5",
+              "id": 1758,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1758/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mando Xbox",
+              "id": 1759,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/689/1759/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Cigarros Electrónicos",
+          "id": 1379,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/1379/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Cigarros Electrónicos",
+              "id": 1380,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/1379/1380/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Cine en Casa",
+          "id": 1683,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/1683/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Blu Ray y DVD",
+              "id": 772,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/1683/772/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios para Televisores",
+              "id": 775,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/678/1683/775/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Muebles",
+      "id": 1098,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Muebles de Sala",
+          "id": 1030,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Centros de entretenimiento",
+              "id": 704,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/704/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesas de Centro y Auxiliares",
+              "id": 705,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/705/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos de sala",
+              "id": 1120,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/1120/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesa para TV",
+              "id": 2553,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/2553/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Paneles de TV",
+              "id": 2554,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/2554/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Combos de Muebles de Sala",
+              "id": 2780,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1030/2780/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de Comedor",
+          "id": 1084,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1084/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Mesas de comedor",
+              "id": 1085,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1084/1085/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas de Comedor",
+              "id": 1086,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1084/1086/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juegos de Comedor",
+              "id": 1114,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1084/1114/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Vitrinas y Aparadores",
+              "id": 2678,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1084/2678/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Terrazas (NO USAR)",
+          "id": 1111,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1111/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Mesas de Terraza (NO USAR)",
+              "id": 1029,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1111/1029/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juego de Terrazas (NO USAR)",
+              "id": 1112,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1111/1112/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de Cocina",
+          "id": 1116,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Alacena de Cocina",
+              "id": 1476,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/1476/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Reposteros",
+              "id": 1477,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/1477/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Muebles Modulares",
+              "id": 1478,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/1478/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Combos de Muebles de Cocina",
+              "id": 2767,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/2767/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Lavaderos de Cocina",
+              "id": 2768,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/2768/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Muebles para microondas",
+              "id": 2769,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/2769/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tableros y Tapacantos para Cocina",
+              "id": 2770,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1116/2770/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de Dormitorio",
+          "id": 1417,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Roperos",
+              "id": 1113,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/1113/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cómodas",
+              "id": 1216,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/1216/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Veladores y Mesas de Noche",
+              "id": 1467,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/1467/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapateras",
+              "id": 1468,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/1468/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cabeceras de Cama",
+              "id": 2549,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2549/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tocadores",
+              "id": 2677,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2677/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Combos de Muebles de Dormitorio",
+              "id": 2772,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2772/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Espejos para cuartos",
+              "id": 2773,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2773/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Muebles bebé e infantil",
+              "id": 2774,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2774/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Percheros",
+              "id": 2775,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1417/2775/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de Oficina",
+          "id": 1418,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Escritorios",
+              "id": 1119,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/1119/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Libreros y Estantes",
+              "id": 1470,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/1470/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Repisas y Estantería",
+              "id": 1471,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/1471/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas de Escritorio",
+              "id": 1472,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/1472/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Archivadores",
+              "id": 2776,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/2776/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Combos de Muebles de Oficina",
+              "id": 2777,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1418/2777/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles para Baño",
+          "id": 1420,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Gabinetes para Baño",
+              "id": 1115,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/1115/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Lavatorios y Vanitorios",
+              "id": 1474,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/1474/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mueble Botiquín",
+              "id": 1475,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/1475/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Combos de muebles para baño",
+              "id": 2778,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/2778/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Muebles Auxiliares de Baño",
+              "id": 2779,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/1420/2779/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de Bar",
+          "id": 2781,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2781/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Combos de muebles de bar",
+              "id": 2782,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2781/2782/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesas de Bar",
+              "id": 2783,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2781/2783/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Otros Muebles de Bar",
+              "id": 2784,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2781/2784/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas y Bancos de Bar",
+              "id": 2785,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2781/2785/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles Auxiliares",
+          "id": 2786,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2786/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Mesas Plegables",
+              "id": 2787,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2786/2787/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas Plegables",
+              "id": 2788,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2786/2788/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Muebles de lavandería",
+          "id": 2789,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2789/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": []
+        },
+        {
+          "nombre": "Muebles de Plástico",
+          "id": 2790,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Armarios y Roperos de Plástico",
+              "id": 2791,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/2791/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cómodas de Plástico",
+              "id": 2792,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/2792/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesas de Plástico",
+              "id": 2793,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/2793/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesas y Sillas Infantiles",
+              "id": 2794,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/2794/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillas de Plástico",
+              "id": 2795,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2790/2795/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Sofás y Sillones",
+          "id": 2797,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Banquetas",
+              "id": 2798,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2798/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Butacas",
+              "id": 2799,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2799/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Puffs",
+              "id": 2800,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2800/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Seccionales",
+              "id": 2801,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2801/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillones",
+              "id": 2802,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2802/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sillones Reclinables",
+              "id": 2803,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2803/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sofá Cama y Futones",
+              "id": 2804,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2804/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sofás",
+              "id": 2805,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1098/2797/2805/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Deportes",
+      "id": 1105,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Entrenamiento y Fitness",
+          "id": 1423,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Máquinas de Spinning",
+              "id": 1039,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1039/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Trotadoras",
+              "id": 1509,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1509/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Elipticas",
+              "id": 1510,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1510/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mini Gimnasios",
+              "id": 1511,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1511/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Máquinas de Abdominales",
+              "id": 1512,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1512/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Yoga y Pilates",
+              "id": 1513,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1513/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crossfit",
+              "id": 1514,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1423/1514/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Scooters y Skates",
+          "id": 1424,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1424/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Scooters",
+              "id": 1224,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1424/1224/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios para Scooter y Skates",
+              "id": 1521,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1424/1521/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Skates",
+              "id": 1522,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1424/1522/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Scooters Eléctricos",
+              "id": 1523,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1424/1523/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Deportes Individuales y de Contacto",
+          "id": 1425,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Tenis",
+              "id": 1530,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1530/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Box",
+              "id": 1531,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1531/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Golf",
+              "id": 1532,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1532/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Artes Marciales",
+              "id": 1533,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1533/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Patines",
+              "id": 1534,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1534/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Trekking",
+              "id": 1535,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1425/1535/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Deportes en Equipo",
+          "id": 1426,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1426/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Fútbol",
+              "id": 1536,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1426/1536/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Basket",
+              "id": 1537,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1426/1537/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Volley",
+              "id": 1538,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1426/1538/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Deportes Acuáticos",
+          "id": 1427,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Piscinas inflables",
+              "id": 948,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/948/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Natación",
+              "id": 1539,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/1539/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Kayac y Canotaje",
+              "id": 1540,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/1540/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios Deportes Acuáticos",
+              "id": 1541,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/1541/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Ropas de Baño Deportivas",
+              "id": 1542,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/1542/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Surf",
+              "id": 1543,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/1543/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Piscinas estructurales",
+              "id": 4241,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/4241/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Flotadores y accesorios",
+              "id": 4242,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1427/4242/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Juegos Recreativos-no usar",
+          "id": 1429,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1429/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Otros juegos de exterior-no usar",
+              "id": 1110,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1429/1110/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mesas de juego-no usar",
+              "id": 1403,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1429/1403/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Trampolines-no usar",
+              "id": 1404,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1429/1404/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Accesorios deportivos",
+          "id": 1443,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1443/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Accesorios Deportivos",
+              "id": 798,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1443/798/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mochilas y Maletines Deportivos",
+              "id": 1106,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1443/1106/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Bicicletas",
+          "id": 1446,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Bicicletas Montañeras",
+              "id": 1515,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1515/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bicicletas Urbanas",
+              "id": 1516,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1516/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bicicletas Freestyle",
+              "id": 1517,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1517/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bicicletas Infantiles",
+              "id": 1518,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1518/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios para Bicicletas",
+              "id": 1519,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1519/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bicicletas Eléctricas",
+              "id": 1520,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1105/1446/1520/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Moda Hombre",
+      "id": 3174,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Ropa de Baño Hombre",
+          "id": 3180,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3180/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Short de baño hombre",
+              "id": 3181,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3180/3181/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Toallas de Playa Hombre",
+              "id": 3182,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3180/3182/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Ropa Hombre",
+          "id": 3183,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Abrigos y Blazer hombre",
+              "id": 3184,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3184/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Buzos y Joggers Hombre",
+              "id": 3185,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3185/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Camisas hombre",
+              "id": 3186,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3186/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Chalecos Hombre",
+              "id": 3187,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3187/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Chompas Hombre",
+              "id": 3188,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3188/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Jeans Hombre",
+              "id": 3189,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3189/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pantalones hombre",
+              "id": 3190,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3190/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Poleras Hombre",
+              "id": 3191,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3191/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Polos Hombre",
+              "id": 3192,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3192/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Shorts y Bermudas hombre",
+              "id": 3193,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3193/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Casacas Hombre",
+              "id": 3764,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3183/3764/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Ropa Interior y Pijamas Hombre",
+          "id": 3194,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Batas Hombre",
+              "id": 3195,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3195/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bividís hombre",
+              "id": 3196,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3196/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Boxers y Calzoncillos",
+              "id": 3197,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3197/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Medias Hombre",
+              "id": 3198,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3198/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pantuflas Hombre - NO USAR",
+              "id": 3199,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3199/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pijamas para Hombre",
+              "id": 3200,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3194/3200/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Ropa Deportiva Hombre",
+          "id": 3777,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Buzos y Conjuntos Deportivos para Hombre",
+              "id": 3778,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3778/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cortavientos y Casacas Deportivas para Hombre",
+              "id": 3779,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3779/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Medias Deportivas para Hombre",
+              "id": 3780,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3780/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pantalones y Joggers Deportivos para Hombre",
+              "id": 3781,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3781/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Poleras Deportivas para Hombre",
+              "id": 3782,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3782/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Polos Deportivos para Hombre",
+              "id": 3783,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3783/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Shorts Deportivos para Hombre",
+              "id": 3784,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3174/3777/3784/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Zapatillas",
+      "id": 3072,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Zapatillas Hombre",
+          "id": 3073,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3073/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Zapatillas de Futbol",
+              "id": 3076,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3073/3076/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Deportivas Hombre",
+              "id": 3077,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3073/3077/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Outdoor Hombre",
+              "id": 3078,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3073/3078/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Urbanas Hombre",
+              "id": 3079,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3073/3079/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Zapatillas Infantil",
+          "id": 3074,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3074/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Zapatillas de Futbol Niño",
+              "id": 3080,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3074/3080/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Niña",
+              "id": 3081,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3074/3081/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Niño",
+              "id": 3082,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3074/3082/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Zapatillas Mujer",
+          "id": 3075,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3075/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Zapatillas Deportivas Mujer",
+              "id": 3083,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3075/3083/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Outdoor Mujer",
+              "id": 3084,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3075/3084/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Zapatillas Urbanas Mujer",
+              "id": 3085,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/3072/3075/3085/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Belleza",
+      "id": 1138,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Maquillaje y Cosméticos",
+          "id": 1142,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Maquillaje de Ojos",
+              "id": 1160,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1160/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Labial",
+              "id": 1161,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1161/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Maquillaje Facial",
+              "id": 1162,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1162/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Maquillaje de Uñas",
+              "id": 1163,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1163/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Accesorios",
+              "id": 1164,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1164/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sets de Maquillaje",
+              "id": 1165,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/1165/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Maquillaje de Cejas",
+              "id": 3016,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/3016/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pestañas",
+              "id": 3017,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/3017/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Perfumes y Fragancias",
+          "id": 1144,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1144/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Perfumes para Hombre",
+              "id": 1166,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1144/1166/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Perfumes para Mujer",
+              "id": 1167,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1144/1167/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sets de Perfumes",
+              "id": 1168,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1144/1168/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Cuidado de la Piel Corporal",
+          "id": 2854,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Autobronceador Corporal",
+              "id": 2855,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2855/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema Corporal",
+              "id": 2856,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2856/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema para Las Estrías",
+              "id": 2857,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2857/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema para Las Piernas",
+              "id": 2858,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2858/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema para Manos",
+              "id": 2859,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2859/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema para pies",
+              "id": 2860,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2860/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema para Regenerar la Piel",
+              "id": 2861,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2861/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cremas Hidratantes para el Cuerpo",
+              "id": 2862,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2862/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sets de cuidado corporal",
+              "id": 2863,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/2863/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Cuidado Facial",
+          "id": 2864,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Agua Micelar",
+              "id": 2865,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2865/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Contorno de Ojos",
+              "id": 2866,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2866/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Crema Facial",
+              "id": 2867,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2867/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Desmaquillantes",
+              "id": 2868,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2868/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Discos de algodón",
+              "id": 2869,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2869/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Exfoliante Facial",
+              "id": 2870,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2870/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Limpieza Facial",
+              "id": 2871,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2871/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mascarillas Faciales",
+              "id": 2872,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2872/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pañuelo Facial",
+              "id": 2873,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2873/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sérum para el Rostro",
+              "id": 2874,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2874/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Sets de cuidado facial",
+              "id": 2875,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/2875/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Protección Solar",
+          "id": 2876,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "After Sun",
+              "id": 2877,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/2877/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bloqueador Corporal",
+              "id": 2878,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/2878/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bronceadores",
+              "id": 2879,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/2879/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Protector de Labios",
+              "id": 2880,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/2880/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Protector Solar Facial",
+              "id": 2881,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2876/2881/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Mascotas",
+      "id": 620,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Otras Mascotas",
+          "id": 622,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/622/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Conejos",
+              "id": 4163,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/622/4163/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Hamsters",
+              "id": 4164,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/622/4164/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Erizos",
+              "id": 4165,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/622/4165/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Aves",
+              "id": 4166,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/622/4166/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Comida para perros",
+          "id": 4118,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4118/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Croquetas y comida seca para perros",
+              "id": 4124,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4118/4124/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Paté y comida húmeda para perros",
+              "id": 4125,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4118/4125/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Galletas y snacks para perros",
+              "id": 4126,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4118/4126/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Salud e higiene para perros",
+          "id": 4119,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Antipulgas para perros",
+              "id": 4127,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4127/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pañales para perros",
+              "id": 4128,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4128/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Shampoo para perros",
+              "id": 4129,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4129/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Peines, cepillos y cortadoras para perros",
+              "id": 4130,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4130/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Vitaminas y suplementos para perros",
+              "id": 4131,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4131/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cortauñas para perros",
+              "id": 4132,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4132/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Perfumes y colonias para perros",
+              "id": 4133,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4133/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bolsas y dispensadores para perros",
+              "id": 4134,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4134/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cuidado oral para perros",
+              "id": 4135,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4135/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Más productos de salud e higiene para perros",
+              "id": 4136,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/4136/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Accesorios para perros",
+          "id": 4120,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Casas y camas para perros",
+              "id": 4137,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4137/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bozales para perros",
+              "id": 4138,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4138/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Correas y arneses para perros",
+              "id": 4139,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4139/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Kennel para perros",
+              "id": 4140,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4140/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Platos y bebederos para perros",
+              "id": 4141,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4141/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Collares para perros",
+              "id": 4142,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4142/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juguetes para perros",
+              "id": 4143,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4143/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Ropa para perros",
+              "id": 4144,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4144/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Más accesorios para perros",
+              "id": 4145,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/4145/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Comida para gatos",
+          "id": 4121,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4121/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Paté y comida húmeda para gatos",
+              "id": 4146,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4121/4146/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Croquetas y comida seca para gatos",
+              "id": 4147,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4121/4147/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Snacks para gatos",
+              "id": 4169,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4121/4169/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Salud e higiene para gatos",
+          "id": 4122,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Antipulgas para gatos",
+              "id": 4148,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4148/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Arena para gatos",
+              "id": 4149,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4149/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cajas de arena para gatos",
+              "id": 4150,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4150/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Peines y cepillos para gatos",
+              "id": 4151,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4151/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Shampoo para gatos",
+              "id": 4152,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4152/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Vitaminas y suplementos para gatos",
+              "id": 4153,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4153/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Más productos de salud e higiene para gatos",
+              "id": 4167,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/4167/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Accesorios para gatos",
+          "id": 4123,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Casas y camas para gatos",
+              "id": 4155,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4155/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Collares y correas para gatos",
+              "id": 4156,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4156/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Platos y bebederos para gatos",
+              "id": 4157,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4157/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Catnip",
+              "id": 4158,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4158/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juguetes para gatos",
+              "id": 4159,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4159/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Rascadores para gatos",
+              "id": 4160,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4160/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Kennel para gatos",
+              "id": 4161,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4161/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Más accesorios para gatos",
+              "id": 4162,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4123/4162/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Librería y Oficina",
+      "id": 666,
+      "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/&O=OrderByScoreDESC&_from={from}&_to={to}",
+      "subcategorias": [
+        {
+          "nombre": "Mochilas, Loncheras y Cartucheras",
+          "id": 900,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/900/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Cartucheras",
+              "id": 580,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/900/580/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Mochilas",
+              "id": 1414,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/900/1414/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Loncheras",
+              "id": 1592,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/900/1592/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Útiles Escolares y de Oficina",
+          "id": 906,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Papelería",
+              "id": 903,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/903/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cuadernos, Libretas y Blocks",
+              "id": 904,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/904/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Lápices y Lapiceros",
+              "id": 1213,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1213/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Resaltadores y Rotuladores",
+              "id": 1585,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1585/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Otros Artículos de Oficina",
+              "id": 1586,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1586/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Pegamentos, Notas y Cintas Adhesivas",
+              "id": 1587,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1587/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Folders y Archivadores",
+              "id": 1588,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1588/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Packs Escolares",
+              "id": 1589,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1589/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Reglas, Tijeras y Tajadores",
+              "id": 1590,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1590/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Borradores y Correctores",
+              "id": 1591,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/906/1591/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Arte y Diseño",
+          "id": 1436,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Set y Juegos Creativos",
+              "id": 901,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/901/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Plastilinas y Masas Moldeables",
+              "id": 1091,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/1091/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Témperas, Pinturas y Acuarelas",
+              "id": 1594,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/1594/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Otros Artículos de Dibujo",
+              "id": 1595,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/1595/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Colores, Crayones y Plumones",
+              "id": 1596,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1436/1596/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Libros y Agendas",
+          "id": 1437,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Poesía",
+              "id": 1412,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1412/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Novelas",
+              "id": 1548,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1548/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Infantil",
+              "id": 1549,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1549/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Autoayuda",
+              "id": 1550,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1550/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Actualidad",
+              "id": 1551,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1551/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Ciencias",
+              "id": 1552,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1552/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Liderazgo y Management",
+              "id": 1553,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1553/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Juvenil",
+              "id": 1554,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1554/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Miscelanea",
+              "id": 1555,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1555/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cocina",
+              "id": 1556,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1556/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cómic y manga",
+              "id": 1557,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1557/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Diccionarios y referencia",
+              "id": 1559,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1559/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Textos Escolares",
+              "id": 1561,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1561/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Revistas",
+              "id": 1597,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1597/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Libros para Colorear",
+              "id": 1598,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1598/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Agendas y Planners",
+              "id": 1599,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1437/1599/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        },
+        {
+          "nombre": "Regalos y Decoración para Fiestas",
+          "id": 1438,
+          "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/&O=OrderByScoreDESC&_from={from}&_to={to}",
+          "subcategorias": [
+            {
+              "nombre": "Arreglos Florales",
+              "id": 1600,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1600/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Velas para Cumpleaños",
+              "id": 1601,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1601/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Globos de Fiesta",
+              "id": 1602,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1602/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Tarjetas de Cumpleaños",
+              "id": 1603,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1603/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Bolsas y Papeles de Regalo",
+              "id": 1604,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1604/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Cotillón para Fiesta",
+              "id": 1605,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1605/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            },
+            {
+              "nombre": "Halloween",
+              "id": 1884,
+              "url": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/666/1438/1884/&O=OrderByScoreDESC&_from={from}&_to={to}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

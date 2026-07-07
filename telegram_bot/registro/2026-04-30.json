@@ -1,0 +1,962 @@
+[
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:13:19",
+    "fecha_hora": "2026-04-30 10:13:19",
+    "tipo": "OFERTA",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Negra  Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/50.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-negra-caja/066820"
+      },
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Blanca Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/50.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-blanca-caja/066819"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 1.1 KG VAINILLA + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 210.0,
+        "precio_actual": 61.0,
+        "descuento_porcent": 70.95,
+        "ahorro": 149.0,
+        "razon": "Gran descuento de 70.95% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/210.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/210.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-1.1-KG-VAINILLA-+-Soga-para-Saltar-con-Contador/1749841337379"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 5 KG CHOCOLATE + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 350.0,
+        "precio_actual": 149.0,
+        "descuento_porcent": 57.43,
+        "ahorro": 201.0,
+        "razon": "Gran descuento de 57.43% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/350.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/350.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-5-KG-CHOCOLATE-+-SOGA-PARA-SALTAR-CON-CONTADOR/1749746200370"
+      },
+      {
+        "nombre": "Pack Creatina Applied Nutrition 250gr 3 UN",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 299.70000000000005,
+        "precio_actual": 140.0,
+        "descuento_porcent": 53.29,
+        "ahorro": 159.7,
+        "razon": "Gran descuento de 53.29% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/299.7. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/299.70000000000005 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-creatina-applied-nutrition-250gr-3-un/PACKNT578"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:13:20",
+    "fecha_hora": "2026-04-30 10:13:20",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Fitness Té Green Seng Filtrante",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 14.0,
+        "precio_minimo_anterior": 16.7,
+        "precio_promedio": 17.9,
+        "ahorro_vs_promedio": 21.79,
+        "es_nuevo_minimo": true,
+        "num_registros": 9,
+        "url": "https://inkafarma.pe/producto/fitness-te-green-filtrantes-te-verde/428499"
+      },
+      {
+        "nombre": "Serum Anti-imperfecciones Vichy Normaderm Probio BHA",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 130.9,
+        "precio_minimo_anterior": 154.9,
+        "precio_promedio": 154.9,
+        "ahorro_vs_promedio": 15.49,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://inkafarma.pe/producto/serum-vichy-normaderm-probio-bha-antimperfecciones/067312"
+      },
+      {
+        "nombre": "Cefasabal Tabletas",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 177.5,
+        "precio_minimo_anterior": 181.0,
+        "precio_promedio": 185.75,
+        "ahorro_vs_promedio": 4.44,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/cefasabal-tabletas/348006"
+      },
+      {
+        "nombre": "Frutti Flex 50 Solución Oral Sabor Fresa - Frasco 1 L",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 7.1,
+        "precio_minimo_anterior": 7.4,
+        "precio_promedio": 7.4,
+        "ahorro_vs_promedio": 4.05,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://inkafarma.pe/producto/frutti-flex-50-solucion-uso-oral-sabor-fresa/315087"
+      },
+      {
+        "nombre": "Cardioaspirina 100EC 100 mg Comprimidos con cubierta entérica",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 17.1,
+        "precio_minimo_anterior": 17.8,
+        "precio_promedio": 17.8,
+        "ahorro_vs_promedio": 3.93,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://inkafarma.pe/producto/cardiospirina-100ec-comprimidos-cubierta-enter/109023"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:23:40",
+    "fecha_hora": "2026-04-30 10:23:40",
+    "tipo": "OFERTA",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Corona Sfera Mujer Maxiflores Tela Rosa",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 59.95,
+        "precio_actual": 4.95,
+        "descuento_porcent": 91.74,
+        "ahorro": 55.0,
+        "razon": "Gran descuento de 91.74% segun precio de la tienda. Nuestro promedio historico (8 registros en ~16 dias): S/59.95. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/59.95 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/corona-sfera-mujer-maxiflores-tela-rosa-101521883/p"
+      },
+      {
+        "nombre": "Huawei Nova 9 SE 6.78\" 6Gb RAM 128Gb Negro",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1399.0,
+        "precio_actual": 149.0,
+        "descuento_porcent": 89.35,
+        "ahorro": 1250.0,
+        "razon": "Gran descuento de 89.35% segun precio de la tienda. Nuestro promedio historico (8 registros en ~16 dias): S/1399.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/1399.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/huawei-nova-9-se-6-78-6gb-ram-128gb-negro-100411025/p"
+      },
+      {
+        "nombre": "Corona Sfera Mujer Ancha Pedrería Multicolor",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 39.95,
+        "precio_actual": 4.95,
+        "descuento_porcent": 87.61,
+        "ahorro": 35.0,
+        "razon": "Gran descuento de 87.61% segun precio de la tienda. Nuestro promedio historico (8 registros en ~16 dias): S/39.95. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/39.95 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/corona-sfera-mujer-ancha-pedreria-multicolor-101521742/p"
+      },
+      {
+        "nombre": "Corona Sfera Mujer Flores Textil Rosa",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 39.95,
+        "precio_actual": 4.95,
+        "descuento_porcent": 87.61,
+        "ahorro": 35.0,
+        "razon": "Gran descuento de 87.61% segun precio de la tienda. Nuestro promedio historico (8 registros en ~16 dias): S/39.95. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/39.95 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/corona-sfera-mujer-flores-textil-rosa-101521404/p"
+      },
+      {
+        "nombre": "Cruceta Modular Madera/MDP Orange Blanca de 37x37x29.8cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (8 registros en ~16 dias): S/69.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/cruceta-modular-orange-blanca-100555719/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:23:41",
+    "fecha_hora": "2026-04-30 10:23:41",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "BODY MIST PINK COCONUT VICTORIA SECRET MUJER 8 OZ / 236 ML",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 114.9,
+        "precio_minimo_anterior": 999.0,
+        "precio_promedio": 999.0,
+        "ahorro_vs_promedio": 88.5,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/body-mist-pink-coconut-victoria-secret-mujer-8-oz-236-ml-101977985/p"
+      },
+      {
+        "nombre": "GEL LIMPIADOR ESPUMOSO PIEL GRASA EFFACLAR LA ROCHE-POSAY 6.76 OZ / 200 ML",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 127.9,
+        "precio_minimo_anterior": 999.0,
+        "precio_promedio": 999.0,
+        "ahorro_vs_promedio": 87.2,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/gel-limpiador-espumoso-piel-grasa-effaclar-la-roche-posay-6-76-oz-200-ml-101989008/p"
+      },
+      {
+        "nombre": "AGUA TERMAL LA ROCHE-POSAY LOCIÓN FACIAL HIDRATANTE ANTIOXIDANTE 10.4 OZ / 300 ML",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 127.9,
+        "precio_minimo_anterior": 999.0,
+        "precio_promedio": 999.0,
+        "ahorro_vs_promedio": 87.2,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/agua-termal-la-roche-posay-locion-facial-hidratante-antioxidante-10-4-oz-300-ml-101988920/p"
+      },
+      {
+        "nombre": "PACK 2 CREMA CONTORNO DE OJOS PROBIO-CICA BAKUCHIOL ANTIEDAD SKIN1004 | 0.67 OZ / 20 ML",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 127.9,
+        "precio_minimo_anterior": 999.0,
+        "precio_promedio": 999.0,
+        "ahorro_vs_promedio": 87.2,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/pack-2-crema-contorno-de-ojos-probio-cica-bakuchiol-antiedad-skin1004-0-67-oz-20-ml-102003579/p"
+      },
+      {
+        "nombre": "BODY MIST BARE SUEDED VANILLA VICTORIA SECRET MUJER 8.4 OZ / 250 ML",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 132.9,
+        "precio_minimo_anterior": 999.0,
+        "precio_promedio": 999.0,
+        "ahorro_vs_promedio": 86.7,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/body-mist-bare-sueded-vanilla-victoria-secret-mujer-8-4-oz-250-ml-101978141/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:28:45",
+    "fecha_hora": "2026-04-30 10:28:45",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Toalla de cuerpo suave Beige - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (10 registros en ~33 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741243/Toalla-de-cuerpo-suave-Beige-138x68cm/135741244"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave Verde - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (10 registros en ~33 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741187/Toalla-de-cuerpo-suave-Verde-138x68cm/135741188"
+      },
+      {
+        "nombre": "KIT DE LENTES NATACIÓN CON TAPON OÍDOS + GORRO LICRA NIÑOS Celeste",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 14.9,
+        "descuento_porcent": 78.68,
+        "ahorro": 55.0,
+        "razon": "Gran descuento de 78.68% segun precio de la tienda. Nuestro promedio historico (5 registros en ~10 dias): S/69.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/150983580/kit-de-lentes-natacion-con-tapon-oidos-gorro-licra-ninos-celeste/150983581"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave CELESTE - 140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (11 registros en ~33 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/146938029/Toalla-de-cuerpo-suave-CELESTE-140x68cm/146938030"
+      },
+      {
+        "nombre": "Toalla de baño suave Fucsia de140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (11 registros en ~33 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147174633/Toalla-de-bano-suave-Fucsia-de140x68cm/147174634"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:28:45",
+    "fecha_hora": "2026-04-30 10:28:45",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juego de vajilla Cerámica Gris 30 Piezas",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 99.9,
+        "precio_minimo_anterior": 105.0,
+        "precio_promedio": 188.92,
+        "ahorro_vs_promedio": 47.12,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/113531730/juego-de-vajilla-ceramica-gris-30-piezas/113531735"
+      },
+      {
+        "nombre": "Zapatos Casuales Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 69.9,
+        "precio_minimo_anterior": 89.9,
+        "precio_promedio": 99.9,
+        "ahorro_vs_promedio": 30.03,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883725107/zapatos-casuales-hombre-newport/883725113"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 104.93,
+        "precio_minimo_anterior": 149.9,
+        "precio_promedio": 149.9,
+        "ahorro_vs_promedio": 30.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883590648/zapatillas-urbanas-hombre-basement/883590650"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Mujer Carina Mia",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 174.3,
+        "precio_minimo_anterior": 249.0,
+        "precio_promedio": 249.0,
+        "ahorro_vs_promedio": 30.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21101612/zapatillas-urbanas-mujer-puma-carina-mia/21101613"
+      },
+      {
+        "nombre": "Vélez Tenis Cooper 3 De Cuero Para Hombre Spoiler Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 499.0,
+        "precio_minimo_anterior": 709.0,
+        "precio_promedio": 709.0,
+        "ahorro_vs_promedio": 29.62,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/137376362/velez-tenis-cooper-3-de-cuero-para-hombre-spoiler-negro/137376367"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:28:50",
+    "fecha_hora": "2026-04-30 10:28:50",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Fotoprotector Hydro Lotion SPF 50 200ml | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 134.9,
+        "precio_actual": 67.45,
+        "descuento_porcent": 50.0,
+        "ahorro": 67.45,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/134.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/134.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrolotion-spf50-200ml-bloqueador-corporal?variant=45452261654714"
+      },
+      {
+        "nombre": "Fotoprotector Transparent Spray Wet Skin Pediatrics SPF 50+ | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 149.9,
+        "precio_actual": 74.95,
+        "descuento_porcent": 50.0,
+        "ahorro": 74.95,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/149.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/149.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/protector-solar-isdin-transparent-spray-wet-skyn-ped-250-ml-bloqueador-corporal?variant=45452256346298"
+      },
+      {
+        "nombre": "Fotoprotector Hydro Oil SPF 30 200ml | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 134.9,
+        "precio_actual": 67.45,
+        "descuento_porcent": 50.0,
+        "ahorro": 67.45,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/134.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/134.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrooil-spf30-200ml-bloqueador-corporal?variant=45452235899066"
+      },
+      {
+        "nombre": "ISDIN Woman Antiestrías 250ml - Crema corporal que ayuda a prevenir y atenuar las estrías",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 49.95,
+        "descuento_porcent": 50.0,
+        "ahorro": 49.95,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/99.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-woman-antiestrias-250ml-crema-corporal-que-ayuda-a-prevenir-y-atenuar-las-estrias?variant=45452181536954"
+      },
+      {
+        "nombre": "Dermopure Triple Effect Serum 40ml | Eucerin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 160.5,
+        "precio_actual": 96.3,
+        "descuento_porcent": 40.0,
+        "ahorro": 64.2,
+        "razon": "Gran descuento de 40.0% segun precio de la tienda. Nuestro promedio historico (7 registros en ~17 dias): S/160.5. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/160.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/eucerin-dermopure-triple-effect-serum-40ml?variant=45452171706554"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:02",
+    "fecha_hora": "2026-04-30 10:29:02",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Pack 2x1 Fotoprotector Gel Cream 250ml ISDIN",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 149.9,
+        "precio_minimo_anterior": 149.9,
+        "precio_promedio": 199.87,
+        "ahorro_vs_promedio": 25.0,
+        "es_nuevo_minimo": false,
+        "num_registros": 4,
+        "url": "https://dermotiendashopping.com/products/pack-2x1-fotoprotector-gel-cream-250ml-isdin?variant=45793645396154"
+      },
+      {
+        "nombre": "Aquaphor Bálsamo de Labios 10ml | Eucerin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 52.43,
+        "precio_minimo_anterior": 52.43,
+        "precio_promedio": 66.47,
+        "ahorro_vs_promedio": 21.13,
+        "es_nuevo_minimo": false,
+        "num_registros": 9,
+        "url": "https://dermotiendashopping.com/products/eucerin-aquaphor-balsamo-de-labios-10ml?variant=45452167315642"
+      },
+      {
+        "nombre": "Fotoprotector Hydro Lotion SPF 50 200ml | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 67.45,
+        "precio_minimo_anterior": 67.45,
+        "precio_promedio": 82.63,
+        "ahorro_vs_promedio": 18.37,
+        "es_nuevo_minimo": false,
+        "num_registros": 9,
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrolotion-spf50-200ml-bloqueador-corporal?variant=45452261654714"
+      },
+      {
+        "nombre": "Fotoprotector Transparent Spray Wet Skin Pediatrics SPF 50+ | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 74.95,
+        "precio_minimo_anterior": 74.95,
+        "precio_promedio": 91.81,
+        "ahorro_vs_promedio": 18.37,
+        "es_nuevo_minimo": false,
+        "num_registros": 9,
+        "url": "https://dermotiendashopping.com/products/protector-solar-isdin-transparent-spray-wet-skyn-ped-250-ml-bloqueador-corporal?variant=45452256346298"
+      },
+      {
+        "nombre": "Fotoprotector Hydro Oil SPF 30 200ml | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 67.45,
+        "precio_minimo_anterior": 67.45,
+        "precio_promedio": 82.63,
+        "ahorro_vs_promedio": 18.37,
+        "es_nuevo_minimo": false,
+        "num_registros": 9,
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrooil-spf30-200ml-bloqueador-corporal?variant=45452235899066"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:16",
+    "fecha_hora": "2026-04-30 10:29:16",
+    "tipo": "OFERTA",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Audífonos Over Ear Beats Bluetooth Noise Cancelling Studio 3 Negro Mate",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1599.0,
+        "precio_actual": 499.0,
+        "descuento_porcent": 68.79,
+        "ahorro": 1100.0,
+        "razon": "Gran descuento de 68.79% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1599.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/1599.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/studio3-wireless-matte-black-usa.html"
+      },
+      {
+        "nombre": "Licuadora Bord Turbo Pro 1.9LT 1500W BOLIC1.9/1500",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 699.0,
+        "precio_actual": 249.0,
+        "descuento_porcent": 64.38,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 64.38% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/699.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/699.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/licuadora-1-9-l-1500-watts-potencia-bolic1-9-1500.html"
+      },
+      {
+        "nombre": "Cortadora de Cabello Kit Easy Cut Wahl 09314-3218",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 39.0,
+        "descuento_porcent": 60.96,
+        "ahorro": 60.9,
+        "razon": "Gran descuento de 60.96% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/99.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/cortadora-de-cabello-kit-easy-cut-wahl-09314-3218-09314-3218.html"
+      },
+      {
+        "nombre": "Refrigeradora Hisense 205LT RD267H",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1599.0,
+        "precio_actual": 749.0,
+        "descuento_porcent": 53.16,
+        "ahorro": 850.0,
+        "razon": "Gran descuento de 53.16% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1599.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/1599.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/hisense-ref-tmf-205l-rd267h-rd267h.html"
+      },
+      {
+        "nombre": "Cortadora de cabello recargable Wahl 09657-008",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 399.9,
+        "precio_actual": 199.0,
+        "descuento_porcent": 50.24,
+        "ahorro": 200.9,
+        "razon": "Gran descuento de 50.24% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/399.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/399.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/cortadora-de-cabello-recargable-wahl-09657-008-09657-008.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:17",
+    "fecha_hora": "2026-04-30 10:29:17",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 3,
+    "contenido": [
+      {
+        "nombre": "Olla A Presion AI CExterno 7Lt",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 299.0,
+        "precio_minimo_anterior": 299.0,
+        "precio_promedio": 339.0,
+        "ahorro_vs_promedio": 11.8,
+        "es_nuevo_minimo": false,
+        "num_registros": 4,
+        "url": "https://www.efe.com.pe/olla-a-presion-ai-cexterno-7lt-34995848yess75487541902202606160038438.html"
+      },
+      {
+        "nombre": "Aspiradora Mod Taurus  VITARA",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 469.0,
+        "precio_minimo_anterior": 469.0,
+        "precio_promedio": 529.0,
+        "ahorro_vs_promedio": 11.34,
+        "es_nuevo_minimo": false,
+        "num_registros": 4,
+        "url": "https://www.efe.com.pe/aspiradora-mod-taurus-vitara-34995848vitara1902202606155971249.html"
+      },
+      {
+        "nombre": "TV Hyundai 55\" Google  TV 4K Ultra HD Smart TV HYLED5529QG",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 1099.0,
+        "precio_minimo_anterior": 1049.0,
+        "precio_promedio": 1224.0,
+        "ahorro_vs_promedio": 10.21,
+        "es_nuevo_minimo": false,
+        "num_registros": 9,
+        "url": "https://www.efe.com.pe/tv-55-hyundai-4k-qled-google-tv-hyled5529qg.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:40",
+    "fecha_hora": "2026-04-30 10:29:40",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:41",
+    "fecha_hora": "2026-04-30 10:29:41",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "MONEDERO CASUAL CON COMPARTIMIENTOS PARA BILLETES Y TARJETAS",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 29,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 402.0,
+        "ahorro_vs_promedio": 92.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 14232,
+        "url": "https://www.shopstar.pe/monedero-casual-con-compartimientos-para-billetes-y-tarjetas-1413590/p"
+      },
+      {
+        "nombre": "MONEDERO CASUAL CON COMPARTIMIENTOS PARA BILLETES Y TARJETAS",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 29,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 402.0,
+        "ahorro_vs_promedio": 92.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 14232,
+        "url": "https://www.shopstar.pe/monedero-casual-con-compartimientos-para-billetes-y-tarjetas-1413590/p"
+      },
+      {
+        "nombre": "MONEDERO CASUAL CON COMPARTIMIENTOS PARA BILLETES Y TARJETAS",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 29,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 402.0,
+        "ahorro_vs_promedio": 92.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 14232,
+        "url": "https://www.shopstar.pe/monedero-casual-con-compartimientos-para-billetes-y-tarjetas-1413590/p"
+      },
+      {
+        "nombre": "MONEDERO CASUAL CON COMPARTIMIENTOS PARA BILLETES Y TARJETAS",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 29,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 402.0,
+        "ahorro_vs_promedio": 92.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 14232,
+        "url": "https://www.shopstar.pe/monedero-casual-con-compartimientos-para-billetes-y-tarjetas-1413590/p"
+      },
+      {
+        "nombre": "MONEDERO CASUAL CON COMPARTIMIENTOS PARA BILLETES Y TARJETAS",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 29,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 402.0,
+        "ahorro_vs_promedio": 92.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 14232,
+        "url": "https://www.shopstar.pe/monedero-casual-con-compartimientos-para-billetes-y-tarjetas-1413590/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:55",
+    "fecha_hora": "2026-04-30 10:29:55",
+    "tipo": "OFERTA",
+    "tienda": "Sodimac",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juego de Comedor Mira 6 Sillas",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1299.9,
+        "precio_actual": 849.9,
+        "descuento_porcent": 34.62,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 34.62% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1116.57. precio estable los ultimos 7 dias (4 registros).",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132468713"
+      },
+      {
+        "nombre": "Juego de Comedor Mira 6 Sillas",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1299.9,
+        "precio_actual": 849.9,
+        "descuento_porcent": 34.62,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 34.62% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1116.57. precio estable los ultimos 7 dias (4 registros).",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132468713"
+      },
+      {
+        "nombre": "Juego de Comedor Mira 6 Sillas",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1299.9,
+        "precio_actual": 849.9,
+        "descuento_porcent": 34.62,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 34.62% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1116.57. precio estable los ultimos 7 dias (4 registros).",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132468713"
+      },
+      {
+        "nombre": "Juego de Comedor Mira 6 Sillas",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1299.9,
+        "precio_actual": 849.9,
+        "descuento_porcent": 34.62,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 34.62% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1116.57. precio estable los ultimos 7 dias (4 registros).",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132468713"
+      },
+      {
+        "nombre": "Juego de Comedor Mira 6 Sillas",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1299.9,
+        "precio_actual": 849.9,
+        "descuento_porcent": 34.62,
+        "ahorro": 450.0,
+        "razon": "Gran descuento de 34.62% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/1116.57. precio estable los ultimos 7 dias (4 registros).",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/132468713"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:29:56",
+    "fecha_hora": "2026-04-30 10:29:56",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Sodimac",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Lavadora WT17BV6T 17 Kg AI DD Carga Superior Negro Claro LG",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1249.9,
+        "precio_minimo_anterior": 1299.9,
+        "precio_promedio": 1519.9,
+        "ahorro_vs_promedio": 17.76,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/131843762"
+      },
+      {
+        "nombre": "Lavadora WT17BV6T 17 Kg AI DD Carga Superior Negro Claro LG",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1249.9,
+        "precio_minimo_anterior": 1299.9,
+        "precio_promedio": 1519.9,
+        "ahorro_vs_promedio": 17.76,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/131843762"
+      },
+      {
+        "nombre": "Lavadora WT17BV6T 17 Kg AI DD Carga Superior Negro Claro LG",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1249.9,
+        "precio_minimo_anterior": 1299.9,
+        "precio_promedio": 1519.9,
+        "ahorro_vs_promedio": 17.76,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/131843762"
+      },
+      {
+        "nombre": "Lavadora WT17BV6T 17 Kg AI DD Carga Superior Negro Claro LG",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1249.9,
+        "precio_minimo_anterior": 1299.9,
+        "precio_promedio": 1519.9,
+        "ahorro_vs_promedio": 17.76,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/131843762"
+      },
+      {
+        "nombre": "Lavadora WT17BV6T 17 Kg AI DD Carga Superior Negro Claro LG",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1249.9,
+        "precio_minimo_anterior": 1299.9,
+        "precio_promedio": 1519.9,
+        "ahorro_vs_promedio": 17.76,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/131843762"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:30:13",
+    "fecha_hora": "2026-04-30 10:30:13",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mouse Itec Int-Ll187 Wireless 2.4G Gris",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 39.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 75.19,
+        "ahorro": 30.0,
+        "razon": "Gran descuento de 75.19% segun precio de la tienda. Nuestro promedio historico (7 registros en ~16 dias): S/39.9. precio estable los ultimos 7 dias (3 registros). OJO: el precio 'normal' de S/39.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/mouse-itec-int-ll187-wireless-24g-gris-62237002.html"
+      },
+      {
+        "nombre": "Mesa De Centro Tuhome Funcional 5G-3 Ceniza/Wengue",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1019.9,
+        "precio_actual": 285.9,
+        "descuento_porcent": 71.97,
+        "ahorro": 734.0,
+        "razon": "Gran descuento de 71.97% segun precio de la tienda. Nuestro promedio historico (7 registros en ~16 dias): S/1019.9. precio estable los ultimos 7 dias (3 registros). OJO: el precio 'normal' de S/1019.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/mesa-de-centro-funcional-5g-3-ceniza-wengue-63270.html"
+      },
+      {
+        "nombre": "Soporte Vivitar 3 En 1: Micro Smartphone Y Aro De Luz Blanco",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 136.4,
+        "precio_actual": 39.9,
+        "descuento_porcent": 70.75,
+        "ahorro": 96.5,
+        "razon": "Gran descuento de 70.75% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/136.4. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/136.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/soporte-3en1-vivitar-micrsphone-led-blc-46556001.html"
+      },
+      {
+        "nombre": "Figura Dinosaurio Caminador Verde",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 169.9,
+        "precio_actual": 50.7,
+        "descuento_porcent": 70.16,
+        "ahorro": 119.2,
+        "razon": "Gran descuento de 70.16% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/169.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/169.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/dinosaurio-caminador-verde-46527.html"
+      },
+      {
+        "nombre": "Cable Tipo C A Tipo C Itec 1Mt",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 70.07,
+        "ahorro": 70.0,
+        "razon": "Gran descuento de 70.07% segun precio de la tienda. Nuestro promedio historico (9 registros en ~17 dias): S/99.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/cable-tipo-c-a-c-1m-itec-85414.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:30:13",
+    "fecha_hora": "2026-04-30 10:30:13",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Dormitorio Paraíso Medallón Ergo 2 Plazas Chocolate + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1304.0,
+        "precio_minimo_anterior": 2100.1,
+        "precio_promedio": 2100.1,
+        "ahorro_vs_promedio": 37.91,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.tailoy.com.pe/dormitorio-paraiso-medallon-ergo-2-plazas-chocolate-64252.html"
+      },
+      {
+        "nombre": "Cama Paraíso Su Majestad De Lujo King Acero + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1907.0,
+        "precio_minimo_anterior": 3070.7,
+        "precio_promedio": 3070.7,
+        "ahorro_vs_promedio": 37.9,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-su-majestad-de-lujo-king-acero-64086.html"
+      },
+      {
+        "nombre": "Cama Paraíso Pocket Star Queen Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1803.0,
+        "precio_minimo_anterior": 2903.4,
+        "precio_promedio": 2903.4,
+        "ahorro_vs_promedio": 37.9,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-pocket-star-queen-charcoal-64128.html"
+      },
+      {
+        "nombre": "Cama Paraíso Su Majestad De Lujo 2 Plazas Acero + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1184.0,
+        "precio_minimo_anterior": 1906.0,
+        "precio_promedio": 1906.0,
+        "ahorro_vs_promedio": 37.88,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-su-majestad-de-lujo-2-plazas-acero-64082.html"
+      },
+      {
+        "nombre": "Dormitorio Paraíso Su Majestad De Lujo 1.5 Plazas Chocolate",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1174.0,
+        "precio_minimo_anterior": 1889.5,
+        "precio_promedio": 1889.5,
+        "ahorro_vs_promedio": 37.87,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.tailoy.com.pe/dormitorio-paraiso-su-majestad-de-lujo-15-plazas-chocolate-64236.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-30",
+    "hora": "10:30:14",
+    "fecha_hora": "2026-04-30 10:30:14",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 218304,
+      "total_ofertas_reales": 90752,
+      "total_minimos": 3829,
+      "duracion_seg": 1157.0,
+      "fecha": "30/04/2026 10:10"
+    }
+  }
+]

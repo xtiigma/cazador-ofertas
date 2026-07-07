@@ -1,0 +1,1438 @@
+[
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:23:29",
+    "fecha_hora": "2026-04-14 11:23:29",
+    "tipo": "OFERTA",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Protector Solar La Roche Posay Anti-imperfecciones Anthelios Oil Correct FPS 50+",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 139.9,
+        "precio_actual": 69.9,
+        "descuento_porcent": 50.04,
+        "ahorro": 70.0,
+        "razon": "Gran descuento de 50.04% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/139.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/139.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/fotocorrector-la-roche-posay-anthelios-oil-correct-frasco-50-ml/037811"
+      },
+      {
+        "nombre": "Sérum Eucerin Hyaluron-Filler + 3x Effect Epigenetic",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 224.9,
+        "precio_actual": 134.9,
+        "descuento_porcent": 40.02,
+        "ahorro": 90.0,
+        "razon": "Gran descuento de 40.02% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/224.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/224.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/serum-eucerin-hyaluron-filler-3x-effect-epigenetic/073090"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Noche Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 422.4,
+        "precio_actual": 264.8,
+        "descuento_porcent": 37.31,
+        "ahorro": 157.6,
+        "razon": "Gran descuento de 37.31% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/422.4. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/422.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-noche-eucerin-hyaluron-filler/PACKDB371"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Día Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 422.4,
+        "precio_actual": 264.8,
+        "descuento_porcent": 37.31,
+        "ahorro": 157.6,
+        "razon": "Gran descuento de 37.31% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/422.4. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/422.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-dia-eucerin-hyaluron-filler/PACKDB370"
+      },
+      {
+        "nombre": "Ungüento Reparador Eucerin Aquaphor",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 45.5,
+        "precio_actual": 29.6,
+        "descuento_porcent": 34.95,
+        "ahorro": 15.9,
+        "razon": "Gran descuento de 34.95% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/45.5. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/45.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/unguento-reparador-eucerin-aquaphor-2x10ml/072342"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:23:29",
+    "fecha_hora": "2026-04-14 11:23:29",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Termómetro Digital VICK  V875-LA",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 19.7,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 19.9,
+        "ahorro_vs_promedio": 1.01,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/termometro-digital-vick-v875-la/036373"
+      },
+      {
+        "nombre": "Gel Shampoo ISDIN Baby Naturals",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 55.9,
+        "precio_minimo_anterior": 55.9,
+        "precio_promedio": 76.15,
+        "ahorro_vs_promedio": 26.59,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/gel-shampoo-isdin-baby-naturals-400-ml/034573"
+      },
+      {
+        "nombre": "Crema Antiestrías ISDIN Woman",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 65.9,
+        "precio_minimo_anterior": 65.9,
+        "precio_promedio": 89.4,
+        "ahorro_vs_promedio": 26.29,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/crema-antiestrias-isdin-woman/067117"
+      },
+      {
+        "nombre": "Protector Solar La Roche Posay Anti-imperfecciones Anthelios Oil Correct FPS 50+",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 69.9,
+        "precio_minimo_anterior": 69.9,
+        "precio_promedio": 87.4,
+        "ahorro_vs_promedio": 20.02,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/fotocorrector-la-roche-posay-anthelios-oil-correct-frasco-50-ml/037811"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Noche Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 264.8,
+        "precio_minimo_anterior": 264.8,
+        "precio_promedio": 329.7,
+        "ahorro_vs_promedio": 19.68,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-noche-eucerin-hyaluron-filler/PACKDB371"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:29:00",
+    "fecha_hora": "2026-04-14 11:29:00",
+    "tipo": "OFERTA",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "E-BIKE ONEBOT SC500 PLEGABLE INC. BATERIA, CARGADOR Y LLAVES BLANCO - 1128309",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 13000.0,
+        "precio_actual": 3500.0,
+        "descuento_porcent": 73.08,
+        "ahorro": 9500.0,
+        "razon": "Gran descuento de 73.08% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/13000.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/13000.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/e-bike-onebot-sc500-plegable-inc-bateria-cargador-y-llaves-blanco-1128309-101962323/p"
+      },
+      {
+        "nombre": "E-BIKE ONEBOT SC500 PLEGABLE INC. BATERIA, CARGADOR Y LLAVES AZUL - 1128308",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 13000.0,
+        "precio_actual": 3500.0,
+        "descuento_porcent": 73.08,
+        "ahorro": 9500.0,
+        "razon": "Gran descuento de 73.08% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/13000.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/13000.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/e-bike-onebot-sc500-plegable-inc-bateria-cargador-y-llaves-azul-1128308-101962195/p"
+      },
+      {
+        "nombre": "Tocador Mara 1 Cajón con espejo y luces",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 699.0,
+        "precio_actual": 199.0,
+        "descuento_porcent": 71.53,
+        "ahorro": 500.0,
+        "razon": "Gran descuento de 71.53% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/699.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/699.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/tocador-mara-1-cajon-con-espejo-y-luces-100470307/p"
+      },
+      {
+        "nombre": "Audífonos In Ear BLACKLINE AUDIFUSBBL4Q25 Usb Ergonómicos C/Micro Negro",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 29.9,
+        "precio_actual": 9.0,
+        "descuento_porcent": 69.9,
+        "ahorro": 20.9,
+        "razon": "Gran descuento de 69.9% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/29.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/29.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/audifonos-in-ear-blackline-audifusbbl4q25-usb-ergonomicos-cmicro-negro/p"
+      },
+      {
+        "nombre": "Animales Inflables para Niños BESTWAY 52152",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 12.9,
+        "precio_actual": 3.9,
+        "descuento_porcent": 69.77,
+        "ahorro": 9.0,
+        "razon": "Gran descuento de 69.77% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/12.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/12.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/animales-inflables-para-ninos-bestway-52152/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:29:00",
+    "fecha_hora": "2026-04-14 11:29:00",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Smartwatch SAMSUNG FE Oro Rosa",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 299.0,
+        "precio_minimo_anterior": 449.0,
+        "precio_promedio": 636.5,
+        "ahorro_vs_promedio": 53.02,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/smartwatch-samsung-fe-oro-rosa/p"
+      },
+      {
+        "nombre": "Smartwatch SAMSUNG FE Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 299.0,
+        "precio_minimo_anterior": 449.0,
+        "precio_promedio": 636.5,
+        "ahorro_vs_promedio": 53.02,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/smartwatch-samsung-fe-negro/p"
+      },
+      {
+        "nombre": "Consola SONY Playstation 5 Slim 1TB Lector de Discos + Juego Spiderman 2",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1899.0,
+        "precio_minimo_anterior": 3999.0,
+        "precio_promedio": 3999.0,
+        "ahorro_vs_promedio": 52.51,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/consola-sony-playstation-5-slim-1tb-lector-de-discosjuego-spiderman-2/p"
+      },
+      {
+        "nombre": "Short Casual jogger Hombre SINGULAR",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 14.9,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 22.4,
+        "ahorro_vs_promedio": 33.48,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/short-casual-jogger-hombre-singular/p"
+      },
+      {
+        "nombre": "Camisa Manga Corta Casual denim Hombre SINGULAR",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 14.9,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 22.4,
+        "ahorro_vs_promedio": 33.48,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/camisa-manga-corta-casual-denim-hombre-singular/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:06",
+    "fecha_hora": "2026-04-14 11:34:06",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Parlante Bluetooth 5W Ipx7 Grey",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 199.0,
+        "precio_actual": 39.0,
+        "descuento_porcent": 80.4,
+        "ahorro": 160.0,
+        "razon": "Gran descuento de 80.4% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/199.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/199.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/144798298/parlante-bluetooth-jvc-5w-ipx7-grey/144798300"
+      },
+      {
+        "nombre": "Chaise Lounge Brazo Izquierdo Axis II",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 8500.0,
+        "precio_actual": 1822.9,
+        "descuento_porcent": 78.55,
+        "ahorro": 6677.1,
+        "razon": "Gran descuento de 78.55% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/8500.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/8500.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/770226070/chaise-lounge-brazo-izquierdo-axis-ii/770226070"
+      },
+      {
+        "nombre": "Toalla de baño suave Fucsia de140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147174633/Toalla-de-bano-suave-Fucsia-de140x68cm/147174634"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave CELESTE - 140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/146938029/Toalla-de-cuerpo-suave-CELESTE-140x68cm/146938030"
+      },
+      {
+        "nombre": "Máquina De Helados Portátil",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 129.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 76.98,
+        "ahorro": 100.0,
+        "razon": "Gran descuento de 76.98% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/129.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/129.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883579356/maquina-de-helados-portatil-recco/883579357"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:06",
+    "fecha_hora": "2026-04-14 11:34:06",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mini Portatorta 18cm Blanco Mallorca",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 11.9,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 27.4,
+        "ahorro_vs_promedio": 56.57,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147132884/mini-portatorta-18cm-blanco-mallorca/147132885"
+      },
+      {
+        "nombre": "Mickey Single Serve Coffee Maker",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 59.0,
+        "precio_minimo_anterior": 129.0,
+        "precio_promedio": 129.0,
+        "ahorro_vs_promedio": 54.26,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883595820/mickey-single-serve-coffee-maker/883595820"
+      },
+      {
+        "nombre": "Banco de Comedor Terra de Madera Maciza de Roble Natural 129cm",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1399.9,
+        "precio_minimo_anterior": 1999.9,
+        "precio_promedio": 1999.9,
+        "ahorro_vs_promedio": 30.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/770255067/banco-de-comedor-terra-de-madera-maciza-de-roble-natural-129cm/770255067"
+      },
+      {
+        "nombre": "Camisa Manga Larga Algodón Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 69.93,
+        "precio_minimo_anterior": 99.9,
+        "precio_promedio": 99.9,
+        "ahorro_vs_promedio": 30.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/881689140/camisa-manga-larga-algodon-hombre-christian-lacroix/21353518"
+      },
+      {
+        "nombre": "Camisa de vestir hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 69.93,
+        "precio_minimo_anterior": 99.9,
+        "precio_promedio": 99.9,
+        "ahorro_vs_promedio": 30.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/881689058/camisa-de-vestir-hombre-christian-lacroix/881689061"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:11",
+    "fecha_hora": "2026-04-14 11:34:11",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Pack Fotoprotector Fusion Fluid Spf50 50ml x3 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 344.7,
+        "precio_actual": 209.9,
+        "descuento_porcent": 39.11,
+        "ahorro": 134.8,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 39.11% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-fluid-spf50-50ml-x3?variant=45452210110650"
+      },
+      {
+        "nombre": "Pack Duo Fusion Fluid SPF 50 x2 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 229.8,
+        "precio_actual": 159.9,
+        "descuento_porcent": 30.42,
+        "ahorro": 69.9,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.42% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/duo-isdin-fotoproteccion-fusion-fluid-spf-50-x2?variant=45452256542906"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Water Magic x3 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 389.7,
+        "precio_actual": 272.79,
+        "descuento_porcent": 30.0,
+        "ahorro": 116.91,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-water-magic-x3?variant=45452273123514"
+      },
+      {
+        "nombre": "Pack ISDIN Fusion Water Magic SPF50 + Limpiador Acniben Purificante 150ml + Isdin Acniben Night Concentrate Anti-Imperfecciones 27ml",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 334.7,
+        "precio_actual": 234.29,
+        "descuento_porcent": 30.0,
+        "ahorro": 100.41,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fusion-water-magic-spf50-limpiador-acniben-purificante-150-ml-isdin-acniben-night-concentrate-anti-imperfecciones-27ml?variant=45576973975738"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Water Magic + FP Fusion Water Magic Color Bronze + FP Fusion Water Magic Color Medium SPF0 50ml",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 389.7,
+        "precio_actual": 272.79,
+        "descuento_porcent": 30.0,
+        "ahorro": 116.91,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-fotoprotector-isdin-fusion-water-magic-spf50-50-ml-fotoprotector-isdin-fusion-water-magic-bronze-spf50v50-ml-fotoprotector-isdin-fusion-water-magic-medium-spf50-50-ml?variant=45576984166586"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:24",
+    "fecha_hora": "2026-04-14 11:34:24",
+    "tipo": "OFERTA",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Audífonos Over Ear Beats Bluetooth Noise Cancelling Studio 3 Negro Mate",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 1599.0,
+        "precio_actual": 499.0,
+        "descuento_porcent": 68.79,
+        "ahorro": 1100.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 68.79% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/studio3-wireless-matte-black-usa.html"
+      },
+      {
+        "nombre": "TV Tesla 55\" OLED 4K Ultra HD Google TV 120HZ O55S949GUS3",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 6999.0,
+        "precio_actual": 2299.0,
+        "descuento_porcent": 67.15,
+        "ahorro": 4700.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 67.15% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/tv-oled-55-4k-120hz-google-o55s949gus3-o55s949gus3.html"
+      },
+      {
+        "nombre": "Licuadora Bord Turbo Pro 1.9LT 1500W BOLIC1.9/1500",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 699.0,
+        "precio_actual": 249.0,
+        "descuento_porcent": 64.38,
+        "ahorro": 450.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 64.38% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/licuadora-1-9-l-1500-watts-potencia-bolic1-9-1500.html"
+      },
+      {
+        "nombre": "Cortadora de Cabello Kit Easy Cut Wahl 09314-3218",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 99.9,
+        "precio_actual": 39.0,
+        "descuento_porcent": 60.96,
+        "ahorro": 60.9,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 60.96% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/cortadora-de-cabello-kit-easy-cut-wahl-09314-3218-09314-3218.html"
+      },
+      {
+        "nombre": "Combo Taurus Licuadora Elite 1600W + Máquina de Dofles 750W + Hervidor 2200W",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 939.0,
+        "precio_actual": 379.0,
+        "descuento_porcent": 59.64,
+        "ahorro": 560.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 59.64% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/combo-lic-elite-maq-dofle-herv-pe9358510a.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:37",
+    "fecha_hora": "2026-04-14 11:34:37",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:38",
+    "fecha_hora": "2026-04-14 11:34:38",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Zapatillas Urbanas Mujer Hypnotic Negro",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 2856,
+        "url": "https://www.shopstar.pe/zapatillas-urbanas-mujer-hypnotic-negro-220082/p"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Mujer Hypnotic Negro",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 2856,
+        "url": "https://www.shopstar.pe/zapatillas-urbanas-mujer-hypnotic-negro-220082/p"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Mujer Hypnotic Negro",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 2856,
+        "url": "https://www.shopstar.pe/zapatillas-urbanas-mujer-hypnotic-negro-220082/p"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Mujer Hypnotic Negro",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 2856,
+        "url": "https://www.shopstar.pe/zapatillas-urbanas-mujer-hypnotic-negro-220082/p"
+      },
+      {
+        "nombre": "Zapatillas Urbanas Mujer Hypnotic Negro",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 2856,
+        "url": "https://www.shopstar.pe/zapatillas-urbanas-mujer-hypnotic-negro-220082/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:34:51",
+    "fecha_hora": "2026-04-14 11:34:51",
+    "tipo": "OFERTA",
+    "tienda": "Sodimac",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:35:07",
+    "fecha_hora": "2026-04-14 11:35:07",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Soporte Vivitar 3 En 1: Micro Smartphone Y Aro De Luz Blanco",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 136.4,
+        "precio_actual": 39.9,
+        "descuento_porcent": 70.75,
+        "ahorro": 96.5,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.75% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/soporte-3en1-vivitar-micrsphone-led-blc-46556001.html"
+      },
+      {
+        "nombre": "Figura Dinosaurio Caminador Verde",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 169.9,
+        "precio_actual": 50.7,
+        "descuento_porcent": 70.16,
+        "ahorro": 119.2,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.16% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/dinosaurio-caminador-verde-46527.html"
+      },
+      {
+        "nombre": "Cable Tipo C A Tipo C Itec 1Mt",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 99.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 70.07,
+        "ahorro": 70.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.07% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/cable-tipo-c-a-c-1m-itec-85414.html"
+      },
+      {
+        "nombre": "Audifono Philips Diadema On Ear Tauh202 Negro",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 188.9,
+        "precio_actual": 59.9,
+        "descuento_porcent": 68.29,
+        "ahorro": 129.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 68.29% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/audifono-philips-diadema-on-ear-tauh202-negro-49257002.html"
+      },
+      {
+        "nombre": "Adaptador Itec 3 En 1 Tipo-C A 2Usb",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 59.9,
+        "precio_actual": 21.9,
+        "descuento_porcent": 63.44,
+        "ahorro": 38.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 63.44% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/adaptador-3-en-1-tipo-c-a-2usb-itec-85418.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "11:35:18",
+    "fecha_hora": "2026-04-14 11:35:18",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 14861,
+      "total_ofertas_reales": 3004,
+      "total_minimos": 1156,
+      "duracion_seg": 835.1,
+      "fecha": "14/04/2026 11:21"
+    }
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:00:24",
+    "fecha_hora": "2026-04-14 20:00:24",
+    "tipo": "OFERTA",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Protector Solar La Roche Posay Anti-imperfecciones Anthelios Oil Correct FPS 50+",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 139.9,
+        "precio_actual": 69.9,
+        "descuento_porcent": 50.04,
+        "ahorro": 70.0,
+        "razon": "Gran descuento de 50.04% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/139.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/139.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/fotocorrector-la-roche-posay-anthelios-oil-correct-frasco-50-ml/037811"
+      },
+      {
+        "nombre": "Sérum Eucerin Hyaluron-Filler + 3x Effect Epigenetic",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 224.9,
+        "precio_actual": 134.9,
+        "descuento_porcent": 40.02,
+        "ahorro": 90.0,
+        "razon": "Gran descuento de 40.02% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/224.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/224.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/serum-eucerin-hyaluron-filler-3x-effect-epigenetic/073090"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Noche Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 422.4,
+        "precio_actual": 264.8,
+        "descuento_porcent": 37.31,
+        "ahorro": 157.6,
+        "razon": "Gran descuento de 37.31% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/422.4. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/422.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-noche-eucerin-hyaluron-filler/PACKDB371"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Día Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 422.4,
+        "precio_actual": 264.8,
+        "descuento_porcent": 37.31,
+        "ahorro": 157.6,
+        "razon": "Gran descuento de 37.31% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/422.4. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/422.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-dia-eucerin-hyaluron-filler/PACKDB370"
+      },
+      {
+        "nombre": "Ungüento Reparador Eucerin Aquaphor",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 45.5,
+        "precio_actual": 29.6,
+        "descuento_porcent": 34.95,
+        "ahorro": 15.9,
+        "razon": "Gran descuento de 34.95% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/45.5. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/45.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/unguento-reparador-eucerin-aquaphor-2x10ml/072342"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:00:35",
+    "fecha_hora": "2026-04-14 20:00:35",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Termómetro Digital VICK  V875-LA",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 19.7,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 19.9,
+        "ahorro_vs_promedio": 1.01,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/termometro-digital-vick-v875-la/036373"
+      },
+      {
+        "nombre": "Gel Shampoo ISDIN Baby Naturals",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 55.9,
+        "precio_minimo_anterior": 55.9,
+        "precio_promedio": 76.15,
+        "ahorro_vs_promedio": 26.59,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/gel-shampoo-isdin-baby-naturals-400-ml/034573"
+      },
+      {
+        "nombre": "Crema Antiestrías ISDIN Woman",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 65.9,
+        "precio_minimo_anterior": 65.9,
+        "precio_promedio": 89.4,
+        "ahorro_vs_promedio": 26.29,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/crema-antiestrias-isdin-woman/067117"
+      },
+      {
+        "nombre": "Protector Solar La Roche Posay Anti-imperfecciones Anthelios Oil Correct FPS 50+",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 69.9,
+        "precio_minimo_anterior": 69.9,
+        "precio_promedio": 87.4,
+        "ahorro_vs_promedio": 20.02,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/fotocorrector-la-roche-posay-anthelios-oil-correct-frasco-50-ml/037811"
+      },
+      {
+        "nombre": "Pack Sérum + Crema de Noche Eucerin Hyaluron Filler Epigenetics",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 264.8,
+        "precio_minimo_anterior": 264.8,
+        "precio_promedio": 329.7,
+        "ahorro_vs_promedio": 19.68,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/pack-serum-crema-noche-eucerin-hyaluron-filler/PACKDB371"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:10:09",
+    "fecha_hora": "2026-04-14 20:10:09",
+    "tipo": "OFERTA",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "E-BIKE ONEBOT SC500 PLEGABLE INC. BATERIA, CARGADOR Y LLAVES AZUL - 1128308",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 13000.0,
+        "precio_actual": 3500.0,
+        "descuento_porcent": 73.08,
+        "ahorro": 9500.0,
+        "razon": "Gran descuento de 73.08% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/13000.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/13000.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/e-bike-onebot-sc500-plegable-inc-bateria-cargador-y-llaves-azul-1128308-101962195/p"
+      },
+      {
+        "nombre": "Tocador Mara 1 Cajón con espejo y luces",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 699.0,
+        "precio_actual": 199.0,
+        "descuento_porcent": 71.53,
+        "ahorro": 500.0,
+        "razon": "Gran descuento de 71.53% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/699.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/699.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/tocador-mara-1-cajon-con-espejo-y-luces-100470307/p"
+      },
+      {
+        "nombre": "Audífonos In Ear BLACKLINE AUDIFUSBBL4Q25 Usb Ergonómicos C/Micro Negro",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 29.9,
+        "precio_actual": 9.0,
+        "descuento_porcent": 69.9,
+        "ahorro": 20.9,
+        "razon": "Gran descuento de 69.9% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/29.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/29.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/audifonos-in-ear-blackline-audifusbbl4q25-usb-ergonomicos-cmicro-negro/p"
+      },
+      {
+        "nombre": "Animales Inflables para Niños BESTWAY 52152",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 12.9,
+        "precio_actual": 3.9,
+        "descuento_porcent": 69.77,
+        "ahorro": 9.0,
+        "razon": "Gran descuento de 69.77% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/12.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/12.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/animales-inflables-para-ninos-bestway-52152/p"
+      },
+      {
+        "nombre": "Mochila de 4 cierres Skate CLASS&WORK",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 89.9,
+        "precio_actual": 27.9,
+        "descuento_porcent": 68.97,
+        "ahorro": 62.0,
+        "razon": "Gran descuento de 68.97% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/89.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/89.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/mochila-de-4-cierres-skate-classwork/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:10:10",
+    "fecha_hora": "2026-04-14 20:10:10",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Smartwatch SAMSUNG FE Oro Rosa",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 299.0,
+        "precio_minimo_anterior": 449.0,
+        "precio_promedio": 636.5,
+        "ahorro_vs_promedio": 53.02,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/smartwatch-samsung-fe-oro-rosa/p"
+      },
+      {
+        "nombre": "Smartwatch SAMSUNG FE Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 299.0,
+        "precio_minimo_anterior": 449.0,
+        "precio_promedio": 636.5,
+        "ahorro_vs_promedio": 53.02,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/smartwatch-samsung-fe-negro/p"
+      },
+      {
+        "nombre": "Consola SONY Playstation 5 Slim 1TB Lector de Discos + Juego Spiderman 2",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1899.0,
+        "precio_minimo_anterior": 3999.0,
+        "precio_promedio": 3999.0,
+        "ahorro_vs_promedio": 52.51,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/consola-sony-playstation-5-slim-1tb-lector-de-discosjuego-spiderman-2/p"
+      },
+      {
+        "nombre": "Televisor SAMSUNG CRYSTAL UHD 50\" UHD 4K Smart TV UN50U8000FGXPE",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 899.0,
+        "precio_minimo_anterior": 1399.0,
+        "precio_promedio": 1399.0,
+        "ahorro_vs_promedio": 35.74,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/televisor-samsung-crystal-uhd-50--uhd-4k-smart-tv-un50u8000fgxpe/p"
+      },
+      {
+        "nombre": "Camisa Manga Corta Casual denim Hombre SINGULAR",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 14.9,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 22.4,
+        "ahorro_vs_promedio": 33.48,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.plazavea.com.pe/camisa-manga-corta-casual-denim-hombre-singular/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:27",
+    "fecha_hora": "2026-04-14 20:15:27",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Parlante Bluetooth 5W Ipx7 Grey",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 199.0,
+        "precio_actual": 39.0,
+        "descuento_porcent": 80.4,
+        "ahorro": 160.0,
+        "razon": "Gran descuento de 80.4% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/199.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/199.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/144798298/parlante-bluetooth-jvc-5w-ipx7-grey/144798300"
+      },
+      {
+        "nombre": "Chaise Lounge Brazo Izquierdo Axis II",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 8500.0,
+        "precio_actual": 1822.9,
+        "descuento_porcent": 78.55,
+        "ahorro": 6677.1,
+        "razon": "Gran descuento de 78.55% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/8500.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/8500.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/770226070/chaise-lounge-brazo-izquierdo-axis-ii/770226070"
+      },
+      {
+        "nombre": "Toalla de baño suave Fucsia de140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147174633/Toalla-de-bano-suave-Fucsia-de140x68cm/147174634"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave CELESTE - 140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/90.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/146938029/Toalla-de-cuerpo-suave-CELESTE-140x68cm/146938030"
+      },
+      {
+        "nombre": "Máquina De Helados Portátil",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 129.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 76.98,
+        "ahorro": 100.0,
+        "razon": "Gran descuento de 76.98% segun precio de la tienda. Nuestro promedio historico (5 registros en ~17 dias): S/129.9. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/129.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883579356/maquina-de-helados-portatil-recco/883579357"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:28",
+    "fecha_hora": "2026-04-14 20:15:28",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mini Portatorta 18cm Blanco Mallorca",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 11.9,
+        "precio_minimo_anterior": 19.9,
+        "precio_promedio": 27.4,
+        "ahorro_vs_promedio": 56.57,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147132884/mini-portatorta-18cm-blanco-mallorca/147132885"
+      },
+      {
+        "nombre": "Mickey Single Serve Coffee Maker",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 59.0,
+        "precio_minimo_anterior": 129.0,
+        "precio_promedio": 129.0,
+        "ahorro_vs_promedio": 54.26,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883595820/mickey-single-serve-coffee-maker/883595820"
+      },
+      {
+        "nombre": "Quesera de Cerámica con Tapa Acrílica Resistente de 18cm Porta Queso - Plato para Quesos Piqueos",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 18.9,
+        "precio_minimo_anterior": 38.9,
+        "precio_promedio": 38.9,
+        "ahorro_vs_promedio": 51.41,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/150833031/quesera-de-ceramica-con-tapa-acrilica-resistente-de-18cm-porta-queso-plato-para-quesos-piqueos/150833032"
+      },
+      {
+        "nombre": "Conservador 600 Ml Mix",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 15.96,
+        "precio_minimo_anterior": 23.94,
+        "precio_promedio": 24.94,
+        "ahorro_vs_promedio": 36.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21347706/conservador-600-ml-disney-mix/21347706"
+      },
+      {
+        "nombre": "Camisa Manga Larga Rayas Slim Fit Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 69.9,
+        "precio_minimo_anterior": 99.9,
+        "precio_promedio": 99.9,
+        "ahorro_vs_promedio": 30.03,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883351601/camisa-manga-larga-rayas-slim-fit-hombre-basement/883351607"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:32",
+    "fecha_hora": "2026-04-14 20:15:32",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Pack Fotoprotector Fusion Fluid Spf50 50ml x3 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 344.7,
+        "precio_actual": 209.9,
+        "descuento_porcent": 39.11,
+        "ahorro": 134.8,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 39.11% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-fluid-spf50-50ml-x3?variant=45452210110650"
+      },
+      {
+        "nombre": "Pack Duo Fusion Fluid SPF 50 x2 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 229.8,
+        "precio_actual": 159.9,
+        "descuento_porcent": 30.42,
+        "ahorro": 69.9,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.42% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/duo-isdin-fotoproteccion-fusion-fluid-spf-50-x2?variant=45452256542906"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Water Magic x3 | Isdin",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 389.7,
+        "precio_actual": 272.79,
+        "descuento_porcent": 30.0,
+        "ahorro": 116.91,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-water-magic-x3?variant=45452273123514"
+      },
+      {
+        "nombre": "Pack ISDIN Fusion Water Magic SPF50 + Limpiador Acniben Purificante 150ml + Isdin Acniben Night Concentrate Anti-Imperfecciones 27ml",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 334.7,
+        "precio_actual": 234.29,
+        "descuento_porcent": 30.0,
+        "ahorro": 100.41,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fusion-water-magic-spf50-limpiador-acniben-purificante-150-ml-isdin-acniben-night-concentrate-anti-imperfecciones-27ml?variant=45576973975738"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Water Magic + FP Fusion Water Magic Color Bronze + FP Fusion Water Magic Color Medium SPF0 50ml",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 389.7,
+        "precio_actual": 272.79,
+        "descuento_porcent": 30.0,
+        "ahorro": 116.91,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 30.0% segun precio de la tienda.",
+        "url": "https://dermotiendashopping.com/products/pack-fotoprotector-isdin-fusion-water-magic-spf50-50-ml-fotoprotector-isdin-fusion-water-magic-bronze-spf50v50-ml-fotoprotector-isdin-fusion-water-magic-medium-spf50-50-ml?variant=45576984166586"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:45",
+    "fecha_hora": "2026-04-14 20:15:45",
+    "tipo": "OFERTA",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Audífonos Over Ear Beats Bluetooth Noise Cancelling Studio 3 Negro Mate",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 1599.0,
+        "precio_actual": 499.0,
+        "descuento_porcent": 68.79,
+        "ahorro": 1100.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 68.79% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/studio3-wireless-matte-black-usa.html"
+      },
+      {
+        "nombre": "TV Tesla 55\" OLED 4K Ultra HD Google TV 120HZ O55S949GUS3",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 6999.0,
+        "precio_actual": 2299.0,
+        "descuento_porcent": 67.15,
+        "ahorro": 4700.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 67.15% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/tv-oled-55-4k-120hz-google-o55s949gus3-o55s949gus3.html"
+      },
+      {
+        "nombre": "Combo Taurus Licuadora Elite 1600W + Máquina de Dofles 750W + Hervidor 2200W",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 939.0,
+        "precio_actual": 329.0,
+        "descuento_porcent": 64.96,
+        "ahorro": 610.0,
+        "razon": "Solo 3 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 64.96% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/combo-lic-elite-maq-dofle-herv-pe9358510a.html"
+      },
+      {
+        "nombre": "Licuadora Bord Turbo Pro 1.9LT 1500W BOLIC1.9/1500",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 699.0,
+        "precio_actual": 249.0,
+        "descuento_porcent": 64.38,
+        "ahorro": 450.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 64.38% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/licuadora-1-9-l-1500-watts-potencia-bolic1-9-1500.html"
+      },
+      {
+        "nombre": "Cortadora de Cabello Kit Easy Cut Wahl 09314-3218",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 99.9,
+        "precio_actual": 39.0,
+        "descuento_porcent": 60.96,
+        "ahorro": 60.9,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 60.96% segun precio de la tienda.",
+        "url": "https://www.efe.com.pe/cortadora-de-cabello-kit-easy-cut-wahl-09314-3218-09314-3218.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:57",
+    "fecha_hora": "2026-04-14 20:15:57",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:15:58",
+    "fecha_hora": "2026-04-14 20:15:58",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "APPLE AIRPODS 4 ORIGINAL SELLADO",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 4224,
+        "url": "https://www.shopstar.pe/apple-airpods-4-anc-original-sellado-copy-638909069424923760-innovatech-store/p"
+      },
+      {
+        "nombre": "APPLE AIRPODS 4 ORIGINAL SELLADO",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 4224,
+        "url": "https://www.shopstar.pe/apple-airpods-4-anc-original-sellado-copy-638909069424923760-innovatech-store/p"
+      },
+      {
+        "nombre": "APPLE AIRPODS 4 ORIGINAL SELLADO",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 4224,
+        "url": "https://www.shopstar.pe/apple-airpods-4-anc-original-sellado-copy-638909069424923760-innovatech-store/p"
+      },
+      {
+        "nombre": "APPLE AIRPODS 4 ORIGINAL SELLADO",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 4224,
+        "url": "https://www.shopstar.pe/apple-airpods-4-anc-original-sellado-copy-638909069424923760-innovatech-store/p"
+      },
+      {
+        "nombre": "APPLE AIRPODS 4 ORIGINAL SELLADO",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 18.5,
+        "precio_minimo_anterior": 9.2,
+        "precio_promedio": 395.5,
+        "ahorro_vs_promedio": 95.32,
+        "es_nuevo_minimo": false,
+        "num_registros": 4224,
+        "url": "https://www.shopstar.pe/apple-airpods-4-anc-original-sellado-copy-638909069424923760-innovatech-store/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:16:12",
+    "fecha_hora": "2026-04-14 20:16:12",
+    "tipo": "OFERTA",
+    "tienda": "Sodimac",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      },
+      {
+        "nombre": "Juego de Comedor Bar Istanbul",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 499.9,
+        "precio_actual": 249.9,
+        "descuento_porcent": 50.01,
+        "ahorro": 250.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 50.01% segun precio de la tienda.",
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/142621249"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:16:39",
+    "fecha_hora": "2026-04-14 20:16:39",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mouse Itec Int-Ll187 Wireless 2.4G Gris",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 39.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 75.19,
+        "ahorro": 30.0,
+        "razon": "Solo 1 registros en 0 dias. Se necesitan al menos 5 para validar. El descuento declarado es 75.19% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/mouse-itec-int-ll187-wireless-24g-gris-62237002.html"
+      },
+      {
+        "nombre": "Soporte Vivitar 3 En 1: Micro Smartphone Y Aro De Luz Blanco",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 136.4,
+        "precio_actual": 39.9,
+        "descuento_porcent": 70.75,
+        "ahorro": 96.5,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.75% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/soporte-3en1-vivitar-micrsphone-led-blc-46556001.html"
+      },
+      {
+        "nombre": "Figura Dinosaurio Caminador Verde",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 169.9,
+        "precio_actual": 50.7,
+        "descuento_porcent": 70.16,
+        "ahorro": 119.2,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.16% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/dinosaurio-caminador-verde-46527.html"
+      },
+      {
+        "nombre": "Cable Tipo C A Tipo C Itec 1Mt",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 99.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 70.07,
+        "ahorro": 70.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 70.07% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/cable-tipo-c-a-c-1m-itec-85414.html"
+      },
+      {
+        "nombre": "Audifono Philips Diadema On Ear Tauh202 Negro",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 188.9,
+        "precio_actual": 59.9,
+        "descuento_porcent": 68.29,
+        "ahorro": 129.0,
+        "razon": "Solo 2 registros en 1 dias. Se necesitan al menos 5 para validar. El descuento declarado es 68.29% segun precio de la tienda.",
+        "url": "https://www.tailoy.com.pe/audifono-philips-diadema-on-ear-tauh202-negro-49257002.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-14",
+    "hora": "20:16:40",
+    "fecha_hora": "2026-04-14 20:16:40",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 213598,
+      "total_ofertas_reales": 2729,
+      "total_minimos": 1134,
+      "duracion_seg": 1096.3,
+      "fecha": "14/04/2026 19:58"
+    }
+  }
+]

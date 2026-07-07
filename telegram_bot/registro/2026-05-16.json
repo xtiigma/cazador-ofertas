@@ -1,0 +1,603 @@
+[
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:18",
+    "fecha_hora": "2026-05-16 00:04:18",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Toalla de cuerpo suave Beige - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (14 registros en ~49 dias): S/90.0. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741243/Toalla-de-cuerpo-suave-Beige-138x68cm/135741244"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave Verde - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (14 registros en ~49 dias): S/90.0. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741187/Toalla-de-cuerpo-suave-Verde-138x68cm/135741188"
+      },
+      {
+        "nombre": "ICE GLOBES BOLAS DE CRISTAL PARA MASAJE Y REAFIRMACIÓN FACIAL X 2 UN",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 80.0,
+        "precio_actual": 18.0,
+        "descuento_porcent": 77.5,
+        "ahorro": 62.0,
+        "razon": "Gran descuento de 77.5% segun precio de la tienda. Nuestro promedio historico (5 registros en ~26 dias): S/80.0. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/80.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/142728528/ICE-GLOBES-BOLAS-DE-CRISTAL-PARA-MASAJE-Y-REAFIRMACION-FACIAL-X-2-UN/142728529"
+      },
+      {
+        "nombre": "Set x 5 Condimenteros Especieros de Cucharita Frascos Vidrio",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 11.45,
+        "descuento_porcent": 77.1,
+        "ahorro": 38.55,
+        "razon": "Gran descuento de 77.1% segun precio de la tienda. Nuestro promedio historico (14 registros en ~37 dias): S/50.0. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/124314586/Set-x-5-Condimenteros-Especieros-de-Cucharita-Frascos-Vidrio/124314587"
+      },
+      {
+        "nombre": "Abridor de Botellas Disco",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 29.9,
+        "precio_actual": 6.9,
+        "descuento_porcent": 76.92,
+        "ahorro": 23.0,
+        "razon": "Gran descuento de 76.92% segun precio de la tienda. Nuestro promedio historico (6 registros en ~17 dias): S/29.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/29.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883021816/abridor-de-botellas-disco-mica/883021816"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:19",
+    "fecha_hora": "2026-05-16 00:04:19",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Polo 100% Algodón Regular Fit Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 38.35,
+        "precio_minimo_anterior": 79.9,
+        "precio_promedio": 79.9,
+        "ahorro_vs_promedio": 52.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883658795/polo-100-algodon-regular-fit-hombre-christian-lacroix/883658807"
+      },
+      {
+        "nombre": "Casaca 100% Algodón Hombre University Club",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 143.95,
+        "precio_minimo_anterior": 299.9,
+        "precio_promedio": 299.9,
+        "ahorro_vs_promedio": 52.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883655586/casaca-100-algodon-hombre-university-club/883655594"
+      },
+      {
+        "nombre": "Polera Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 64.75,
+        "precio_minimo_anterior": 129.9,
+        "precio_promedio": 129.9,
+        "ahorro_vs_promedio": 50.15,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883693238/polera-algodon-casual-manga-larga-hombre-ecko/883693247"
+      },
+      {
+        "nombre": "Casaca Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 349.5,
+        "precio_minimo_anterior": 699.0,
+        "precio_promedio": 699.0,
+        "ahorro_vs_promedio": 50.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21317598/chaqueta-idris-doble-faz-detalles-borreguito-mango-man/21317601"
+      },
+      {
+        "nombre": "Casaca Impermeable Casual Hombre Univercity Club",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 79.95,
+        "precio_minimo_anterior": 159.9,
+        "precio_promedio": 159.9,
+        "ahorro_vs_promedio": 50.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883580080/casaca-impermeable-casual-hombre-univercity-club/883580099"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:24",
+    "fecha_hora": "2026-05-16 00:04:24",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Crema Facial Isdin Glicoisdin 8% Soft Efecto Peeling",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 164.9,
+        "precio_actual": 98.94,
+        "descuento_porcent": 40.0,
+        "ahorro": 65.96,
+        "razon": "Gran descuento de 40.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~33 dias): S/164.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/164.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/crema-facial-isdin-glicoisdin-8-soft-efecto-peeling?variant=45452171477178"
+      },
+      {
+        "nombre": "Glicoisdin 25% Gel 50 Ml - Gel Facial Con Efecto Peeling Con Ácido Glicólico - Antiedad",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 184.9,
+        "precio_actual": 110.94,
+        "descuento_porcent": 40.0,
+        "ahorro": 73.96,
+        "razon": "Gran descuento de 40.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~33 dias): S/184.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/184.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/glicoisdin-25-gel-50-ml-gel-facial-con-efecto-peeling-con-acido-glicolico-antiedad?variant=45452171509946"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Fluid Spf50 50ml x3 | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 344.7,
+        "precio_actual": 209.9,
+        "descuento_porcent": 39.11,
+        "ahorro": 134.8,
+        "razon": "Gran descuento de 39.11% segun precio de la tienda. Nuestro promedio historico (13 registros en ~33 dias): S/344.7. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/344.7 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-fluid-spf50-50ml-x3?variant=45452210110650"
+      },
+      {
+        "nombre": "Hyaluron Filler Elasticity Crema de día FPS30 50ml | Eucerin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 202.5,
+        "precio_actual": 141.75,
+        "descuento_porcent": 30.0,
+        "ahorro": 60.75,
+        "razon": "Gran descuento de 30.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~33 dias): S/202.5. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/202.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/eucerin-hyaluron-filler-elasticity-crema-de-dia-fps15-50ml?variant=45452161777850"
+      },
+      {
+        "nombre": "Hyaluron Filler Elasticity Crema de Noche 50ml | Eucerin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 202.5,
+        "precio_actual": 141.75,
+        "descuento_porcent": 30.0,
+        "ahorro": 60.75,
+        "razon": "Gran descuento de 30.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~33 dias): S/202.5. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/202.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/eucerin-hyaluron-filler-elasticity-crema-de-noche-50ml?variant=45452161810618"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:24",
+    "fecha_hora": "2026-05-16 00:04:24",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Isdin Acniben Night Concentrate Anti-Imperfecciones 27Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 125.91,
+        "precio_minimo_anterior": 139.9,
+        "precio_promedio": 139.9,
+        "ahorro_vs_promedio": 10.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://dermotiendashopping.com/products/isdin-acniben-night-concentrate-anti-imperfecciones-27ml-serum-de-noche-formulado-con-retinaldehido-para-piel-mixta-a-grasa?variant=45452296093882"
+      },
+      {
+        "nombre": "Sensibio Eye 15 Ml | Bioderma",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 64.9,
+        "precio_minimo_anterior": 64.9,
+        "precio_promedio": 83.23,
+        "ahorro_vs_promedio": 22.03,
+        "es_nuevo_minimo": false,
+        "num_registros": 13,
+        "url": "https://dermotiendashopping.com/products/bioderma-sensibio-eye-15-ml?variant=45452349538490"
+      },
+      {
+        "nombre": "Crema Facial Isdin Glicoisdin 8% Soft Efecto Peeling",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 98.94,
+        "precio_minimo_anterior": 98.94,
+        "precio_promedio": 126.42,
+        "ahorro_vs_promedio": 21.74,
+        "es_nuevo_minimo": false,
+        "num_registros": 13,
+        "url": "https://dermotiendashopping.com/products/crema-facial-isdin-glicoisdin-8-soft-efecto-peeling?variant=45452171477178"
+      },
+      {
+        "nombre": "Glicoisdin 25% Gel 50 Ml - Gel Facial Con Efecto Peeling Con Ácido Glicólico - Antiedad",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 110.94,
+        "precio_minimo_anterior": 110.94,
+        "precio_promedio": 141.76,
+        "ahorro_vs_promedio": 21.74,
+        "es_nuevo_minimo": false,
+        "num_registros": 13,
+        "url": "https://dermotiendashopping.com/products/glicoisdin-25-gel-50-ml-gel-facial-con-efecto-peeling-con-acido-glicolico-antiedad?variant=45452171509946"
+      },
+      {
+        "nombre": "Pack Fotoprotector Dry Touch Gel Cream 50+ 50Ml X2 | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 159.9,
+        "precio_minimo_anterior": 159.9,
+        "precio_promedio": 189.87,
+        "ahorro_vs_promedio": 15.78,
+        "es_nuevo_minimo": false,
+        "num_registros": 4,
+        "url": "https://dermotiendashopping.com/products/pack-fotoprotector-dry-touch-gel-cream-50-50ml-x2-isdin?variant=45819249918138"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:55",
+    "fecha_hora": "2026-05-16 00:04:55",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:04:56",
+    "fecha_hora": "2026-05-16 00:04:56",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Reloj Casio G-Shock Carbon Core GA2100-4A Digital Analogico Luz LED Acuático Rojo",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.7,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 404.6,
+        "ahorro_vs_promedio": 94.88,
+        "es_nuevo_minimo": false,
+        "num_registros": 19980,
+        "url": "https://www.shopstar.pe/reloj-casio-gshock-carbon-core-ga21004a-luz-led-acuatico-rojo-1519/p"
+      },
+      {
+        "nombre": "Reloj Casio G-Shock Carbon Core GA2100-4A Digital Analogico Luz LED Acuático Rojo",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.7,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 404.6,
+        "ahorro_vs_promedio": 94.88,
+        "es_nuevo_minimo": false,
+        "num_registros": 19980,
+        "url": "https://www.shopstar.pe/reloj-casio-gshock-carbon-core-ga21004a-luz-led-acuatico-rojo-1519/p"
+      },
+      {
+        "nombre": "Reloj Casio G-Shock Carbon Core GA2100-4A Digital Analogico Luz LED Acuático Rojo",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.7,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 404.6,
+        "ahorro_vs_promedio": 94.88,
+        "es_nuevo_minimo": false,
+        "num_registros": 19980,
+        "url": "https://www.shopstar.pe/reloj-casio-gshock-carbon-core-ga21004a-luz-led-acuatico-rojo-1519/p"
+      },
+      {
+        "nombre": "Reloj Casio G-Shock Carbon Core GA2100-4A Digital Analogico Luz LED Acuático Rojo",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.7,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 404.6,
+        "ahorro_vs_promedio": 94.88,
+        "es_nuevo_minimo": false,
+        "num_registros": 19980,
+        "url": "https://www.shopstar.pe/reloj-casio-gshock-carbon-core-ga21004a-luz-led-acuatico-rojo-1519/p"
+      },
+      {
+        "nombre": "Reloj Casio G-Shock Carbon Core GA2100-4A Digital Analogico Luz LED Acuático Rojo",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.7,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 404.6,
+        "ahorro_vs_promedio": 94.88,
+        "es_nuevo_minimo": false,
+        "num_registros": 19980,
+        "url": "https://www.shopstar.pe/reloj-casio-gshock-carbon-core-ga21004a-luz-led-acuatico-rojo-1519/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:05:27",
+    "fecha_hora": "2026-05-16 00:05:27",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Cama Europea Paraíso Pocket Star King Chocolate + 2 Almohadas + Protector",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 4902.3,
+        "precio_actual": 1846.0,
+        "descuento_porcent": 62.34,
+        "ahorro": 3056.3,
+        "razon": "Gran descuento de 62.34% segun precio de la tienda. Nuestro promedio historico (5 registros en ~30 dias): S/4902.3. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/4902.3 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/cama-europea-paraiso-pocket-star-king-chocolate-64138.html"
+      },
+      {
+        "nombre": "Figura Peppa Y George Peppa Pig Gran Escala",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 49.9,
+        "precio_actual": 19.9,
+        "descuento_porcent": 60.12,
+        "ahorro": 30.0,
+        "razon": "Gran descuento de 60.12% segun precio de la tienda. Nuestro promedio historico (9 registros en ~32 dias): S/49.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/49.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/peppa-pig-gran-escala-peppa-y-george-61063002.html"
+      },
+      {
+        "nombre": "Hervidor Eléctrica Itec Transparente Ma-0610",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 79.9,
+        "precio_actual": 34.9,
+        "descuento_porcent": 56.32,
+        "ahorro": 45.0,
+        "razon": "Gran descuento de 56.32% segun precio de la tienda. Nuestro promedio historico (12 registros en ~33 dias): S/79.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/79.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/hervidor-electrico-transparente-itec-ma-0610-81905.html"
+      },
+      {
+        "nombre": "Tableta Gráfica Wacom One By Medium Ctl672",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 399.0,
+        "precio_actual": 175.0,
+        "descuento_porcent": 56.14,
+        "ahorro": 224.0,
+        "razon": "Gran descuento de 56.14% segun precio de la tienda. Nuestro promedio historico (12 registros en ~33 dias): S/399.0. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/399.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/wacom-one-by-medium-ctl672-62717.html"
+      },
+      {
+        "nombre": "Cargador Para Auto I2Go Dual Usb Colores Surtidos",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 29.9,
+        "precio_actual": 13.5,
+        "descuento_porcent": 54.85,
+        "ahorro": 16.4,
+        "razon": "Gran descuento de 54.85% segun precio de la tienda. Nuestro promedio historico (11 registros en ~33 dias): S/29.9. precio estable los ultimos 7 dias (2 registros). OJO: el precio 'normal' de S/29.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/cargador-dual-para-auto-usb-colores-surtidos-20433.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:05:38",
+    "fecha_hora": "2026-05-16 00:05:38",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Cama Europea Paraíso Pocket Star Queen Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1703.0,
+        "precio_minimo_anterior": 2742.3,
+        "precio_promedio": 2742.3,
+        "ahorro_vs_promedio": 37.9,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/cama-europea-paraiso-pocket-star-queen-charcoal-64144.html"
+      },
+      {
+        "nombre": "Cama Europea Paraíso Pocket Max King Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1938.0,
+        "precio_minimo_anterior": 3120.2,
+        "precio_promedio": 3120.2,
+        "ahorro_vs_promedio": 37.89,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.tailoy.com.pe/cama-europea-paraiso-pocket-max-king-charcoal-64194.html"
+      },
+      {
+        "nombre": "Cama Paraíso Pocket Star Queen Con Cajones Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 2110.0,
+        "precio_minimo_anterior": 3396.9,
+        "precio_promedio": 3396.9,
+        "ahorro_vs_promedio": 37.88,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-pocket-star-queen-con-cajones-charcoal-64160.html"
+      },
+      {
+        "nombre": "Cama Paraíso Pocket Max 2 Plazas Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1211.0,
+        "precio_minimo_anterior": 1949.4,
+        "precio_promedio": 1949.4,
+        "ahorro_vs_promedio": 37.88,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-pocket-max-2-plazas-charcoal-64174.html"
+      },
+      {
+        "nombre": "Cama Paraíso Pocket Max King Con Cajones Charcoal + 2 Almohadas + Protector",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 2336.0,
+        "precio_minimo_anterior": 3760.4,
+        "precio_promedio": 3760.4,
+        "ahorro_vs_promedio": 37.88,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.tailoy.com.pe/cama-paraiso-pocket-max-king-con-cajones-charcoal-64210.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:06:43",
+    "fecha_hora": "2026-05-16 00:06:43",
+    "tipo": "OFERTA",
+    "tienda": "Promart",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Vela de Cera Misionera Tipo 24 Pack de 4 Unidades",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 15.5,
+        "precio_actual": 1.0,
+        "descuento_porcent": 93.55,
+        "ahorro": 14.5,
+        "razon": "Solo 2 registros en 4 dias. Se necesitan al menos 5 para validar. El descuento declarado es 93.55% segun precio de la tienda.",
+        "url": "https://www.promart.pe/vela-misionera-tipo-24-x-4-unidades/p"
+      },
+      {
+        "nombre": "Soporte para Celular Manos AR-SC045 Negro Orange",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 9.9,
+        "precio_actual": 2.0,
+        "descuento_porcent": 79.8,
+        "ahorro": 7.9,
+        "razon": "Solo 4 registros en 15 dias. Se necesitan al menos 5 para validar. El descuento declarado es 79.8% segun precio de la tienda.",
+        "url": "https://www.promart.pe/soporte-para-celular-manos-ar-sc045-negro-162127/p"
+      },
+      {
+        "nombre": "Linterna Repelente Camping 3 en 1 Amarillo",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 89.9,
+        "precio_actual": 19.0,
+        "descuento_porcent": 78.87,
+        "ahorro": 70.9,
+        "razon": "Solo 4 registros en 15 dias. Se necesitan al menos 5 para validar. El descuento declarado es 78.87% segun precio de la tienda.",
+        "url": "https://www.promart.pe/linterna-repelente-camping-3-en-1-amarillo-161462/p"
+      },
+      {
+        "nombre": "Linterna Repelente Camping 4 en 1 Amarillo",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 89.9,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.86,
+        "ahorro": 70.0,
+        "razon": "Solo 4 registros en 15 dias. Se necesitan al menos 5 para validar. El descuento declarado es 77.86% segun precio de la tienda.",
+        "url": "https://www.promart.pe/linterna-repelente-camping-4-en-1-amarillo-161455/p"
+      },
+      {
+        "nombre": "Audífonos Inalámbricos Somostel Tws J16 Blanco",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 89.9,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.86,
+        "ahorro": 70.0,
+        "razon": "Solo 4 registros en 15 dias. Se necesitan al menos 5 para validar. El descuento declarado es 77.86% segun precio de la tienda.",
+        "url": "https://www.promart.pe/audifonos-inalambricos-somostel-tws-j16-color-aleatorio-154883/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:06:43",
+    "fecha_hora": "2026-05-16 00:06:43",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Promart",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Lonchera Flores Rosada CLASS&WORK",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 39.9,
+        "precio_promedio": 39.9,
+        "ahorro_vs_promedio": 67.67,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.promart.pe/lonchera-flores-rosada-class-work-1001365948/p"
+      },
+      {
+        "nombre": "Lonchera Flores Aqua CLASS&WORK",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 39.9,
+        "precio_promedio": 39.9,
+        "ahorro_vs_promedio": 67.67,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.promart.pe/lonchera-flores-aqua-class-work-1001365938/p"
+      },
+      {
+        "nombre": "Lonchera Space CLASS&WORK",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 39.9,
+        "precio_promedio": 39.9,
+        "ahorro_vs_promedio": 67.67,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.promart.pe/lonchera-space-class-work-1001365934/p"
+      },
+      {
+        "nombre": "Lonchera Dino CLASS&WORK",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 39.9,
+        "precio_promedio": 39.9,
+        "ahorro_vs_promedio": 67.67,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.promart.pe/lonchera-dino-class-work-1001365928/p"
+      },
+      {
+        "nombre": "Mochila Portalaptop Negro CLASS&WORK",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 17.9,
+        "precio_minimo_anterior": 49.9,
+        "precio_promedio": 49.9,
+        "ahorro_vs_promedio": 64.13,
+        "es_nuevo_minimo": true,
+        "num_registros": 4,
+        "url": "https://www.promart.pe/mochila-portalaptop-negro-class-work-1001418336/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-16",
+    "hora": "00:06:44",
+    "fecha_hora": "2026-05-16 00:06:44",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 250470,
+      "total_ofertas_reales": 90372,
+      "total_minimos": 7092,
+      "duracion_seg": 1120.4,
+      "fecha": "15/05/2026 23:48"
+    }
+  }
+]

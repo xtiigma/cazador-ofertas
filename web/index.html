@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cazador de Ofertas - Dashboard</title>
+
+  <!-- Modern Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Overlay para cerrar sidebar en móvil -->
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <i class="bi bi-tags-fill"></i>
+          <h1>Ofertas<span class="highlight">App</span></h1>
+        </div>
+      </div>
+
+      <div class="sidebar-search">
+        <div class="search-box">
+          <i class="bi bi-search"></i>
+          <input type="text" id="searchInput" placeholder="Buscar productos...">
+        </div>
+      </div>
+
+      <div class="sidebar-inicio">
+        <button id="inicioBtn" class="inicio-btn">
+          <i class="bi bi-house-door"></i>
+          <span>Inicio</span>
+        </button>
+      </div>
+
+      <nav id="store-nav" class="store-nav">
+        <!-- Generado dinámicamente -->
+        <div class="loading-sidebar">Cargando tiendas...</div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="theme-toggle" id="themeToggle">
+          <i class="bi bi-moon-fill" id="themeIcon"></i>
+          <span>Tema</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <header class="top-header">
+        <button id="mobile-menu-btn" class="mobile-menu-btn">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="breadcrumb" id="breadcrumb">
+          <span>Vista General</span>
+        </div>
+        <div class="header-stats" id="headerStats">
+          <span class="stat-badge"><i class="bi bi-box-seam"></i> <span id="totalProductsCount">-</span>
+            Productos</span>
+          <span class="stat-badge highlight-badge"><i class="bi bi-clock-history"></i> <span
+              id="lastUpdate">-</span></span>
+        </div>
+      </header>
+
+      <div class="content-area">
+        <div class="stats-overview" id="statsOverview">
+          <!-- Tarjetas de resumen para vista general -->
+        </div>
+
+        <div class="products-header hidden" id="productsHeader">
+          <h2 id="categoryTitle">Categoría</h2>
+          <div class="sort-controls">
+            <button id="realDiscountToggle" class="real-discount-btn"
+              title="Mostrar solo productos cuyo precio actual está por debajo de su precio típico (mediana del historial propio)">
+              <i class="bi bi-graph-down-arrow"></i>
+              <span>Descuento Real</span>
+              <span class="toggle-pill" id="togglePill"></span>
+            </button>
+            <button id="bestPriceToggle" class="best-price-btn"
+              title="Mostrar solo productos que hoy están en su precio más bajo histórico">
+              <i class="bi bi-trophy"></i>
+              <span>Mejor Precio Hoy</span>
+              <span class="toggle-pill" id="togglePillBest"></span>
+            </button>
+            <select id="sortSelect">
+              <option value="discount_desc">Mayor Descuento</option>
+              <option value="price_asc">Menor Precio</option>
+              <option value="price_desc">Mayor Precio</option>
+              <option value="name_asc">Nombre (A-Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- Renderizado dinámicamente -->
+        </div>
+
+        <!-- Paginación -->
+        <div class="pagination-container hidden" id="pagination">
+          <!-- Controles de paginación generados dinámicamente -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

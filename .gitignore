@@ -1,0 +1,37 @@
+# ═══ Cazador de Ofertas — qué NO se versiona ═══
+# El repo versiona CÓDIGO y documentación. Los datos (historiales de precios,
+# snapshots) son pesados (Plaza Vea ~474 MB), cambian a diario y tienen sus
+# propios respaldos: NUNCA agregarlos al repo.
+
+# Datos por tienda (historiales + snapshots diarios).
+# favoritos.json SÍ se versiona: es curado a mano, pequeño y no regenerable.
+tiendas/*/datos/*
+!tiendas/*/datos/favoritos.json
+
+# Datos generados del dashboard (web/build_data.py lo regenera cada ciclo, ~212 MB)
+web/public/data.json
+
+# Respaldos
+mantenimiento/backups/
+*.bak*
+
+# Logs y archivos de runtime
+logger/logs/
+logs/
+*.log
+.ciclo_en_curso
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secretos — el token del bot vive en config.py; plantilla: config.example.py
+telegram_bot/config.py
+
+# Configuración local de Claude Code (permisos de esta máquina)
+.claude/settings.local.json
+
+# Node (dashboard, por si algún día se instalan dependencias)
+web/node_modules/
+web/dist/

@@ -1,0 +1,19 @@
+[
+  {
+    "fecha": "2026-07-02",
+    "hora": "12:50:56",
+    "fecha_hora": "2026-07-02 12:50:56",
+    "tipo": "AVISO",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 1,
+    "contenido": {
+      "tiendas_procesadas": 7,
+      "total_productos": 225537,
+      "total_ofertas_reales": 100444,
+      "total_minimos": 8177,
+      "duracion_seg": 2881.3,
+      "fecha": "02/07/2026 12:02"
+    }
+  }
+]

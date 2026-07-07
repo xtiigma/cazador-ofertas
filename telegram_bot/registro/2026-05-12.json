@@ -1,0 +1,857 @@
+[
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:32:05",
+    "fecha_hora": "2026-05-12 21:32:05",
+    "tipo": "OFERTA",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Blanca Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/50.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-blanca-caja/066819"
+      },
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Negra  Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/50.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-negra-caja/066820"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 1.1 KG VAINILLA + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 210.0,
+        "precio_actual": 61.0,
+        "descuento_porcent": 70.95,
+        "ahorro": 149.0,
+        "razon": "Gran descuento de 70.95% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/210.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/210.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-1.1-KG-VAINILLA-+-Soga-para-Saltar-con-Contador/1749841337379"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 5 KG CHOCOLATE + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 350.0,
+        "precio_actual": 149.0,
+        "descuento_porcent": 57.43,
+        "ahorro": 201.0,
+        "razon": "Gran descuento de 57.43% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/350.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/350.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-5-KG-CHOCOLATE-+-SOGA-PARA-SALTAR-CON-CONTADOR/1749746200370"
+      },
+      {
+        "nombre": "Pack Creatina Applied Nutrition 250gr 3 UN",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 299.70000000000005,
+        "precio_actual": 140.0,
+        "descuento_porcent": 53.29,
+        "ahorro": 159.7,
+        "razon": "Gran descuento de 53.29% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/299.7. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/299.70000000000005 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/pack-creatina-applied-nutrition-250gr-3-un/PACKNT578"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:32:06",
+    "fecha_hora": "2026-05-12 21:32:06",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Sérum Nivea Luminous 630 Skin Glow",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 39.3,
+        "precio_minimo_anterior": 55.7,
+        "precio_promedio": 58.38,
+        "ahorro_vs_promedio": 32.68,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://inkafarma.pe/producto/serum-nivea-luminous-630-skin-glow/078967"
+      },
+      {
+        "nombre": "Triptofano con Melatonina + Magnesio y Vitamina B6 Comprimido",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 65.9,
+        "precio_minimo_anterior": 75.5,
+        "precio_promedio": 89.32,
+        "ahorro_vs_promedio": 26.22,
+        "es_nuevo_minimo": true,
+        "num_registros": 12,
+        "url": "https://inkafarma.pe/producto/triptofano-con-melatonina-magnesio-y-vitamina-b6/084697"
+      },
+      {
+        "nombre": "Prednisona 5mg Tableta",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 3.0,
+        "precio_minimo_anterior": 4.0,
+        "precio_promedio": 4.0,
+        "ahorro_vs_promedio": 25.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 15,
+        "url": "https://inkafarma.pe/producto/prednisona-5-mg-tableta/423399"
+      },
+      {
+        "nombre": "Pack Rutina Antimanchas Serum + Contorno de Ojos Eucerin",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 251.9,
+        "precio_minimo_anterior": 286.8,
+        "precio_promedio": 331.94,
+        "ahorro_vs_promedio": 24.11,
+        "es_nuevo_minimo": true,
+        "num_registros": 15,
+        "url": "https://inkafarma.pe/producto/pack-rutina-antimancha-serum-contorno-ojos-eucerin/PACKDB255"
+      },
+      {
+        "nombre": "Pack 03 Fotoprotector Isdin Extreme Fusion Fluido Ultraligero SPF 50",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 192.7,
+        "precio_minimo_anterior": 197.9,
+        "precio_promedio": 252.23,
+        "ahorro_vs_promedio": 23.6,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://inkafarma.pe/producto/pack-03-fotoprotector-isdin-fluido-ultraligero/PACKDB267"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:42:46",
+    "fecha_hora": "2026-05-12 21:42:46",
+    "tipo": "OFERTA",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Cruceta Modular Madera/MDP Orange Blanca de 37x37x29.8cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (11 registros en ~28 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/cruceta-modular-orange-blanca-100555719/p"
+      },
+      {
+        "nombre": "Cruceta Modular Madera/MDP Orange Gris de 37cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (11 registros en ~28 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/cruceta-modular-orange-gris-100555714/p"
+      },
+      {
+        "nombre": "Puerta Modular Madera/MDP Orange Gris de 31cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (11 registros en ~28 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/puerta-modular-orange-gris-100555710/p"
+      },
+      {
+        "nombre": "Puerta Modular Orange Maple de Madera/MDP de Excelente Calidad",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (11 registros en ~28 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/puerta-modular-orange-maple-100555709/p"
+      },
+      {
+        "nombre": "Puerta Modular Orange Blanca de Madera/MDP de 31cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 85.84,
+        "ahorro": 60.0,
+        "razon": "Gran descuento de 85.84% segun precio de la tienda. Nuestro promedio historico (11 registros en ~28 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/puerta-modular-orange-blanca-100555708/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:42:47",
+    "fecha_hora": "2026-05-12 21:42:47",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "DUO DE SOMBRAS PARA CEJAS ANASTASIA | BLONDE",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 160.9,
+        "precio_minimo_anterior": 13523.9,
+        "precio_promedio": 13523.9,
+        "ahorro_vs_promedio": 98.81,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/duo-de-sombras-para-cejas-anastasia-blonde-102002060/p"
+      },
+      {
+        "nombre": "LABIAL SATINADO EDICIÓN LIMITADA ANASTASIA | PEACH AMBER",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 160.9,
+        "precio_minimo_anterior": 13523.9,
+        "precio_promedio": 13523.9,
+        "ahorro_vs_promedio": 98.81,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://www.plazavea.com.pe/labial-satinado-edicion-limitada-anastasia-peach-amber-101991396/p"
+      },
+      {
+        "nombre": "LABIAL SATINADO EDICIÓN LIMITADA ANASTASIA | PEACH BUD",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 160.9,
+        "precio_minimo_anterior": 13523.9,
+        "precio_promedio": 13523.9,
+        "ahorro_vs_promedio": 98.81,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://www.plazavea.com.pe/labial-satinado-edicion-limitada-anastasia-peach-bud-101991363/p"
+      },
+      {
+        "nombre": "DUO DE SOMBRAS PARA CEJAS ANASTASIA | SOFT BROWN",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 149.9,
+        "precio_minimo_anterior": 3698.9,
+        "precio_promedio": 4438.1,
+        "ahorro_vs_promedio": 96.62,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/duo-de-sombras-para-cejas-anastasia-soft-brown-102002121/p"
+      },
+      {
+        "nombre": "DUO DE SOMBRAS PARA CEJAS ANASTASIA | EBONY",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 160.9,
+        "precio_minimo_anterior": 2349.9,
+        "precio_promedio": 2349.9,
+        "ahorro_vs_promedio": 93.15,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.plazavea.com.pe/duo-de-sombras-para-cejas-anastasia-ebony-102002499/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:48:13",
+    "fecha_hora": "2026-05-12 21:48:13",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Depiladora Facial",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 79.9,
+        "ahorro": 79.1,
+        "razon": "Gran descuento de 79.9% segun precio de la tienda. Nuestro promedio historico (11 registros en ~33 dias): S/99.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/99.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21304889/depiladora-facial-bezel/21304889"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave Verde - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~45 dias): S/90.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741187/Toalla-de-cuerpo-suave-Verde-138x68cm/135741188"
+      },
+      {
+        "nombre": "Toalla de cuerpo suave Beige - 138x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 18.9,
+        "descuento_porcent": 79.0,
+        "ahorro": 71.1,
+        "razon": "Gran descuento de 79.0% segun precio de la tienda. Nuestro promedio historico (13 registros en ~45 dias): S/90.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/135741243/Toalla-de-cuerpo-suave-Beige-138x68cm/135741244"
+      },
+      {
+        "nombre": "KIT DE LENTES NATACIÓN CON TAPON OÍDOS + GORRO LICRA NIÑOS Celeste",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 14.9,
+        "descuento_porcent": 78.68,
+        "ahorro": 55.0,
+        "razon": "Gran descuento de 78.68% segun precio de la tienda. Nuestro promedio historico (8 registros en ~22 dias): S/69.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/150983580/kit-de-lentes-natacion-con-tapon-oidos-gorro-licra-ninos-celeste/150983581"
+      },
+      {
+        "nombre": "Toalla de baño suave Fucsia de140x68cm",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 90.0,
+        "precio_actual": 19.9,
+        "descuento_porcent": 77.89,
+        "ahorro": 70.1,
+        "razon": "Gran descuento de 77.89% segun precio de la tienda. Nuestro promedio historico (14 registros en ~45 dias): S/90.0. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/90.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/147174633/Toalla-de-bano-suave-Fucsia-de140x68cm/147174634"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:48:13",
+    "fecha_hora": "2026-05-12 21:48:13",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Pantuflas Básicas Hombre",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 14.9,
+        "precio_minimo_anterior": 39.9,
+        "precio_promedio": 47.4,
+        "ahorro_vs_promedio": 68.57,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883068245/pantuflas-basicas-hombre-benetton/883068257"
+      },
+      {
+        "nombre": "Polo Manga Corta 100% Algodón Hombre Wolf&hank.",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 49.95,
+        "precio_minimo_anterior": 99.9,
+        "precio_promedio": 99.9,
+        "ahorro_vs_promedio": 50.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/20226337/polo-manga-corta-100-algodon-hombre-wolf-hank/20226340"
+      },
+      {
+        "nombre": "Taper Hemético 380ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 5.9,
+        "precio_minimo_anterior": 9.9,
+        "precio_promedio": 9.9,
+        "ahorro_vs_promedio": 40.4,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/114615417/Taper-Hemetico-380ml/114616307"
+      },
+      {
+        "nombre": "Barra de Toalla Extensible 40-70cm",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 9.9,
+        "precio_minimo_anterior": 14.9,
+        "precio_promedio": 14.9,
+        "ahorro_vs_promedio": 33.56,
+        "es_nuevo_minimo": true,
+        "num_registros": 13,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/114525659/barra-de-toalla-extensible-40-70cm/114525660"
+      },
+      {
+        "nombre": "Botella Metálica 500 ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 19.9,
+        "precio_minimo_anterior": 20.9,
+        "precio_promedio": 28.52,
+        "ahorro_vs_promedio": 30.21,
+        "es_nuevo_minimo": true,
+        "num_registros": 14,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/113525714/botella-metalica-500-ml/113525716"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:48:27",
+    "fecha_hora": "2026-05-12 21:48:27",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Crema Facial Isdin Glicoisdin 8% Soft Efecto Peeling",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 164.9,
+        "precio_actual": 98.94,
+        "descuento_porcent": 40.0,
+        "ahorro": 65.96,
+        "razon": "Gran descuento de 40.0% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/164.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/164.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/crema-facial-isdin-glicoisdin-8-soft-efecto-peeling?variant=45452171477178"
+      },
+      {
+        "nombre": "Glicoisdin 25% Gel 50 Ml - Gel Facial Con Efecto Peeling Con Ácido Glicólico - Antiedad",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 184.9,
+        "precio_actual": 110.94,
+        "descuento_porcent": 40.0,
+        "ahorro": 73.96,
+        "razon": "Gran descuento de 40.0% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/184.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/184.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/glicoisdin-25-gel-50-ml-gel-facial-con-efecto-peeling-con-acido-glicolico-antiedad?variant=45452171509946"
+      },
+      {
+        "nombre": "Pack Fotoprotector Fusion Fluid Spf50 50ml x3 | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 344.7,
+        "precio_actual": 209.9,
+        "descuento_porcent": 39.11,
+        "ahorro": 134.8,
+        "razon": "Gran descuento de 39.11% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/344.7. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/344.7 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/pack-isdin-fotoprotector-fusion-fluid-spf50-50ml-x3?variant=45452210110650"
+      },
+      {
+        "nombre": "Hyaluron Filler Elasticity Crema de día FPS30 50ml | Eucerin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 202.5,
+        "precio_actual": 141.75,
+        "descuento_porcent": 30.0,
+        "ahorro": 60.75,
+        "razon": "Gran descuento de 30.0% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/202.5. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/202.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/eucerin-hyaluron-filler-elasticity-crema-de-dia-fps15-50ml?variant=45452161777850"
+      },
+      {
+        "nombre": "Hyaluron Filler Elasticity Crema de Noche 50ml | Eucerin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 202.5,
+        "precio_actual": 141.75,
+        "descuento_porcent": 30.0,
+        "ahorro": 60.75,
+        "razon": "Gran descuento de 30.0% segun precio de la tienda. Nuestro promedio historico (12 registros en ~29 dias): S/202.5. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/202.5 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/eucerin-hyaluron-filler-elasticity-crema-de-noche-50ml?variant=45452161810618"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:48:28",
+    "fecha_hora": "2026-05-12 21:48:28",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Sensibio Eye 15 Ml | Bioderma",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 64.9,
+        "precio_minimo_anterior": 84.9,
+        "precio_promedio": 84.9,
+        "ahorro_vs_promedio": 23.56,
+        "es_nuevo_minimo": true,
+        "num_registros": 12,
+        "url": "https://dermotiendashopping.com/products/bioderma-sensibio-eye-15-ml?variant=45452349538490"
+      },
+      {
+        "nombre": "Crema Facial Isdin Glicoisdin 8% Soft Efecto Peeling",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 98.94,
+        "precio_minimo_anterior": 98.94,
+        "precio_promedio": 128.92,
+        "ahorro_vs_promedio": 23.26,
+        "es_nuevo_minimo": false,
+        "num_registros": 12,
+        "url": "https://dermotiendashopping.com/products/crema-facial-isdin-glicoisdin-8-soft-efecto-peeling?variant=45452171477178"
+      },
+      {
+        "nombre": "Glicoisdin 25% Gel 50 Ml - Gel Facial Con Efecto Peeling Con Ácido Glicólico - Antiedad",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 110.94,
+        "precio_minimo_anterior": 110.94,
+        "precio_promedio": 144.56,
+        "ahorro_vs_promedio": 23.26,
+        "es_nuevo_minimo": false,
+        "num_registros": 12,
+        "url": "https://dermotiendashopping.com/products/glicoisdin-25-gel-50-ml-gel-facial-con-efecto-peeling-con-acido-glicolico-antiedad?variant=45452171509946"
+      },
+      {
+        "nombre": "Pigmentbio Night Renewer 50ml | Bioderma",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 123.68,
+        "precio_minimo_anterior": 123.68,
+        "precio_promedio": 161.15,
+        "ahorro_vs_promedio": 23.25,
+        "es_nuevo_minimo": false,
+        "num_registros": 12,
+        "url": "https://dermotiendashopping.com/products/bioderma-pigmentbio-night-renewer-50ml?variant=45452252086458"
+      },
+      {
+        "nombre": "Pack Fotoprotector Dry Touch Gel Cream 50+ 50Ml X2 | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 159.9,
+        "precio_minimo_anterior": 159.9,
+        "precio_promedio": 204.85,
+        "ahorro_vs_promedio": 21.94,
+        "es_nuevo_minimo": false,
+        "num_registros": 3,
+        "url": "https://dermotiendashopping.com/products/pack-fotoprotector-dry-touch-gel-cream-50-50ml-x2-isdin?variant=45819249918138"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:49:05",
+    "fecha_hora": "2026-05-12 21:49:05",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:49:06",
+    "fecha_hora": "2026-05-12 21:49:06",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "PROTEINA SUERO DE LECHE WHEY PRO 5KG COOKIES",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.9,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 401.14,
+        "ahorro_vs_promedio": 94.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 18540,
+        "url": "https://www.shopstar.pe/proteina-suero-de-leche-whey-pro-5kg-cookies-275150-1700/p"
+      },
+      {
+        "nombre": "PROTEINA SUERO DE LECHE WHEY PRO 5KG COOKIES",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.9,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 401.14,
+        "ahorro_vs_promedio": 94.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 18540,
+        "url": "https://www.shopstar.pe/proteina-suero-de-leche-whey-pro-5kg-cookies-275150-1700/p"
+      },
+      {
+        "nombre": "PROTEINA SUERO DE LECHE WHEY PRO 5KG COOKIES",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.9,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 401.14,
+        "ahorro_vs_promedio": 94.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 18540,
+        "url": "https://www.shopstar.pe/proteina-suero-de-leche-whey-pro-5kg-cookies-275150-1700/p"
+      },
+      {
+        "nombre": "PROTEINA SUERO DE LECHE WHEY PRO 5KG COOKIES",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.9,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 401.14,
+        "ahorro_vs_promedio": 94.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 18540,
+        "url": "https://www.shopstar.pe/proteina-suero-de-leche-whey-pro-5kg-cookies-275150-1700/p"
+      },
+      {
+        "nombre": "PROTEINA SUERO DE LECHE WHEY PRO 5KG COOKIES",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 20.9,
+        "precio_minimo_anterior": 8.5,
+        "precio_promedio": 401.14,
+        "ahorro_vs_promedio": 94.79,
+        "es_nuevo_minimo": false,
+        "num_registros": 18540,
+        "url": "https://www.shopstar.pe/proteina-suero-de-leche-whey-pro-5kg-cookies-275150-1700/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:49:38",
+    "fecha_hora": "2026-05-12 21:49:38",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mouse Itec Int-Ll187 Wireless 2.4G Gris",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 39.9,
+        "precio_actual": 9.9,
+        "descuento_porcent": 75.19,
+        "ahorro": 30.0,
+        "razon": "Gran descuento de 75.19% segun precio de la tienda. Nuestro promedio historico (8 registros en ~28 dias): S/39.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/39.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/mouse-itec-int-ll187-wireless-24g-gris-62237002.html"
+      },
+      {
+        "nombre": "Soporte Vivitar 3 En 1: Micro Smartphone Y Aro De Luz Blanco",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 136.4,
+        "precio_actual": 39.9,
+        "descuento_porcent": 70.75,
+        "ahorro": 96.5,
+        "razon": "Gran descuento de 70.75% segun precio de la tienda. Nuestro promedio historico (11 registros en ~29 dias): S/136.4. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/136.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/soporte-3en1-vivitar-micrsphone-led-blc-46556001.html"
+      },
+      {
+        "nombre": "Figura Dinosaurio Caminador Verde",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 169.9,
+        "precio_actual": 50.7,
+        "descuento_porcent": 70.16,
+        "ahorro": 119.2,
+        "razon": "Gran descuento de 70.16% segun precio de la tienda. Nuestro promedio historico (11 registros en ~29 dias): S/169.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/169.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/dinosaurio-caminador-verde-46527.html"
+      },
+      {
+        "nombre": "Cable Tipo C A Tipo C Itec 1Mt",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 70.07,
+        "ahorro": 70.0,
+        "razon": "Gran descuento de 70.07% segun precio de la tienda. Nuestro promedio historico (11 registros en ~29 dias): S/99.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/cable-tipo-c-a-c-1m-itec-85414.html"
+      },
+      {
+        "nombre": "Adaptador Itec 3 En 1 Tipo-C A 2Usb",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 59.9,
+        "precio_actual": 21.9,
+        "descuento_porcent": 63.44,
+        "ahorro": 38.0,
+        "razon": "Gran descuento de 63.44% segun precio de la tienda. Nuestro promedio historico (11 registros en ~29 dias): S/59.9. pocos datos en los ultimos 7 dias para confirmar estabilidad. OJO: el precio 'normal' de S/59.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/adaptador-3-en-1-tipo-c-a-2usb-itec-85418.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:49:39",
+    "fecha_hora": "2026-05-12 21:49:39",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mouse Pad Ergonómico Con Soporte Azul",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 15.9,
+        "precio_promedio": 15.9,
+        "ahorro_vs_promedio": 18.87,
+        "es_nuevo_minimo": true,
+        "num_registros": 9,
+        "url": "https://www.tailoy.com.pe/pad-mouse-gel-ergonomico-con-soporte-azul-47938001.html"
+      },
+      {
+        "nombre": "Mouse Pad Ergonómico Con Soporte Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 12.9,
+        "precio_minimo_anterior": 15.9,
+        "precio_promedio": 15.9,
+        "ahorro_vs_promedio": 18.87,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://www.tailoy.com.pe/pad-mouse-gel-ergonomico-con-soporte-negro-47938002.html"
+      },
+      {
+        "nombre": "Block De Dibujo Anillado Ove A3 42 X 29.7 Cm 16 Hojas",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 11.6,
+        "precio_minimo_anterior": 13.6,
+        "precio_promedio": 13.6,
+        "ahorro_vs_promedio": 14.71,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.tailoy.com.pe/block-dibujo-anillado-a3-16h-140g-ove-46458.html"
+      },
+      {
+        "nombre": "Horno Microondas Lg Neochef Mh7032Jas Negro 30 L",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 400.0,
+        "precio_minimo_anterior": 422.0,
+        "precio_promedio": 452.7,
+        "ahorro_vs_promedio": 11.64,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://www.tailoy.com.pe/horno-microondas-lg-neochef-de-30-litros-con-funcion-grill-easyclean-mh7032jas-negro-81111.html"
+      },
+      {
+        "nombre": "Lavadora Lg Wt17Dv6T 17 Kg Gris",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1473.0,
+        "precio_minimo_anterior": 1571.0,
+        "precio_promedio": 1648.8,
+        "ahorro_vs_promedio": 10.66,
+        "es_nuevo_minimo": true,
+        "num_registros": 11,
+        "url": "https://www.tailoy.com.pe/lavadora-lg-17-kg-wt17dv6t-gris-93494.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:50:34",
+    "fecha_hora": "2026-05-12 21:50:34",
+    "tipo": "OFERTA",
+    "tienda": "Promart",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Vela de Cera Misionera Tipo 24 Pack de 4 Unidades",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 15.5,
+        "precio_actual": 1.0,
+        "descuento_porcent": 93.55,
+        "ahorro": 14.5,
+        "razon": "Solo 1 registros en 0 dias. Se necesitan al menos 5 para validar. El descuento declarado es 93.55% segun precio de la tienda.",
+        "url": "https://www.promart.pe/vela-misionera-tipo-24-x-4-unidades/p"
+      },
+      {
+        "nombre": "Puff Blanco con negro Cúbico 50cm Urbano Orange",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 169.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 82.4,
+        "ahorro": 140.0,
+        "razon": "Solo 3 registros en 11 dias. Se necesitan al menos 5 para validar. El descuento declarado es 82.4% segun precio de la tienda.",
+        "url": "https://www.promart.pe/puff-blanco-con-negro-cubico-50cm-urbano-orange-162768/p"
+      },
+      {
+        "nombre": "Mezcladora monocomando Orion Ne Orange",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 718.0,
+        "precio_actual": 130.0,
+        "descuento_porcent": 81.89,
+        "ahorro": 588.0,
+        "razon": "Solo 1 registros en 0 dias. Se necesitan al menos 5 para validar. El descuento declarado es 81.89% segun precio de la tienda.",
+        "url": "https://www.promart.pe/mezcladora-monocomando-orion-ne/p"
+      },
+      {
+        "nombre": "Bowl Onyx Verde Claro Urbano Orange",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 29.9,
+        "precio_actual": 5.9,
+        "descuento_porcent": 80.27,
+        "ahorro": 24.0,
+        "razon": "Solo 3 registros en 11 dias. Se necesitan al menos 5 para validar. El descuento declarado es 80.27% segun precio de la tienda.",
+        "url": "https://www.promart.pe/bowl-onyx-verde-claro-urbano-orange-162402/p"
+      },
+      {
+        "nombre": "Soporte para Celular Manos AR-SC045 Negro Orange",
+        "clasificacion": "POCOS_DATOS",
+        "precio_normal": 9.9,
+        "precio_actual": 2.0,
+        "descuento_porcent": 79.8,
+        "ahorro": 7.9,
+        "razon": "Solo 3 registros en 11 dias. Se necesitan al menos 5 para validar. El descuento declarado es 79.8% segun precio de la tienda.",
+        "url": "https://www.promart.pe/soporte-para-celular-manos-ar-sc045-negro-162127/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:50:35",
+    "fecha_hora": "2026-05-12 21:50:35",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Promart",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mueble Auxiliar Tuhome Hades 1 Puerta Blanco/Beige",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 364.9,
+        "precio_minimo_anterior": 970.0,
+        "precio_promedio": 970.0,
+        "ahorro_vs_promedio": 62.38,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.promart.pe/mueble-auxiliar-tuhome-hades-1-puerta-blanco-beige/p"
+      },
+      {
+        "nombre": "Horno Microondas Teka Mwe-fs25 25 litros",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 249.0,
+        "precio_minimo_anterior": 599.0,
+        "precio_promedio": 599.0,
+        "ahorro_vs_promedio": 58.43,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.promart.pe/horno-microondas-teka-mwe-fs25-25-litros-167778/p"
+      },
+      {
+        "nombre": "Cocina Encimera a Gas 60cm FDV Black 70 4 Hornillas",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 999.0,
+        "precio_minimo_anterior": 2399.0,
+        "precio_promedio": 2399.0,
+        "ahorro_vs_promedio": 58.36,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.promart.pe/cocina-encimera-a-gas-60cm-fdv-black-70-4-hornillas-160896/p"
+      },
+      {
+        "nombre": "Combo Trotadora Fitness K6",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1749.0,
+        "precio_minimo_anterior": 4148.9,
+        "precio_promedio": 4148.9,
+        "ahorro_vs_promedio": 57.84,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.promart.pe/combo-trotadora-fitness-k6-1000533457/p"
+      },
+      {
+        "nombre": "Cepillo de Inodoro con Bambú y Mango Hergonómico de Acero Blanco",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 35.0,
+        "precio_minimo_anterior": 79.9,
+        "precio_promedio": 79.9,
+        "ahorro_vs_promedio": 56.2,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.promart.pe/cepillo-de-inodoro-con-bambu-y-mango-hergonomico-de-acero-blanco-1001397430/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-05-12",
+    "hora": "21:50:36",
+    "fecha_hora": "2026-05-12 21:50:36",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 249558,
+      "total_ofertas_reales": 90175,
+      "total_minimos": 7341,
+      "duracion_seg": 1230.2,
+      "fecha": "12/05/2026 21:30"
+    }
+  }
+]

@@ -1,0 +1,923 @@
+[
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:22:13",
+    "fecha_hora": "2026-04-20 21:22:13",
+    "tipo": "OFERTA",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Negra  Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/50.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-negra-caja/066820"
+      },
+      {
+        "nombre": "Mascarilla  KN95 Bojji  Blanca Caja",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 9.9,
+        "descuento_porcent": 80.2,
+        "ahorro": 40.1,
+        "razon": "Gran descuento de 80.2% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/50.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/mascarilla-kn95-bojji-blanca-caja/066819"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 1.1 KG VAINILLA + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 210.0,
+        "precio_actual": 61.0,
+        "descuento_porcent": 70.95,
+        "ahorro": 149.0,
+        "razon": "Gran descuento de 70.95% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/210.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/210.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-1.1-KG-VAINILLA-+-Soga-para-Saltar-con-Contador/1749841337379"
+      },
+      {
+        "nombre": "Proteína Whey Pro 5 Kg Vainilla + Hand Grip",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 350.0,
+        "precio_actual": 145.0,
+        "descuento_porcent": 58.57,
+        "ahorro": 205.0,
+        "razon": "Gran descuento de 58.57% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/350.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/350.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-5-KG-VAINILLA-+-SOGA-PARA-SALTAR-CON-CONTADOR/1749841337806"
+      },
+      {
+        "nombre": "PROTEÍNA WHEY PRO 5 KG CHOCOLATE + HAND GRIP",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 350.0,
+        "precio_actual": 149.0,
+        "descuento_porcent": 57.43,
+        "ahorro": 201.0,
+        "razon": "Gran descuento de 57.43% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/350.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/350.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://inkafarma.pe/producto/PROTEÍNA-WHEY-PRO-5-KG-CHOCOLATE-+-SOGA-PARA-SALTAR-CON-CONTADOR/1749746200370"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:22:14",
+    "fecha_hora": "2026-04-20 21:22:14",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Inkafarma",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Pack Neutrogena Hydro Boost hidratante Facial  + Repuesto",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 60.9,
+        "precio_minimo_anterior": 109.8,
+        "precio_promedio": 109.8,
+        "ahorro_vs_promedio": 44.54,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/pack-neutrogena-hydro-boost-hidratante-facial/PACKDB462"
+      },
+      {
+        "nombre": "Pañal Huggies Dermacare Talla G",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 33.0,
+        "precio_minimo_anterior": 51.5,
+        "precio_promedio": 51.5,
+        "ahorro_vs_promedio": 35.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/panal-huggies-dermacare-talla-g/071795"
+      },
+      {
+        "nombre": "Pack 02 Electrolight Fresa",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 4.0,
+        "precio_minimo_anterior": 6.2,
+        "precio_promedio": 6.2,
+        "ahorro_vs_promedio": 35.48,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://inkafarma.pe/producto/pack-02-electrolight-fresa/PACKNT725"
+      },
+      {
+        "nombre": "Cepillo de Dientes Eléctrico Oral-B Recargable Vitality 100 1 Unidad + Cabezales Precision Clean",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 93.9,
+        "precio_minimo_anterior": 132.9,
+        "precio_promedio": 145.35,
+        "ahorro_vs_promedio": 35.4,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/kit-cepillo-electrico-oral-b-cabezales-repuesto/069923"
+      },
+      {
+        "nombre": "Pack Pañal Huggies Dermacare Talla G",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 66.0,
+        "precio_minimo_anterior": 101.9,
+        "precio_promedio": 101.9,
+        "ahorro_vs_promedio": 35.23,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://inkafarma.pe/producto/pack-panal-huggies-dermacare-talla-g/PACKMB237"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:32:05",
+    "fecha_hora": "2026-04-20 21:32:05",
+    "tipo": "OFERTA",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "E-BIKE ONEBOT SC500 PLEGABLE INC. BATERIA, CARGADOR Y LLAVES AZUL - 1128308",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 13000.0,
+        "precio_actual": 3500.0,
+        "descuento_porcent": 73.08,
+        "ahorro": 9500.0,
+        "razon": "Gran descuento de 73.08% segun precio de la tienda. Nuestro promedio historico (8 registros en ~23 dias): S/13000.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/13000.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/e-bike-onebot-sc500-plegable-inc-bateria-cargador-y-llaves-azul-1128308-101962195/p"
+      },
+      {
+        "nombre": "Tocador Mara 1 Cajón con espejo y luces",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 699.0,
+        "precio_actual": 199.0,
+        "descuento_porcent": 71.53,
+        "ahorro": 500.0,
+        "razon": "Gran descuento de 71.53% segun precio de la tienda. Nuestro promedio historico (8 registros en ~23 dias): S/699.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/699.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/tocador-mara-1-cajon-con-espejo-y-luces-100470307/p"
+      },
+      {
+        "nombre": "Zapatillas de fútbol Chimpunez - PEAK",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 499.0,
+        "precio_actual": 149.0,
+        "descuento_porcent": 70.14,
+        "ahorro": 350.0,
+        "razon": "Gran descuento de 70.14% segun precio de la tienda. Nuestro promedio historico (7 registros en ~11 dias): S/499.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/499.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/zapatillas-de-futbol-chimpunez-peak-101988708/p"
+      },
+      {
+        "nombre": "Audífonos In Ear BLACKLINE AUDIFUSBBL4Q25 Usb Ergonómicos C/Micro Negro",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 29.9,
+        "precio_actual": 9.0,
+        "descuento_porcent": 69.9,
+        "ahorro": 20.9,
+        "razon": "Gran descuento de 69.9% segun precio de la tienda. Nuestro promedio historico (8 registros en ~23 dias): S/29.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/29.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/audifonos-in-ear-blackline-audifusbbl4q25-usb-ergonomicos-cmicro-negro/p"
+      },
+      {
+        "nombre": "Animales Inflables para Niños BESTWAY 52152",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 12.9,
+        "precio_actual": 3.9,
+        "descuento_porcent": 69.77,
+        "ahorro": 9.0,
+        "razon": "Gran descuento de 69.77% segun precio de la tienda. Nuestro promedio historico (8 registros en ~23 dias): S/12.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/12.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.plazavea.com.pe/animales-inflables-para-ninos-bestway-52152/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:32:16",
+    "fecha_hora": "2026-04-20 21:32:16",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Plaza Vea",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Celular 4G Nubia V80 Max 256GB 4GB RAM Cámara Principal 50MP Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 549.0,
+        "precio_minimo_anterior": 99999.0,
+        "precio_promedio": 99999.0,
+        "ahorro_vs_promedio": 99.45,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.plazavea.com.pe/celular-4g-nubia-v80-max-256gb-4gb-ram-camara-principal-50mp-negro-101996449/p"
+      },
+      {
+        "nombre": "Celular 4G Redmi Note 15 Pro 256GB 8GB RAM Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1099.0,
+        "precio_minimo_anterior": 99999.0,
+        "precio_promedio": 99999.0,
+        "ahorro_vs_promedio": 98.9,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.plazavea.com.pe/celular-4g-redmi-note-15-pro-256gb-8gb-ram-negro-101996512/p"
+      },
+      {
+        "nombre": "Celular 5G Samsung Galaxy S26 Plus 512GB 12GB RAM 50MP Cobalt Violet",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 4999.0,
+        "precio_minimo_anterior": 99999.0,
+        "precio_promedio": 99999.0,
+        "ahorro_vs_promedio": 95.0,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.plazavea.com.pe/celular-5g-samsung-galaxy-s26-plus-512gb-12gb-ram-50mp-cobalt-violet-101996590/p"
+      },
+      {
+        "nombre": "Celular 5G Samsung Galaxy S26 Ultra 512GB 12GB RAM 200MP Black",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 5499.0,
+        "precio_minimo_anterior": 99999.0,
+        "precio_promedio": 99999.0,
+        "ahorro_vs_promedio": 94.5,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.plazavea.com.pe/celular-5g-samsung-galaxy-s26-ultra-512gb-12gb-ram-200mp-black-101996453/p"
+      },
+      {
+        "nombre": "Celular 5G Samsung Galaxy S26 512GB 12GB RAM 50MP Cobalt Violet",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 4099.0,
+        "precio_minimo_anterior": 6979.0,
+        "precio_promedio": 53489.0,
+        "ahorro_vs_promedio": 92.34,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.plazavea.com.pe/celular-5g-samsung-galaxy-s26-512gb-12gb-ram-50mp-cobalt-violet-101996452/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:37:57",
+    "fecha_hora": "2026-04-20 21:37:57",
+    "tipo": "OFERTA",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Parlante Bluetooth 5W Ipx7 Grey",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 199.0,
+        "precio_actual": 34.9,
+        "descuento_porcent": 82.46,
+        "ahorro": 164.1,
+        "razon": "Gran descuento de 82.46% segun precio de la tienda. Nuestro promedio historico (7 registros en ~23 dias): S/199.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/199.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/144798298/parlante-bluetooth-jvc-5w-ipx7-grey/144798300"
+      },
+      {
+        "nombre": "Micrófono Inalámbrico Quantum Stream Wireless",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 499.0,
+        "precio_actual": 99.0,
+        "descuento_porcent": 80.16,
+        "ahorro": 400.0,
+        "razon": "Gran descuento de 80.16% segun precio de la tienda. Nuestro promedio historico (6 registros en ~11 dias): S/499.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/499.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/143960285/jbl-microfono-inalambrico-quantum-stream-wireless/143960286"
+      },
+      {
+        "nombre": "Set x 5 Condimenteros Especieros de Cucharita Frascos Vidrio",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 50.0,
+        "precio_actual": 11.45,
+        "descuento_porcent": 77.1,
+        "ahorro": 38.55,
+        "razon": "Gran descuento de 77.1% segun precio de la tienda. Nuestro promedio historico (6 registros en ~11 dias): S/50.0. precio estable los ultimos 7 dias (4 registros). OJO: el precio 'normal' de S/50.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/124314586/Set-x-5-Condimenteros-Especieros-de-Cucharita-Frascos-Vidrio/124314587"
+      },
+      {
+        "nombre": "Toalla de Baño Tipo Capa con Capucha Unicornio para Niñas Verano",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 89.9,
+        "precio_actual": 21.99,
+        "descuento_porcent": 75.54,
+        "ahorro": 67.91,
+        "razon": "Gran descuento de 75.54% segun precio de la tienda. Nuestro promedio historico (8 registros en ~23 dias): S/89.79. precio estable los ultimos 7 dias (5 registros).",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/140702109/Toalla-de-Bano-Tipo-Capa-con-Capucha-Unicornio-para-Ninas-Verano/140702110"
+      },
+      {
+        "nombre": "Set X6 Pincho De Choclos",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 19.9,
+        "precio_actual": 4.9,
+        "descuento_porcent": 75.38,
+        "ahorro": 15.0,
+        "razon": "Gran descuento de 75.38% segun precio de la tienda. Nuestro promedio historico (7 registros en ~11 dias): S/19.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/19.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.falabella.com.pe/falabella-pe/product/883021923/set-x6-pincho-de-choclos/883021923"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:37:58",
+    "fecha_hora": "2026-04-20 21:37:58",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Saga Falabella",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Cuchara Térmica Para Helado Recargable",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 29.0,
+        "precio_minimo_anterior": 49.0,
+        "precio_promedio": 67.57,
+        "ahorro_vs_promedio": 57.08,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21345016/cuchara-termica-para-helado-recargable/21345016"
+      },
+      {
+        "nombre": "Colchón Original De Memory Foam King",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1699.0,
+        "precio_minimo_anterior": 3899.0,
+        "precio_promedio": 3899.0,
+        "ahorro_vs_promedio": 56.42,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/140540586/colchon-calm-original-de-memory-foam-king/140540587"
+      },
+      {
+        "nombre": "Juego de Ollas 8 Piezas Acero Inoxidable",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 199.9,
+        "precio_minimo_anterior": 449.9,
+        "precio_promedio": 449.9,
+        "ahorro_vs_promedio": 55.57,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/882924050/juego-de-ollas-8-piezas-acero-inoxidable/882924050"
+      },
+      {
+        "nombre": "Cabecera Issey 2 Plz",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 499.0,
+        "precio_minimo_anterior": 1099.0,
+        "precio_promedio": 1099.0,
+        "ahorro_vs_promedio": 54.6,
+        "es_nuevo_minimo": true,
+        "num_registros": 8,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/prod17340318/Cabecera-Issey-2-Plz/19700022"
+      },
+      {
+        "nombre": "Máquina de Hot Dog Cook It",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 149.0,
+        "precio_minimo_anterior": 209.0,
+        "precio_promedio": 315.67,
+        "ahorro_vs_promedio": 52.8,
+        "es_nuevo_minimo": true,
+        "num_registros": 7,
+        "url": "https://www.falabella.com.pe/falabella-pe/product/21316273/maquina-de-hot-dog-cook-it/21316273"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:02",
+    "fecha_hora": "2026-04-20 21:38:02",
+    "tipo": "OFERTA",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Fotoprotector Hydro Lotion SPF 50 200ml | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 134.9,
+        "precio_actual": 67.45,
+        "descuento_porcent": 50.0,
+        "ahorro": 67.45,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/134.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/134.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrolotion-spf50-200ml-bloqueador-corporal?variant=45452261654714"
+      },
+      {
+        "nombre": "Fotoprotector Hydro Oil SPF 30 200ml | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 134.9,
+        "precio_actual": 67.45,
+        "descuento_porcent": 50.0,
+        "ahorro": 67.45,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/134.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/134.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrooil-spf30-200ml-bloqueador-corporal?variant=45452235899066"
+      },
+      {
+        "nombre": "Fotoprotector Transparent Spray Wet Skin Pediatrics SPF 50+ | Isdin",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 149.9,
+        "precio_actual": 74.95,
+        "descuento_porcent": 50.0,
+        "ahorro": 74.95,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/149.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/149.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/protector-solar-isdin-transparent-spray-wet-skyn-ped-250-ml-bloqueador-corporal?variant=45452256346298"
+      },
+      {
+        "nombre": "ISDIN Woman Antiestrías 250ml - Crema corporal que ayuda a prevenir y atenuar las estrías",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 49.95,
+        "descuento_porcent": 50.0,
+        "ahorro": 49.95,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/99.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-woman-antiestrias-250ml-crema-corporal-que-ayuda-a-prevenir-y-atenuar-las-estrias?variant=45452181536954"
+      },
+      {
+        "nombre": "ISDIN Woman Reafirmante 200ml - Crema corporal que ayuda a reafirmar, remodelar y tonificar la piel",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 49.95,
+        "descuento_porcent": 50.0,
+        "ahorro": 49.95,
+        "razon": "Gran descuento de 50.0% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/99.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://dermotiendashopping.com/products/isdin-woman-reafirmante-200ml-crema-corporal-que-ayuda-a-reafirmar-remodelar-y-tonificar-la-piel?variant=45452181962938"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:03",
+    "fecha_hora": "2026-04-20 21:38:03",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Dermo",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Fotoprotector Hydro Lotion SPF 50 200ml | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 67.45,
+        "precio_minimo_anterior": 67.45,
+        "precio_promedio": 97.8,
+        "ahorro_vs_promedio": 31.03,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrolotion-spf50-200ml-bloqueador-corporal?variant=45452261654714"
+      },
+      {
+        "nombre": "Fotoprotector Hydro Oil SPF 30 200ml | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 67.45,
+        "precio_minimo_anterior": 67.45,
+        "precio_promedio": 97.8,
+        "ahorro_vs_promedio": 31.03,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://dermotiendashopping.com/products/isdin-fotoprotector-hydrooil-spf30-200ml-bloqueador-corporal?variant=45452235899066"
+      },
+      {
+        "nombre": "Fotoprotector Transparent Spray Wet Skin Pediatrics SPF 50+ | Isdin",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 74.95,
+        "precio_minimo_anterior": 74.95,
+        "precio_promedio": 108.68,
+        "ahorro_vs_promedio": 31.03,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://dermotiendashopping.com/products/protector-solar-isdin-transparent-spray-wet-skyn-ped-250-ml-bloqueador-corporal?variant=45452256346298"
+      },
+      {
+        "nombre": "ISDIN Woman Antiestrías 250ml - Crema corporal que ayuda a prevenir y atenuar las estrías",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 49.95,
+        "precio_minimo_anterior": 49.95,
+        "precio_promedio": 64.94,
+        "ahorro_vs_promedio": 23.08,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://dermotiendashopping.com/products/isdin-woman-antiestrias-250ml-crema-corporal-que-ayuda-a-prevenir-y-atenuar-las-estrias?variant=45452181536954"
+      },
+      {
+        "nombre": "ISDIN Woman Reafirmante 200ml - Crema corporal que ayuda a reafirmar, remodelar y tonificar la piel",
+        "clasificacion": "PRECIO_BAJO",
+        "precio_hoy": 49.95,
+        "precio_minimo_anterior": 49.95,
+        "precio_promedio": 64.94,
+        "ahorro_vs_promedio": 23.08,
+        "es_nuevo_minimo": false,
+        "num_registros": 5,
+        "url": "https://dermotiendashopping.com/products/isdin-woman-reafirmante-200ml-crema-corporal-que-ayuda-a-reafirmar-remodelar-y-tonificar-la-piel?variant=45452181962938"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:23",
+    "fecha_hora": "2026-04-20 21:38:23",
+    "tipo": "OFERTA",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Licuadora Bord Turbo Pro 1.9LT 1500W BOLIC1.9/1500",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 699.0,
+        "precio_actual": 199.0,
+        "descuento_porcent": 71.53,
+        "ahorro": 500.0,
+        "razon": "Gran descuento de 71.53% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/699.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/699.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/licuadora-1-9-l-1500-watts-potencia-bolic1-9-1500.html"
+      },
+      {
+        "nombre": "Audífonos Over Ear Beats Bluetooth Noise Cancelling Studio 3 Negro Mate",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1599.0,
+        "precio_actual": 499.0,
+        "descuento_porcent": 68.79,
+        "ahorro": 1100.0,
+        "razon": "Gran descuento de 68.79% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/1599.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/1599.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/studio3-wireless-matte-black-usa.html"
+      },
+      {
+        "nombre": "Combo Taurus Licuadora Elite 1600W + Máquina de Dofles 750W + Hervidor 2200W",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 938.0,
+        "precio_actual": 299.0,
+        "descuento_porcent": 68.12,
+        "ahorro": 639.0,
+        "razon": "Gran descuento de 68.12% segun precio de la tienda. Nuestro promedio historico (6 registros en ~7 dias): S/938.83. precio estable los ultimos 7 dias (6 registros).",
+        "url": "https://www.efe.com.pe/combo-lic-elite-maq-dofle-herv-pe9358510a.html"
+      },
+      {
+        "nombre": "Combo Imaco: Licuadora BL4125VN 500W + Sandiwichera IST101N 750W",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 299.0,
+        "precio_actual": 99.0,
+        "descuento_porcent": 66.89,
+        "ahorro": 200.0,
+        "razon": "Gran descuento de 66.89% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/299.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/299.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/licuadora-sandwichera-combo-imaco21.html"
+      },
+      {
+        "nombre": "Refrigeradora Hisense 205LT RD267H",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 1599.0,
+        "precio_actual": 599.0,
+        "descuento_porcent": 62.54,
+        "ahorro": 1000.0,
+        "razon": "Gran descuento de 62.54% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/1599.0. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/1599.0 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.efe.com.pe/hisense-ref-tmf-205l-rd267h-rd267h.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:24",
+    "fecha_hora": "2026-04-20 21:38:24",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "EFE",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Lavadora LG 16 KG WT16OBVTB Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1099.0,
+        "precio_minimo_anterior": 1499.0,
+        "precio_promedio": 1499.0,
+        "ahorro_vs_promedio": 26.68,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.efe.com.pe/lavadora-lg-carga-superior-16-kg-wt16obv-wt16obvtb.html"
+      },
+      {
+        "nombre": "Cocina de pie Electrolux 4 Quemadores FE4GP Negro",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 999.0,
+        "precio_minimo_anterior": 1199.0,
+        "precio_promedio": 1359.0,
+        "ahorro_vs_promedio": 26.49,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.efe.com.pe/cocina-fe4gp-fe4gp.html"
+      },
+      {
+        "nombre": "Cocina de pie Electrolux 5 Quemadores 76CM FE5LMR",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 1099.0,
+        "precio_minimo_anterior": 1299.0,
+        "precio_promedio": 1459.0,
+        "ahorro_vs_promedio": 24.67,
+        "es_nuevo_minimo": true,
+        "num_registros": 6,
+        "url": "https://www.efe.com.pe/cocina-electrolux-5-quemadores-e-vapb-tr-fe5lmr.html"
+      },
+      {
+        "nombre": "Combo Imaco: Licuadora BL4125VN 500W + Sandiwichera IST101N 750W",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 99.0,
+        "precio_minimo_anterior": 129.0,
+        "precio_promedio": 129.0,
+        "ahorro_vs_promedio": 23.26,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.efe.com.pe/licuadora-sandwichera-combo-imaco21.html"
+      },
+      {
+        "nombre": "Lavadora Coldex Automática 18KG WX18TL",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 999.0,
+        "precio_minimo_anterior": 1299.0,
+        "precio_promedio": 1299.0,
+        "ahorro_vs_promedio": 23.09,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.efe.com.pe/lavadora-automatica-18kg-wx18tl-coldex-wx18tl.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:39",
+    "fecha_hora": "2026-04-20 21:38:39",
+    "tipo": "OFERTA",
+    "tienda": "Shopstar",
+    "enviado_ok": false,
+    "num_items": 0,
+    "contenido": []
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:40",
+    "fecha_hora": "2026-04-20 21:38:40",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Shopstar",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Cerave Limpiadora Crema Espuma Hidratante 236Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 8.5,
+        "precio_minimo_anterior": 9,
+        "precio_promedio": 408.97,
+        "ahorro_vs_promedio": 97.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 8532,
+        "url": "https://www.shopstar.pe/cerave-limpiadora-crema-espuma-hidratante-236ml-dermotienda-shopping--88343/p"
+      },
+      {
+        "nombre": "Cerave Limpiadora Crema Espuma Hidratante 236Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 8.5,
+        "precio_minimo_anterior": 9,
+        "precio_promedio": 408.97,
+        "ahorro_vs_promedio": 97.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 8532,
+        "url": "https://www.shopstar.pe/cerave-limpiadora-crema-espuma-hidratante-236ml-dermotienda-shopping--88343/p"
+      },
+      {
+        "nombre": "Cerave Limpiadora Crema Espuma Hidratante 236Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 8.5,
+        "precio_minimo_anterior": 9,
+        "precio_promedio": 408.97,
+        "ahorro_vs_promedio": 97.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 8532,
+        "url": "https://www.shopstar.pe/cerave-limpiadora-crema-espuma-hidratante-236ml-dermotienda-shopping--88343/p"
+      },
+      {
+        "nombre": "Cerave Limpiadora Crema Espuma Hidratante 236Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 8.5,
+        "precio_minimo_anterior": 9,
+        "precio_promedio": 408.97,
+        "ahorro_vs_promedio": 97.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 8532,
+        "url": "https://www.shopstar.pe/cerave-limpiadora-crema-espuma-hidratante-236ml-dermotienda-shopping--88343/p"
+      },
+      {
+        "nombre": "Cerave Limpiadora Crema Espuma Hidratante 236Ml",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 8.5,
+        "precio_minimo_anterior": 9,
+        "precio_promedio": 408.97,
+        "ahorro_vs_promedio": 97.92,
+        "es_nuevo_minimo": true,
+        "num_registros": 8532,
+        "url": "https://www.shopstar.pe/cerave-limpiadora-crema-espuma-hidratante-236ml-dermotienda-shopping--88343/p"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:38:55",
+    "fecha_hora": "2026-04-20 21:38:55",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Sodimac",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juego de Comedor 4 Sillas Anand",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 399.9,
+        "precio_minimo_anterior": 549.9,
+        "precio_promedio": 549.9,
+        "ahorro_vs_promedio": 27.28,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129666775"
+      },
+      {
+        "nombre": "Juego de Comedor 4 Sillas Anand",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 399.9,
+        "precio_minimo_anterior": 549.9,
+        "precio_promedio": 549.9,
+        "ahorro_vs_promedio": 27.28,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129666775"
+      },
+      {
+        "nombre": "Juego de Comedor 4 Sillas Anand",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 399.9,
+        "precio_minimo_anterior": 549.9,
+        "precio_promedio": 549.9,
+        "ahorro_vs_promedio": 27.28,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129666775"
+      },
+      {
+        "nombre": "Juego de Comedor 4 Sillas Anand",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 399.9,
+        "precio_minimo_anterior": 549.9,
+        "precio_promedio": 549.9,
+        "ahorro_vs_promedio": 27.28,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129666775"
+      },
+      {
+        "nombre": "Juego de Comedor 4 Sillas Anand",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 399.9,
+        "precio_minimo_anterior": 549.9,
+        "precio_promedio": 549.9,
+        "ahorro_vs_promedio": 27.28,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.sodimac.com.pe/sodimac-pe/articulo/129666775"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:39:20",
+    "fecha_hora": "2026-04-20 21:39:20",
+    "tipo": "OFERTA",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Soporte Vivitar 3 En 1: Micro Smartphone Y Aro De Luz Blanco",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 136.4,
+        "precio_actual": 39.9,
+        "descuento_porcent": 70.75,
+        "ahorro": 96.5,
+        "razon": "Gran descuento de 70.75% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/136.4. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/136.4 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/soporte-3en1-vivitar-micrsphone-led-blc-46556001.html"
+      },
+      {
+        "nombre": "Cable Tipo C A Tipo C Itec 1Mt",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 99.9,
+        "precio_actual": 29.9,
+        "descuento_porcent": 70.07,
+        "ahorro": 70.0,
+        "razon": "Gran descuento de 70.07% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/99.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/99.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/cable-tipo-c-a-c-1m-itec-85414.html"
+      },
+      {
+        "nombre": "Figura Dinosaurio Caminador Verde",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 169.9,
+        "precio_actual": 50.9,
+        "descuento_porcent": 70.04,
+        "ahorro": 119.0,
+        "razon": "Gran descuento de 70.04% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/169.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/169.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/dinosaurio-caminador-verde-46527.html"
+      },
+      {
+        "nombre": "Adaptador Itec 3 En 1 Tipo-C A 2Usb",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 59.9,
+        "precio_actual": 21.9,
+        "descuento_porcent": 63.44,
+        "ahorro": 38.0,
+        "razon": "Gran descuento de 63.44% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/59.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/59.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/adaptador-3-en-1-tipo-c-a-2usb-itec-85418.html"
+      },
+      {
+        "nombre": "Muñeca Uneeda Bebé 30 Cm Set Con Coche Doll Baby",
+        "clasificacion": "GRAN_OFERTA",
+        "precio_normal": 69.9,
+        "precio_actual": 27.9,
+        "descuento_porcent": 60.09,
+        "ahorro": 42.0,
+        "razon": "Gran descuento de 60.09% segun precio de la tienda. Nuestro promedio historico (5 registros en ~7 dias): S/69.9. precio estable los ultimos 7 dias (5 registros). OJO: el precio 'normal' de S/69.9 nunca vario en nuestro historial — no podemos confirmar si ese precio base es real o inflado.",
+        "url": "https://www.tailoy.com.pe/muneca-bb-30cm-set-con-coche-doll-baby-14647.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:39:21",
+    "fecha_hora": "2026-04-20 21:39:21",
+    "tipo": "MINIMO_HISTORICO",
+    "tienda": "Tailoy",
+    "enviado_ok": true,
+    "num_items": 5,
+    "contenido": [
+      {
+        "nombre": "Juguete Fisher Price León Camina Conmigo",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 214.9,
+        "precio_minimo_anterior": 425.0,
+        "precio_promedio": 425.0,
+        "ahorro_vs_promedio": 49.44,
+        "es_nuevo_minimo": true,
+        "num_registros": 3,
+        "url": "https://www.tailoy.com.pe/fisher-price-leon-camina-conmigo-24395.html"
+      },
+      {
+        "nombre": "Pelota Recreativa N5.5 Blanca Nieves",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 4.7,
+        "precio_minimo_anterior": 8.9,
+        "precio_promedio": 8.9,
+        "ahorro_vs_promedio": 47.19,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/pelota-recreativa-n55-blanca-nieves-16329060.html"
+      },
+      {
+        "nombre": "Vehículo Hot Wheels Todo Terreno 1:43",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 54.2,
+        "precio_minimo_anterior": 88.9,
+        "precio_promedio": 88.9,
+        "ahorro_vs_promedio": 39.03,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/hot-wheels-mt-143-todo-terreno-50588.html"
+      },
+      {
+        "nombre": "Xilófono Clásico Fisher Price",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 59.2,
+        "precio_minimo_anterior": 93.9,
+        "precio_promedio": 93.9,
+        "ahorro_vs_promedio": 36.95,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/fisher-price-xilofono-clasico-22914.html"
+      },
+      {
+        "nombre": "Juego De Mesa Hasbro Gaming Gestos",
+        "clasificacion": "MINIMO_HISTORICO",
+        "precio_hoy": 71.4,
+        "precio_minimo_anterior": 109.9,
+        "precio_promedio": 109.9,
+        "ahorro_vs_promedio": 35.03,
+        "es_nuevo_minimo": true,
+        "num_registros": 5,
+        "url": "https://www.tailoy.com.pe/hg-caras-y-gestos-refresh-2023-f6421-67417.html"
+      }
+    ]
+  },
+  {
+    "fecha": "2026-04-20",
+    "hora": "21:39:22",
+    "fecha_hora": "2026-04-20 21:39:22",
+    "tipo": "RESUMEN",
+    "tienda": "GLOBAL",
+    "enviado_ok": true,
+    "num_items": 8,
+    "contenido": {
+      "tiendas_procesadas": 8,
+      "total_productos": 215821,
+      "total_ofertas_reales": 4153,
+      "total_minimos": 8414,
+      "duracion_seg": 1157.8,
+      "fecha": "20/04/2026 21:20"
+    }
+  }
+]

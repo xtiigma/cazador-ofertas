@@ -1,0 +1,11 @@
+# Cazador de Ofertas — dependencias Python
+# Instalación (entorno virtual recomendado, fuera del proyecto):
+#   python3 -m venv ~/.venvs/cazador-ofertas
+#   ~/.venvs/cazador-ofertas/bin/pip install -r requirements.txt
+#
+# Desde 2026-07-07 NINGÚN scraper usa navegador (Saga migró a requests el
+# 04/07 e Inkafarma el 07/07): playwright/selenium ya no son necesarios.
+# Siguen instalados en el venv actual por si hiciera falta volver atrás.
+
+requests==2.31.0
+beautifulsoup4==4.12.3
