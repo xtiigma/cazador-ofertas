@@ -507,9 +507,11 @@ def ciclo_completo():
     print(f"  ✅ Ciclo completado — {datetime.now(TZ_PERU).strftime('%H:%M:%S')}")
     print(f"  🏪 {resumen_total['tiendas_procesadas']} tiendas | 📦 {resumen_total['total_productos']} prods | 🟢 {resumen_total['total_ofertas_reales']} ofertas | 🎯 {resumen_total['total_minimos']} mínimos | ⏱️ {resumen_total['duracion_seg']}s")
     if stats_temp:
-        print(f"  🌡️ CPU: máx {stats_temp['max']}°C | prom {stats_temp['promedio']}°C | {stats_temp['emoji']} {stats_temp['diagnostico']} ({stats_temp['muestras']} muestras)")
+        hora_pico = f" a las {stats_temp['max_hora']}" if stats_temp.get("max_hora") else ""
+        print(f"  🌡️ CPU: máx {stats_temp['max']}°C{hora_pico} | prom {stats_temp['promedio']}°C | {stats_temp['emoji']} {stats_temp['diagnostico']} ({stats_temp['muestras']} muestras)")
         for seg in stats_temp.get("tiendas", []):
-            print(f"      · {seg['nombre']}: {seg['min']}–{seg['max']}°C ({seg['muestras']} muestras)")
+            pico_seg = f", pico {seg['max_hora']}" if seg.get("max_hora") else ""
+            print(f"      · {seg['nombre']}: {seg['min']}–{seg['max']}°C ({seg['muestras']} muestras{pico_seg})")
     print(f"{'═' * 60}")
 
     # Enviar resumen global por Telegram (EN PAUSA)

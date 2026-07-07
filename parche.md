@@ -6,6 +6,17 @@
 
 ---
 
+## 2026-07-07 — Pico de Plaza Vea identificado: es el json.dump del historial (no el scraping) + hora del pico en el monitor
+
+- **Descripción corta:** El ciclo de hoy validó las mejoras térmicas (Inkafarma 56 °C máx, antes 70; máx global 72.0 °C) pero Plaza Vea tocó 72.0 °C sin que apareciera ninguna línea 🧊. Experimento controlado con el historial real de 481 MB: `json.load` apenas llega a 49 °C (7.6 s con el archivo en caché), pero **`json.dump` (reescribir el historial al registrar precios) dispara el CPU a 77 °C en ~33 s**. Ese es el pico: ocurre DESPUÉS de que el scraper termina, por eso el freno suave (que solo vigila mientras el subproceso vive) nunca lo ve. La migración de Plaza Vea a SQLite lo elimina de raíz: escribe solo los registros del día, nunca re-serializa los 481 MB.
+- **Módulos Afectados:** `mantenimiento/temperatura.py`, `main.py`, `telegram_bot/notificador.py`.
+- **Detalle Técnico del Cambio:**
+  - `MonitorTemperatura` ahora registra la HORA en que ocurre la máxima, global (`max_hora` en `detener()`) y por segmento (`max_hora` en `resumen_segmentos()`, primera vez que se alcanza el máximo).
+  - El resumen del log imprime `máx 72.0°C a las HH:MM:SS` y cada tienda `(N muestras, pico HH:MM:SS)`; el aviso de Telegram añade `(HH:MM:SS)` junto al máximo global.
+- **Actualización de Contexto para IA:** Con esto, en el próximo ciclo se puede confirmar que el pico de Plaza Vea cae en la ventana de análisis (fin del scraping → 📊), no durante el scraping. Si tras migrar Plaza Vea a SQLite el pico persiste a esa hora, buscar en otra parte. El freno suave NO cubre la fase de análisis por diseño (pausar el propio main.py no tiene sentido); la solución correcta es SQLite, no extender el freno.
+
+---
+
 ## 2026-07-07 — Tope global de 10 páginas por categoría (meta térmica)
 
 - **Descripción corta:** Decisión del usuario: ninguna tienda pagina más de 10 páginas por categoría/hoja. Solo 3 scrapers excedían el tope y fueron recortados; el resto ya cumplía (EFE/Dermo/Tai Loy/Shopstar/Sodimac = 5 págs, Saga = 10) y NO se les subió el límite (sería más carga, contrario a la meta térmica).

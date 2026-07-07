@@ -448,8 +448,9 @@ def enviar_aviso_listo(resumen: dict | None = None) -> bool:
         )
         temp = resumen.get("temperatura")
         if temp:
+            hora_pico = f" ({temp['max_hora']})" if temp.get("max_hora") else ""
             lineas.append(
-                f"🌡️ CPU: máx *{temp.get('max')}°C* · prom {temp.get('promedio')}°C  "
+                f"🌡️ CPU: máx *{temp.get('max')}°C*{hora_pico} · prom {temp.get('promedio')}°C  "
                 f"—  {temp.get('emoji', '')} {temp.get('diagnostico', '')}"
             )
             for seg in temp.get("tiendas", []):

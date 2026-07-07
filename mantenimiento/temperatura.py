@@ -16,6 +16,7 @@ Uso desde main.py:
 
 import glob
 import threading
+import time
 
 INTERVALO_SEG = 30
 
@@ -69,16 +70,24 @@ class MonitorTemperatura:
         self._hilo = None
         self._muestras = []
         self._lock = threading.Lock()
-        self._segmentos = []        # [{"nombre": str, "muestras": [°C, ...]}, ...]
+        self._max_temp = None       # máxima del ciclo y hora en que ocurrió
+        self._max_hora = None
+        self._segmentos = []        # [{"nombre", "muestras": [°C, ...], "max_temp", "max_hora"}]
         self._segmento_actual = None
 
     def _muestrear(self):
         temp = leer_temperatura_cpu()
         if temp is not None:
+            hora = time.strftime("%H:%M:%S")
             with self._lock:
                 self._muestras.append(temp)
-                if self._segmento_actual is not None:
-                    self._segmento_actual["muestras"].append(temp)
+                if self._max_temp is None or temp > self._max_temp:
+                    self._max_temp, self._max_hora = temp, hora
+                seg = self._segmento_actual
+                if seg is not None:
+                    seg["muestras"].append(temp)
+                    if seg["max_temp"] is None or temp > seg["max_temp"]:
+                        seg["max_temp"], seg["max_hora"] = temp, hora
 
     def iniciar_segmento(self, nombre: str):
         """Empieza a atribuir las muestras a un segmento (p. ej. una tienda).
@@ -86,7 +95,8 @@ class MonitorTemperatura:
         Toma una muestra inmediata para que hasta el segmento más corto tenga
         al menos una lectura. Abrir un segmento cierra el anterior."""
         with self._lock:
-            self._segmento_actual = {"nombre": nombre, "muestras": []}
+            self._segmento_actual = {"nombre": nombre, "muestras": [],
+                                     "max_temp": None, "max_hora": None}
             self._segmentos.append(self._segmento_actual)
         self._muestrear()
 
@@ -98,7 +108,7 @@ class MonitorTemperatura:
             self._segmento_actual = None
 
     def resumen_segmentos(self) -> list:
-        """[{nombre, max, min, muestras}] de cada segmento con lecturas."""
+        """[{nombre, max, max_hora, min, muestras}] de cada segmento con lecturas."""
         with self._lock:
             segmentos = [dict(s, muestras=list(s["muestras"])) for s in self._segmentos]
         resumen = []
@@ -108,6 +118,7 @@ class MonitorTemperatura:
             resumen.append({
                 "nombre":   s["nombre"],
                 "max":      round(max(s["muestras"]), 1),
+                "max_hora": s["max_hora"],
                 "min":      round(min(s["muestras"]), 1),
                 "muestras": len(s["muestras"]),
             })
@@ -138,6 +149,7 @@ class MonitorTemperatura:
         emoji, etiqueta = diagnosticar(temp_max)
         return {
             "max": round(temp_max, 1),
+            "max_hora": self._max_hora,
             "promedio": round(sum(self._muestras) / len(self._muestras), 1),
             "muestras": len(self._muestras),
             "emoji": emoji,
