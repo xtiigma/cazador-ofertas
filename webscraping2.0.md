@@ -75,11 +75,15 @@ cualquier archivo muestra las líneas cambiadas; `git checkout -- archivo` lo re
 
 ## Etapa 1 — Historial en SQLite 🗄️ *(= "Fase 2" del plan de optimización acordado)* — 🔄 EN CURSO
 
-> **Estado 2026-07-07:** capa de acceso (`analizador/almacen.py`), migrador
+> **Estado 2026-07-07 (tarde):** capa de acceso (`analizador/almacen.py`), migrador
 > (`mantenimiento/migrar_sqlite.py`) y despacho dual LISTOS y probados (paridad
 > total contra Promart: 46,921 productos / 413,775 registros, cuarentena y
-> confirmación incluidas). **Shopstar y EFE ya operan en SQLite.** Falta: tras
-> validar el ciclo del 08/07, migrar el resto (Plaza Vea al final) con
+> confirmación incluidas). **Shopstar, EFE y PLAZA VEA ya operan en SQLite.**
+> Plaza Vea (el foco térmico: su `json.dump` de 481 MB causaba el pico de 72 °C,
+> verificado por experimento) migró el 07/07 15:07 con `--verificar` OK:
+> 269,107 productos / 5,137,931 registros, análisis idéntico, 481 MB → 397 MB.
+> Falta: tras validar el ciclo del 08/07, migrar las 6 restantes
+> (sodimac, dermo, tailoy, inkafarma, saga_falabella, promart) con
 > `python mantenimiento/migrar_sqlite.py <tienda> --verificar`.
 
 **Problema:** cada ciclo carga, actualiza y reescribe el JSON entero de cada tienda.

@@ -6,6 +6,14 @@
 
 ---
 
+## 2026-07-07 — Plaza Vea migrada a SQLite (el foco térmico, adelantada tras confirmar el culpable)
+
+- **Descripción corta:** Tras confirmar por experimento que el pico de 72 °C era el `json.dump` del historial de 481 MB, se adelantó la migración de Plaza Vea a SQLite (estaba planeada para el 08/07 al final). `python mantenimiento/migrar_sqlite.py plaza_vea --verificar` OK en 0.8 min: **269,107 productos / 5,137,931 registros**, muestra de 5,000 nodos idéntica, análisis (45,584 ofertas, 3,143 mínimos) EXACTAMENTE igual al del ciclo de hoy 13:22. Disco: 481 MB (JSON) → 397 MB (SQLite). CPU durante la migración: 67–75 °C (~48 s, costo de una sola vez).
+- **Módulos Afectados:** ninguno (solo datos: nuevo `tiendas/plaza_vea/datos/historial.db`; el JSON queda CONGELADO de respaldo con mtime 2026-07-07 13:22).
+- **Actualización de Contexto para IA:** Desde el ciclo del 08/07, Plaza Vea registra en SQLite: sin `json.load` de 481 MB (~2 GB RAM) ni `json.dump` (el pico térmico) — esperar que su pico por tienda baje de 72 °C a la zona del scraping (~63 °C) y que la hora del pico ya NO caiga en la ventana de análisis. Revertir = borrar `tiendas/plaza_vea/datos/historial.db*`. Quedan en JSON: sodimac, dermo, tailoy, inkafarma, saga_falabella, promart (migrarlas tras validar el ciclo del 08/07).
+
+---
+
 ## 2026-07-07 — Pico de Plaza Vea identificado: es el json.dump del historial (no el scraping) + hora del pico en el monitor
 
 - **Descripción corta:** El ciclo de hoy validó las mejoras térmicas (Inkafarma 56 °C máx, antes 70; máx global 72.0 °C) pero Plaza Vea tocó 72.0 °C sin que apareciera ninguna línea 🧊. Experimento controlado con el historial real de 481 MB: `json.load` apenas llega a 49 °C (7.6 s con el archivo en caché), pero **`json.dump` (reescribir el historial al registrar precios) dispara el CPU a 77 °C en ~33 s**. Ese es el pico: ocurre DESPUÉS de que el scraper termina, por eso el freno suave (que solo vigila mientras el subproceso vive) nunca lo ve. La migración de Plaza Vea a SQLite lo elimina de raíz: escribe solo los registros del día, nunca re-serializa los 481 MB.
