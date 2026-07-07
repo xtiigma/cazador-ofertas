@@ -29,6 +29,10 @@ __pycache__/
 # Secretos — el token del bot vive en config.py; plantilla: config.example.py
 telegram_bot/config.py
 
+# Registro diario de avisos enviados por el bot (datos de runtime, crece a diario).
+# El código del módulo (registro_mensajes.py, __init__.py) SÍ se versiona.
+telegram_bot/registro/*.json
+
 # Configuración local de Claude Code (permisos de esta máquina)
 .claude/settings.local.json*
 
