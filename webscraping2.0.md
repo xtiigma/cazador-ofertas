@@ -167,6 +167,9 @@ así que se decide caso por caso).
   el foco térmico/de datos. Limitarla a categorías con productos que realmente
   interesan aliviaría TODO el sistema (ciclo, RAM, disco, temperatura). Idea anotada
   desde junio; sigue pendiente de decisión.
+  - *2026-07-07:* primer paso dado — **tope global de 10 páginas por categoría/hoja**
+    en todos los scrapers (decisión del usuario, meta térmica): Plaza Vea 200→10,
+    Promart 54→10, Inkafarma ∞→10; el resto ya estaba en ≤10.
 
 **Esfuerzo:** 4a/4b media sesión cada una; 4c depende de definir qué categorías importan.
 

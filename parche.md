@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-07-07 — Tope global de 10 páginas por categoría (meta térmica)
+
+- **Descripción corta:** Decisión del usuario: ninguna tienda pagina más de 10 páginas por categoría/hoja. Solo 3 scrapers excedían el tope y fueron recortados; el resto ya cumplía (EFE/Dermo/Tai Loy/Shopstar/Sodimac = 5 págs, Saga = 10) y NO se les subió el límite (sería más carga, contrario a la meta térmica).
+- **Módulos Afectados:** `tiendas/plaza_vea/scraper.py`, `tiendas/promart/scraper.py`, `tiendas/inkafarma/scraper.py`, `webscraping2.0.md` (nota en 4c).
+- **Detalle Técnico del Cambio:**
+  - **Plaza Vea:** `MAX_PAGINAS_CAT` 200 → **10** (hasta 500 productos/hoja con `BATCH_SIZE=50`). Solo afecta a las hojas gigantes que llegaban a ~51 páginas contra el límite de 2500 del API VTEX → menos peticiones y menos 429. Es la tienda más caliente (73 °C) y la de scraping más largo (~94 min); este recorte acorta directamente su segmento térmico.
+  - **Promart:** `PAGINAS_POR_CAT` 54 → **10** (hasta 480 productos/categoría con `PRODUCTOS_POR_PAG=48`; antes ~2592).
+  - **Inkafarma:** nuevo `MAX_PAGINAS_POR_CATEGORIA = 10` aplicado al paginado de `filtered-products` (21 productos/página → 210 por categoría; antes recorría los ~250 IDs de Algolia completos).
+- **Actualización de Contexto para IA:** Los historiales conservan los productos que dejen de aparecer (poda a los 60 días sin verse); la cola profunda de cada categoría son productos mal rankeados, rara vez gangas. Si algún día se quiere más cobertura, subir el tope de UNA tienda y medir temperatura antes de tocar otra. Pendiente de validar en el ciclo del 07/07 12:10 junto con las mejoras térmicas.
+
+---
+
 ## 2026-07-07 — Git (Etapa 0) + historial SQLite en marcha (Etapa 1 de webscraping2.0.md)
 
 - **Descripción corta:** (1) El proyecto ya es repo git (commit inicial: solo código/docs; datos, logs y `telegram_bot/config.py` —el token— excluidos vía `.gitignore`; plantilla nueva `config.example.py`). (2) Historial de precios migrando de JSON a SQLite con modo dual por tienda: **Shopstar y EFE ya operan en SQLite**; el resto sigue en JSON hasta validar el ciclo. Motivación térmica: el JSON de Plaza Vea (474 MB ≈ ~2 GB RAM) se parsea entero cada ciclo.
