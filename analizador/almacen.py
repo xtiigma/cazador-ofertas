@@ -27,6 +27,8 @@ import sqlite3
 from collections.abc import Mapping
 from datetime import datetime, timezone, timedelta
 
+from analizador import conexion
+
 TZ_PERU = timezone(timedelta(hours=-5))
 
 NOMBRE_DB = "historial.db"
@@ -58,21 +60,51 @@ def ruta_db(ruta_historial_json: str) -> str:
     return os.path.join(os.path.dirname(ruta_historial_json), NOMBRE_DB)
 
 
+def _tienda_de_ruta(ruta_historial_json: str) -> str:
+    """Nombre de la tienda desde la ruta tiendas/<tienda>/datos/... ('' si no)."""
+    partes = os.path.normpath(ruta_historial_json).split(os.sep)
+    if "tiendas" in partes:
+        i = partes.index("tiendas")
+        if i + 1 < len(partes):
+            return partes[i + 1]
+    return ""
+
+
 def usa_sqlite(ruta_historial_json: str) -> bool:
-    """True si la tienda ya fue migrada (existe su historial.db)."""
-    return os.path.exists(ruta_db(ruta_historial_json))
+    """True si la tienda opera en SQLite: existe su historial.db local, o tiene
+    una réplica Turso configurada (en un runner limpio el .db aún no existe —lo
+    crea el primer sync—, por eso no basta con mirar el archivo)."""
+    return (os.path.exists(ruta_db(ruta_historial_json))
+            or conexion.usa_turso(_tienda_de_ruta(ruta_historial_json)))
 
 
-def abrir(ruta_historial_json: str) -> sqlite3.Connection:
-    """Abre (o crea) la BD de la tienda con el esquema y PRAGMAs listos."""
-    con = sqlite3.connect(ruta_db(ruta_historial_json))
-    con.execute("PRAGMA journal_mode=WAL")
-    con.execute("PRAGMA synchronous=NORMAL")
+def abrir(ruta_historial_json: str):
+    """Abre (o crea) la BD de la tienda con el esquema listo.
+
+    Réplica embebida Turso si la tienda tiene config (TURSO_URL_<TIENDA>); si no,
+    el archivo SQLite local de siempre. Los PRAGMAs de journaling solo aplican a
+    la BD local: la réplica embebida gestiona su propio journaling."""
+    tienda = _tienda_de_ruta(ruta_historial_json)
+    con = conexion.conectar(ruta_db(ruta_historial_json), tienda)
+    if not conexion.usa_turso(tienda):
+        con.execute("PRAGMA journal_mode=WAL")
+        con.execute("PRAGMA synchronous=NORMAL")
     con.executescript(_ESQUEMA)
     return con
 
 
-def _nodo(con: sqlite3.Connection, pid: str) -> dict | None:
+def _filas(cursor, lote: int = 1000):
+    """Itera un cursor por lotes. El Cursor de libsql NO es iterable como el de
+    sqlite3 (`for fila in cursor` lanza TypeError); fetchmany funciona en ambos y
+    mantiene la RAM acotada aunque la consulta devuelva muchas filas."""
+    while True:
+        filas = cursor.fetchmany(lote)
+        if not filas:
+            break
+        yield from filas
+
+
+def _nodo(con, pid: str) -> dict | None:
     """Reconstruye el nodo {nombre, marca, url, registros} de un producto,
     con la MISMA forma que tenía en el JSON (la clave 'sospechoso' solo
     existe en los registros en cuarentena, igual que antes)."""
@@ -82,10 +114,10 @@ def _nodo(con: sqlite3.Connection, pid: str) -> dict | None:
     if fila is None:
         return None
     registros = []
-    for fecha, pn, po, pm, sosp in con.execute(
+    for fecha, pn, po, pm, sosp in _filas(con.execute(
         "SELECT fecha, precio_normal, precio_oferta, precio_minimo, sospechoso"
         "  FROM registros WHERE producto_id=? ORDER BY id", (pid,)
-    ):
+    )):
         r = {"fecha": fecha, "precio_normal": pn,
              "precio_oferta": po, "precio_minimo": pm}
         if sosp:
@@ -127,17 +159,15 @@ class HistorialSQLite(Mapping):
         ).fetchone() is not None
 
     def __iter__(self):
-        for (pid,) in self._con.execute("SELECT id FROM productos"):
+        for (pid,) in _filas(self._con.execute("SELECT id FROM productos")):
             yield pid
 
     def __len__(self):
         return self._con.execute("SELECT COUNT(*) FROM productos").fetchone()[0]
 
     def close(self):
-        try:
-            self._con.close()
-        except sqlite3.Error:
-            pass
+        # cerrar() sincroniza si es réplica Turso (no-op en local) y cierra.
+        conexion.cerrar(self._con)
 
 
 def registrar_precios(productos: list, ruta_historial_json: str, hoy=None) -> tuple:
@@ -257,7 +287,9 @@ def registrar_precios(productos: list, ruta_historial_json: str, hoy=None) -> tu
         stats["podados"] = _podar(con)
         con.commit()
     finally:
-        con.close()
+        # cerrar() empuja los cambios del día a Turso (sync en bloque) y cierra;
+        # en modo local es un simple close().
+        conexion.cerrar(con)
 
     return HistorialSQLite(ruta_historial_json), stats
 

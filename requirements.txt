@@ -8,4 +8,9 @@
 # Siguen instalados en el venv actual por si hiciera falta volver atrás.
 
 requests==2.31.0
+
+# Etapa 5 (nube): cliente libSQL para replicar el historial en Turso. La mini PC
+# puede correr sin él (analizador/conexion.py cae a sqlite3 local si no está);
+# es obligatorio para que el ciclo corra en GitHub Actions contra Turso.
+libsql==0.1.11
 beautifulsoup4==4.12.3
