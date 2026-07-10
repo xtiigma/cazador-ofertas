@@ -1,0 +1,77 @@
+name: cazador-ciclo-diario
+
+# El ciclo del Cazador corre en la nube (no en la mini PC) para no calentarla.
+# A las 04:00 de Perú (la hora más fría) scrapea las 9 tiendas, registra en Turso
+# y avisa las gangas por Telegram.
+on:
+  schedule:
+    - cron: '0 9 * * *'        # 09:00 UTC = 04:00 Perú (UTC-5)
+  workflow_dispatch:            # disparo manual (con opciones para probar rápido)
+    inputs:
+      tiendas:
+        description: 'Tiendas a correr (CSV de nombres, ej. "EFE,Dermo"). Vacío = las 9.'
+        required: false
+        default: ''
+      pausa_min:
+        description: 'Minutos de pausa entre tiendas (0 = sin pausa, para pruebas).'
+        required: false
+        default: '10'
+
+# Nunca dos ciclos a la vez (un cron podría solaparse con un disparo manual).
+concurrency:
+  group: cazador-ciclo
+  cancel-in-progress: false
+
+jobs:
+  ciclo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350        # < 6 h (límite de GitHub); el ciclo se autocorta a las 5 h
+    env:
+      # ── Secretos (Settings → Secrets del repo) ──────────────────────────────
+      TURSO_TOKEN:        ${{ secrets.TURSO_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      # ── URLs de las 9 bases Turso (no secretas; nombre = directorio de la tienda) ──
+      TURSO_URL_INKAFARMA:      libsql://cazador-inkafarma-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_PLAZA_VEA:      libsql://cazador-plaza-vea-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_SAGA_FALABELLA: libsql://cazador-saga-falabella-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_DERMO:          libsql://cazador-dermo-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_EFE:            libsql://cazador-efe-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_SHOPSTAR:       libsql://cazador-shopstar-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_SODIMAC:        libsql://cazador-sodimac-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_TAILOY:         libsql://cazador-tailoy-xtiigma.aws-us-east-1.turso.io
+      TURSO_URL_PROMART:        libsql://cazador-promart-xtiigma.aws-us-east-1.turso.io
+      # ── Overrides del ciclo (inputs del disparo manual; en cron usan el default) ──
+      CAZADOR_TIENDAS:   ${{ github.event.inputs.tiendas }}
+      CAZADOR_PAUSA_MIN: ${{ github.event.inputs.pausa_min || '10' }}
+    steps:
+      - name: Traer el código
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # Persistir las réplicas locales de Turso entre corridas: así el sync diario
+      # solo baja el DELTA en vez de ~400 MB de Plaza Vea cada día (el límite de
+      # embedded syncs del free tier es 3 GB/mes).
+      - name: Cache de las réplicas Turso
+        uses: actions/cache@v4
+        with:
+          path: tiendas/*/datos/historial.db*
+          key: turso-replicas-${{ github.run_id }}
+          restore-keys: |
+            turso-replicas-
+
+      # config.py no está en el repo (gitignored); se genera desde la plantilla,
+      # que lee BOT_TOKEN/CHAT_ID de las variables de entorno (los Secrets).
+      - name: Config de Telegram desde los Secrets
+        run: cp telegram_bot/config.example.py telegram_bot/config.py
+
+      - name: Correr el ciclo
+        run: python main.py
