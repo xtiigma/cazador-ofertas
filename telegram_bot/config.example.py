@@ -4,6 +4,12 @@ Telegram Bot — Configuración (PLANTILLA)
 Copia este archivo como `config.py` y rellena BOT_TOKEN y CHAT_ID.
 `config.py` está en .gitignore: el token real NUNCA debe entrar al repo.
 
+DOS formas de dar el token (config.py las soporta ambas):
+  · Local (mini PC): pega el token/chat_id en las líneas de abajo.
+  · Nube (GitHub Actions): déjalos vacíos y define las variables de entorno
+    TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID (los Secrets del repo). El workflow
+    copia esta plantilla a config.py y los valores salen del entorno.
+
 PASO 1: Crear tu bot en Telegram
   1. Abre Telegram y busca @BotFather
   2. Envía /newbot y sigue los pasos
@@ -16,8 +22,12 @@ PASO 2: Obtener tu Chat ID
     y busca el campo "chat" > "id"
 """
 
-BOT_TOKEN: str = ""   # ← Pega aquí el token de tu bot
-CHAT_ID: str   = ""   # ← Pega aquí tu Chat ID
+import os
+
+# Pega el valor entre las comillas (mini PC), o déjalo vacío y usa la variable
+# de entorno del mismo nombre en mayúsculas con prefijo TELEGRAM_ (GitHub Actions).
+BOT_TOKEN: str = os.environ.get("TELEGRAM_BOT_TOKEN", "")   # ← token de tu bot
+CHAT_ID: str   = os.environ.get("TELEGRAM_CHAT_ID", "")     # ← tu Chat ID
 
 # ─────────────────────────────────────────────────────────────────────────────
 
