@@ -127,7 +127,18 @@ TIMEOUT_TIENDA_SEG = 30 * 60
 
 # Respiro entre tiendas: deja enfriar el CPU de la mini PC entre picos de trabajo
 # y separa claramente las peticiones de una tienda de las de la siguiente.
-PAUSA_ENTRE_TIENDAS_SEG = 10 * 60
+# Override por entorno CAZADOR_PAUSA_MIN (p. ej. 0 en una corrida de prueba en la
+# nube, donde no hay problema térmico). Sin la variable = 10 min de siempre.
+PAUSA_ENTRE_TIENDAS_SEG = int(float(os.environ.get("CAZADOR_PAUSA_MIN", "10")) * 60)
+
+# Red de seguridad de ÚLTIMO RECURSO: presupuesto de tiempo de reloj para el ciclo
+# entero. systemd mata el service a las 6 h con SIGTERM, y esa muerte es SUCIA:
+# no ejecuta la limpieza, deja el lock huérfano, no cierra el monitor y NO avisa
+# por Telegram (fue lo que pasó el 09/07 — el usuario no se enteró). Para terminar
+# SIEMPRE limpio y avisando, el ciclo se autocorta antes: si al ir a empezar una
+# tienda ya pasaron estas horas, no arranca más tiendas y salta directo al
+# resumen + aviso de Telegram con lo que se haya logrado hasta ese momento.
+PRESUPUESTO_CICLO_SEG = 5 * 60 * 60
 
 # Freno de emergencia térmico: si el CPU se mantiene en zona crítica (dos
 # lecturas seguidas, para ignorar picos sueltos), se mata el scraper de la
@@ -146,6 +157,18 @@ VIGILANCIA_INTERVALO_SEG = 10
 TEMP_PAUSAR_TIENDA   = 72.0
 TEMP_REANUDAR_TIENDA = 62.0
 PAUSA_FRIA_MAX_SEG   = 15 * 60
+
+# Red de seguridad contra el DEADLOCK TÉRMICO: si un día el ambiente calienta
+# tanto que el CPU en reposo ya está por encima de TEMP_REANUDAR_TIENDA, congelar
+# el scraper no sirve —el calor no lo produce él— y el ciclo se quedaría horas
+# congelando/reanudando sin avanzar ni una tienda, hasta morir por el timeout de
+# systemd (fue lo que pasó el 09/07/2026: 6 h atascado en Inkafarma, cero envíos).
+# Por eso, si la congelación agota PAUSA_FRIA_MAX_SEG sin bajar de
+# TEMP_REANUDAR_TIENDA esta cantidad de veces seguidas, damos el calor por EXTERNO
+# y desactivamos el freno suave el resto del ciclo: el scraper corre aunque esté
+# caliente y el freno DURO (TEMP_ABORTAR_TIENDA, 85 °C) sigue vigilando detrás.
+MAX_CONGELADAS_INEFICACES = 2
+_calor_externo_detectado  = False   # se enciende al detectar calor externo sostenido
 
 # El ciclo deja este lockfile mientras corre; el bot de Telegram lo consulta
 # para rechazar /startserver hasta que terminen todas las tiendas.
@@ -184,11 +207,13 @@ def ejecutar_scraper(tienda: dict) -> list:
         start_new_session=True,
     )
 
+    global _calor_externo_detectado
     try:
         # ── Vigilancia: timeout + freno de emergencia térmico ────────────────
         inicio = time.monotonic()
         seg_pausado = 0.0          # tiempo con el scraper congelado (no cuenta para el timeout)
         lecturas_criticas = 0
+        congeladas_ineficaces = 0  # congeladas seguidas que no lograron enfriar (calor externo)
         motivo_aborto = None
         while proc.poll() is None:
             if time.monotonic() - inicio - seg_pausado >= timeout_seg:
@@ -205,8 +230,24 @@ def ejecutar_scraper(tienda: dict) -> list:
                 lecturas_criticas = 0
 
             # ── Freno suave: congelar el scraper hasta que el CPU enfríe ─────
-            if temp is not None and temp >= TEMP_PAUSAR_TIENDA:
-                seg_pausado += _enfriar_scraper(proc, temp)
+            # Se salta si ya se detectó calor externo en este ciclo: ahí congelar
+            # no enfría (el calor no lo produce el scraper) y solo desperdicia el
+            # timeout. El freno DURO de arriba (85 °C) sigue protegiendo.
+            if (temp is not None and temp >= TEMP_PAUSAR_TIENDA
+                    and not _calor_externo_detectado):
+                pausado, enfrio = _enfriar_scraper(proc, temp)
+                seg_pausado += pausado
+                if enfrio:
+                    congeladas_ineficaces = 0
+                else:
+                    congeladas_ineficaces += 1
+                    if congeladas_ineficaces >= MAX_CONGELADAS_INEFICACES:
+                        _calor_externo_detectado = True
+                        print(f"    ♨️  El CPU no baja de {TEMP_REANUDAR_TIENDA:.0f}°C ni con "
+                              f"el scraper congelado ({MAX_CONGELADAS_INEFICACES}× seguidas): "
+                              f"el calor es EXTERNO. Desactivo el freno suave el resto del "
+                              f"ciclo y dejo correr — el freno duro de "
+                              f"{TEMP_ABORTAR_TIENDA:.0f}°C sigue vigilando.", flush=True)
                 continue  # re-evaluar timeout/temperatura ya mismo, sin dormir extra
 
             time.sleep(VIGILANCIA_INTERVALO_SEG)
@@ -262,10 +303,12 @@ def _borrar_silencioso(ruta: str):
         pass
 
 
-def _enfriar_scraper(proc, temp_actual: float) -> float:
+def _enfriar_scraper(proc, temp_actual: float) -> tuple[float, bool]:
     """Congela el grupo de procesos del scraper (SIGSTOP) hasta que el CPU baje
-    a TEMP_REANUDAR_TIENDA, y lo reanuda (SIGCONT). Devuelve los segundos que
-    estuvo congelado, para descontarlos del timeout de la tienda.
+    a TEMP_REANUDAR_TIENDA, y lo reanuda (SIGCONT). Devuelve una tupla
+    (segundos_congelado, enfrió): los segundos para descontarlos del timeout de la
+    tienda, y `enfrió`=True si salió porque el CPU bajó a ≤TEMP_REANUDAR_TIENDA, o
+    False si agotó PAUSA_FRIA_MAX_SEG sin lograrlo (señal de calor EXTERNO).
 
     Un proceso congelado no ejecuta nada, así que el CPU enfría igual que en la
     pausa entre tiendas; las conexiones que se caigan durante la congelación
@@ -275,14 +318,16 @@ def _enfriar_scraper(proc, temp_actual: float) -> float:
     try:
         os.killpg(proc.pid, signal.SIGSTOP)
     except (ProcessLookupError, PermissionError):
-        return 0.0
+        return 0.0, True
 
     inicio_pausa = time.monotonic()
+    enfrio = False
     try:
         while time.monotonic() - inicio_pausa < PAUSA_FRIA_MAX_SEG:
             time.sleep(VIGILANCIA_INTERVALO_SEG)
             temp = leer_temperatura_cpu()
             if temp is None or temp <= TEMP_REANUDAR_TIENDA:
+                enfrio = True
                 break
     finally:
         # Reanudar SIEMPRE, pase lo que pase: un scraper congelado para
@@ -297,7 +342,7 @@ def _enfriar_scraper(proc, temp_actual: float) -> float:
     temp_txt = f"{temp:.0f}°C" if temp is not None else "s/d"
     print(f"    ▶️  Scraper reanudado tras {pausado / 60:.1f} min de enfriamiento "
           f"(CPU {temp_txt})", flush=True)
-    return pausado
+    return pausado, enfrio
 
 
 # ── Gangas del día para el aviso de Telegram ─────────────────────────────────
@@ -376,10 +421,25 @@ def ciclo_completo():
     # Gangas acumuladas de todas las tiendas (para el aviso de Telegram)
     gangas_ciclo = []
 
-    total_tiendas = len(TIENDAS)
+    # Subconjunto opcional por entorno (CAZADOR_TIENDAS="EFE,Dermo"), útil para
+    # probar el ciclo en la nube sin lanzar las 9. Vacío = todas las tiendas.
+    _filtro = [t.strip().lower() for t in os.environ.get("CAZADOR_TIENDAS", "").split(",") if t.strip()]
+    tiendas_ciclo = [t for t in TIENDAS if not _filtro or t["nombre"].lower() in _filtro]
+    total_tiendas = len(tiendas_ciclo)
 
-    for idx, tienda in enumerate(TIENDAS, 1):
+    for idx, tienda in enumerate(tiendas_ciclo, 1):
         nombre = tienda["nombre"]
+
+        # Red de último recurso: si ya se gastó el presupuesto de tiempo del ciclo,
+        # cortar limpio aquí y pasar al resumen/aviso, en vez de arriesgar que
+        # systemd nos mate a las 6 h sin avisar (el segmento de la última tienda
+        # procesada lo cierra monitor_temp.detener()).
+        if time.time() - inicio_ciclo >= PRESUPUESTO_CICLO_SEG:
+            restantes = total_tiendas - idx + 1
+            print(f"\n  ⏸️  Presupuesto de {PRESUPUESTO_CICLO_SEG // 3600} h agotado — "
+                  f"corto el ciclo y salto al resumen ({restantes} tienda(s) sin procesar).")
+            resumen_total["cortado_por_tiempo"] = restantes
+            break
 
         if idx > 1:
             # Cerrar el segmento térmico ANTES de la pausa: el enfriamiento de
@@ -565,6 +625,14 @@ def ciclo_completo():
 
 
 if __name__ == "__main__":
+    # Si systemd (timeout de 6 h) o el usuario detienen el service, SIGTERM por
+    # defecto termina el proceso SIN ejecutar los `finally` → el lock queda
+    # huérfano (lo que pasó el 09/07). Convertimos SIGTERM en una salida normal
+    # para que el `finally` de abajo borre el lock y todo cierre limpio.
+    def _terminar_limpio(signum, frame):
+        raise SystemExit(f"⛔ Señal {signum} recibida — cerrando el ciclo de forma limpia.")
+    signal.signal(signal.SIGTERM, _terminar_limpio)
+
     # Lockfile con el PID del ciclo: el bot de Telegram lo usa para rechazar
     # /startserver mientras las tiendas siguen scrapeando (y para detectar
     # locks huérfanos si el ciclo murió sin limpiar).
