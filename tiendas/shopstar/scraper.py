@@ -30,7 +30,7 @@ CATEGORIAS_URLS = [
     "https://www.shopstar.pe/moda",
     "https://www.shopstar.pe/salud-y-bienestar",
 ]
-PAGINAS_POR_CATEGORIA = 5
+PAGINAS_POR_CATEGORIA = 3
 PRODUCTOS_POR_PAGINA  = 24
 DOMINIO_BASE          = "https://www.shopstar.pe"
 MAX_WORKERS           = 1   # MÍNIMO: una petición a la vez

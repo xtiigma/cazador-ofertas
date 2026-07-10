@@ -24,7 +24,7 @@ CATEGORIAS_URLS = [
     ("Electrohogar",     "https://www.tailoy.com.pe/electrohogar.html"),
     ("Hogar",            "https://www.tailoy.com.pe/hogar-y-decoracion.html"),
 ]
-PAGINAS_POR_CATEGORIA = 5
+PAGINAS_POR_CATEGORIA = 3
 MAX_WORKERS           = 1   # MÍNIMO: una petición a la vez
 
 HEADERS = {

@@ -32,7 +32,7 @@ import requests
 TZ_PERU = timezone(timedelta(hours=-5))
 
 # ── Config ─────────────────────────────────────────────────────────────────────
-MAX_PAGINAS    = 10    # páginas por categoría
+MAX_PAGINAS    = 3     # páginas por categoría
 REINTENTOS_PAG = 2     # reintentos por página ante error de red/parseo
 PAUSA_SEG      = 0.3   # pausa entre peticiones (no golpear el sitio)
 HTTP_TIMEOUT   = 20    # segundos por petición

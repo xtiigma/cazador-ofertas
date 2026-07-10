@@ -61,8 +61,8 @@ CATEGORIAS_FALLBACK = {
 }
 
 BATCH_SIZE      = 50
-MAX_PAGINAS_CAT = 10     # tope global de 10 págs/hoja (decisión del usuario
-                         # 2026-07-07, meta térmica): hasta 500 prods/hoja, los mejor
+MAX_PAGINAS_CAT = 3      # tope global de 3 págs/hoja (decisión del usuario
+                         # 2026-07-09, meta térmica): hasta 150 prods/hoja, los mejor
                          # rankeados. La mayoría de hojas son más chicas y no lo
                          # tocan; recorta solo las gigantes (antes llegaban a ~51
                          # págs contra el límite VTEX de 2500) → menos peticiones,

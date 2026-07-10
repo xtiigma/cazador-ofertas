@@ -24,7 +24,7 @@ SECCIONES_A_ANALIZAR = [
     ("Acne",         "https://dermotiendashopping.com/collections/acne"),
     ("Contorno-Ojos","https://dermotiendashopping.com/collections/contorno-ojos"),
 ]
-PAGINAS_POR_SECCION = 5
+PAGINAS_POR_SECCION = 3
 DOMINIO_BASE        = "https://dermotiendashopping.com"
 MAX_WORKERS         = 1   # MÍNIMO: una petición a la vez
 

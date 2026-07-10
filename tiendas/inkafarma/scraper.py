@@ -42,8 +42,8 @@ CATEGORIES = [
 # MAX_PAGINAS_POR_CATEGORIA = None → sin límite (scrapea todo lo que tenga la categoría)
 # MAX_PAGINAS_POR_CATEGORIA = 50  → máximo 50 páginas × 8 productos = 400 productos por categoría
 ROWS_PER_PAGE             = 21    # productos por página (valor fijo del API de Inkafarma)
-MAX_PAGINAS_POR_CATEGORIA = 10    # tope global de 10 págs/categoría (decisión del
-                                  # usuario 2026-07-07, meta térmica): 210 productos
+MAX_PAGINAS_POR_CATEGORIA = 3     # tope global de 3 págs/categoría (decisión del
+                                  # usuario 2026-07-09, meta térmica): 63 productos
                                   # por categoría, los mejor rankeados
 
 # ── Paralelismo y reintentos ──────────────────────────────────────────────────
