@@ -1,11 +1,11 @@
 name: cazador-ciclo-diario
 
 # El ciclo del Cazador corre en la nube (no en la mini PC) para no calentarla.
-# A las 04:00 de Perú (la hora más fría) scrapea las 9 tiendas, registra en Turso
-# y avisa las gangas por Telegram.
+# Al mediodía de Perú (misma hora que el timer local de antes) scrapea las 9
+# tiendas, registra en Turso y avisa las gangas por Telegram.
 on:
   schedule:
-    - cron: '0 9 * * *'        # 09:00 UTC = 04:00 Perú (UTC-5)
+    - cron: '0 17 * * *'       # 17:00 UTC = 12:00 (mediodía) Perú (UTC-5)
   workflow_dispatch:            # disparo manual (con opciones para probar rápido)
     inputs:
       tiendas:
