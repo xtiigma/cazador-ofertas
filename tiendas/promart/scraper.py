@@ -48,7 +48,7 @@ CATEGORIAS = [
 
 # ── Parámetros ajustables ─────────────────────────────────────────────────────
 BATCH_SIZE        = 48   # ítems por página VTEX
-PAGINAS_POR_CAT   = 3    # tope global de 3 págs/categoría (decisión del usuario
+PAGINAS_POR_CAT   = 5    # tope global de 5 págs/categoría (decisión del usuario
                          # 2026-07-09, meta térmica): hasta 144 prods/cat, los mejor
                          # rankeados (antes 54 págs ≈ 2592/cat)
 MAX_WORKERS       = 1    # MÍNIMO: una petición a la vez (amable con el API y la mini PC)

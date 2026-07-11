@@ -24,7 +24,7 @@ CATEGORIAS_URLS = [
     ("Tablets",      "https://www.efe.com.pe/tablets.html"),
     ("Computadoras", "https://www.efe.com.pe/computadoras.html"),
 ]
-PAGINAS_POR_CATEGORIA = 3
+PAGINAS_POR_CATEGORIA = 5
 MAX_WORKERS           = 1   # MÍNIMO: una petición a la vez
 
 HEADERS = {

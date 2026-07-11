@@ -24,7 +24,7 @@ CATEGORIAS_URLS = [
     ("Iluminacion",   "https://www.sodimac.com.pe/sodimac-pe/lista/cat40025/Iluminacion"),
     ("Jardin",        "https://www.sodimac.com.pe/sodimac-pe/lista/cat40031/Jardin"),
 ]
-PAGINAS_POR_CATEGORIA = 3
+PAGINAS_POR_CATEGORIA = 5
 DOMINIO_BASE          = "https://www.sodimac.com.pe"
 MAX_WORKERS           = 1   # MÍNIMO: una petición a la vez (Sodimac bloquea fácil)
 DELAY_ENTRE_PAGINAS   = 1.0 # segundos de espera entre páginas (anti-ban)
