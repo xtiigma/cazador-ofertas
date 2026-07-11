@@ -1,11 +1,15 @@
 import os
 import glob
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import sys
 import io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+# Hora Perú: el ciclo puede correr en la nube (runner en UTC), así que los
+# timestamps se fijan a Perú igual que en el resto del proyecto (UTC-5).
+TZ_PERU = timezone(timedelta(hours=-5))
 
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -43,7 +47,7 @@ def obtener_ultimo_json(tienda):
 def procesar_datos():
     datos_consolidados = {
         "metadata": {
-            "ultima_actualizacion": datetime.now().isoformat(),
+            "ultima_actualizacion": datetime.now(TZ_PERU).isoformat(),
             "total_tiendas": 0,
             "total_productos": 0
         },
@@ -133,7 +137,7 @@ def procesar_datos():
             else:
                 total_registros = 1
                 registros = [[
-                    datetime.now().strftime("%Y-%m-%d"),
+                    datetime.now(TZ_PERU).strftime("%Y-%m-%d"),
                     p.get('precio_normal'),
                     p.get('precio_oferta')
                 ]]
