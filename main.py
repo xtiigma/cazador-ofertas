@@ -34,10 +34,13 @@ from logger.console_logger import configurar_logger, cerrar_logger
 logger = configurar_logger()
 
 # ── Módulos del proyecto ─────────────────────────────────────────────────────
-from analizador.historial_precios import registrar_precios
+from analizador.historial_precios import registrar_precios, _precio_efectivo
 from analizador.detector_descuentos import analizar_productos
 from mantenimiento.limpieza import rotar_snapshots, rotar_logs
-from mantenimiento.temperatura import MonitorTemperatura, leer_temperatura_cpu, UMBRAL_ALTA
+from mantenimiento.temperatura import (
+    MonitorTemperatura, leer_temperatura_cpu, UMBRAL_ALTA,
+    registrar_ciclo as registrar_ciclo_termico, comparar_ventilador,
+)
 
 # Al final del ciclo se avisa por Telegram que los datos están listos (SIEMPRE),
 # independiente de TELEGRAM_HABILITADO (que controla las alertas de ofertas).
@@ -345,15 +348,12 @@ def _enfriar_scraper(proc, temp_actual: float) -> tuple[float, bool]:
     return pausado, enfrio
 
 
-# ── Gangas del día para el aviso de Telegram ─────────────────────────────────
-# Del cazador de mínimos (caídas validadas contra NUESTRO historial, no contra
-# lo que declara la tienda) se seleccionan las mejores del ciclo para incluirlas
-# en el aviso diario. Los favoritos entran con barra más baja y con prioridad.
-MAX_GANGAS_AVISO = 5
-UMBRAL_GANGA_AVISO = 20.0  # % mínimo bajo el precio típico para no-favoritos
-MAX_AHORRO_CREIBLE = 90.0  # % — por encima casi siempre es un error de datos
-                           # (precio placeholder de la tienda, id corrupto, etc.),
-                           # no una ganga real. Mejor no publicarla en Telegram.
+# ── Favoritos para el aviso de Telegram ──────────────────────────────────────
+# Desde el 18/07/2026 el aviso diario se centra en los productos que el usuario
+# marcó con ⭐ en el dashboard (tiendas/<t>/datos/favoritos.json): de cada uno
+# se informa si bajó, subió o sigue igual respecto a su último precio registrado
+# y si tocó su mínimo histórico. (Reemplaza a las "gangas" generales.)
+EPSILON_PRECIO = 0.01  # diferencias menores a 1 centavo no cuentan como cambio
 
 
 def _cargar_favoritos(tienda: dict) -> set:
@@ -366,33 +366,64 @@ def _cargar_favoritos(tienda: dict) -> set:
         return set()
 
 
-def _gangas_de_tienda(minimos: list, favoritos: set, nombre_tienda: str) -> list:
-    """Filtra los mínimos del cazador que califican como ganga para el aviso.
+def _estado_favoritos(productos: list, historial, favoritos: set,
+                      nombre_tienda: str) -> list:
+    """Estado de precio de cada favorito de la tienda para el aviso del día.
 
-    Califican: nuevos mínimos históricos, caídas >= UMBRAL_GANGA_AVISO vs el
-    precio típico, y cualquier favorito que el cazador haya reportado."""
-    gangas = []
-    for m in minimos:
-        es_favorito = str(m.get("id")) in favoritos
-        ahorro = m.get("ahorro_vs_mediana") or 0
-        if not (m.get("es_nuevo_minimo") or ahorro >= UMBRAL_GANGA_AVISO or es_favorito):
-            continue
-        if ahorro > MAX_AHORRO_CREIBLE:
-            print(f"    🚫 Ganga descartada por inverosímil (-{ahorro:.0f}%): "
-                  f"{(m.get('nombre') or '')[:50]}")
-            continue
-        gangas.append({
-            "nombre":            m.get("nombre", ""),
-            "tienda":            nombre_tienda,
-            "precio_hoy":        m.get("precio_hoy"),
-            "precio_mediana":    m.get("precio_mediana"),
-            "ahorro_vs_mediana": ahorro,
-            "es_nuevo_minimo":   m.get("es_nuevo_minimo", False),
-            "es_favorito":       es_favorito,
-            "emoji":             m.get("emoji", "📉"),
-            "url":               m.get("url", ""),
+    Compara el precio de hoy contra el último registro confiable anterior
+    (BAJO / SUBIO / IGUAL) y contra el mínimo histórico propio. Si el scraper
+    no vio el producto hoy, se reporta SIN_DATOS con su último precio conocido.
+    Requiere el historial aún cargado (se llama antes de soltarlo)."""
+    if not favoritos:
+        return []
+    hoy = datetime.now(TZ_PERU).strftime("%Y-%m-%d")
+    por_id = {str(p.get("id")): p for p in productos}
+    estados = []
+    for fav in sorted(favoritos):
+        prod = por_id.get(fav)
+        nodo = None
+        if historial is not None and fav in historial:
+            nodo = historial[fav]
+        registros = [r for r in (nodo or {}).get("registros", [])
+                     if not r.get("sospechoso")]
+        previos = [r for r in registros if r.get("fecha", "") < hoy]
+        precio_ant = next((p for r in reversed(previos)
+                           if (p := _precio_efectivo(r))), None)
+        minimo_previo = min((p for r in previos if (p := _precio_efectivo(r))),
+                            default=None)
+
+        precio_hoy = _precio_efectivo(prod) if prod else None
+        if precio_hoy is None:
+            # No apareció en el scraping de hoy; quizá sí quedó en el historial.
+            precio_hoy = next((p for r in reversed(registros)
+                               if r.get("fecha") == hoy and (p := _precio_efectivo(r))),
+                              None)
+
+        if precio_hoy is None:
+            estado = "SIN_DATOS"
+        elif precio_ant is None:
+            estado = "NUEVO"
+        elif precio_hoy < precio_ant - EPSILON_PRECIO:
+            estado = "BAJO"
+        elif precio_hoy > precio_ant + EPSILON_PRECIO:
+            estado = "SUBIO"
+        else:
+            estado = "IGUAL"
+
+        estados.append({
+            "id":                  fav,
+            "nombre":              (prod or nodo or {}).get("nombre") or fav,
+            "tienda":              nombre_tienda,
+            "estado":              estado,
+            "precio_hoy":          precio_hoy,
+            "precio_anterior":     precio_ant,
+            "fecha_anterior":      previos[-1]["fecha"] if previos else None,
+            "minimo_previo":       minimo_previo,
+            "es_minimo_historico": (precio_hoy is not None and minimo_previo is not None
+                                    and precio_hoy < minimo_previo - EPSILON_PRECIO),
+            "url":                 (prod or nodo or {}).get("url", ""),
         })
-    return gangas
+    return estados
 
 
 def ciclo_completo():
@@ -418,8 +449,8 @@ def ciclo_completo():
     monitor_temp = MonitorTemperatura()
     monitor_temp.iniciar()
 
-    # Gangas acumuladas de todas las tiendas (para el aviso de Telegram)
-    gangas_ciclo = []
+    # Estado de los favoritos de todas las tiendas (para el aviso de Telegram)
+    favoritos_ciclo = []
 
     # Subconjunto opcional por entorno (CAZADOR_TIENDAS="EFE,Dermo"), útil para
     # probar el ciclo en la nube sin lanzar las 9. Vacío = todas las tiendas.
@@ -513,15 +544,19 @@ def ciclo_completo():
             print(f"    ❌ Error cazador: {e}")
             traceback.print_exc()
 
+        # ── 4b. Estado de los favoritos de la tienda (aviso de Telegram) ─────
+        try:
+            estados_fav = _estado_favoritos(productos, historial_cargado,
+                                            _cargar_favoritos(tienda), nombre)
+            for f in estados_fav:
+                print(f"    ⭐ {f['estado']}: {f['nombre'][:45]}")
+            favoritos_ciclo.extend(estados_fav)
+        except Exception as e:
+            print(f"    ⚠️  Error revisando favoritos: {e}")
+
         # Soltar el historial ya: que la RAM (hasta ~2 GB con Plaza Vea) no
         # quede retenida durante la pausa de 10 min ni la siguiente tienda.
         historial_cargado = None
-
-        # ── 4b. Acumular gangas del día para el aviso de Telegram ────────────
-        try:
-            gangas_ciclo.extend(_gangas_de_tienda(minimos, _cargar_favoritos(tienda), nombre))
-        except Exception as e:
-            print(f"    ⚠️  Error acumulando gangas: {e}")
 
         # ── Telegram: alertas de esta tienda (EN PAUSA) ──────────────────────
         if TELEGRAM_HABILITADO:
@@ -545,23 +580,19 @@ def ciclo_completo():
         stats_temp = None
         print(f"  ⚠️  Error midiendo temperatura: {e}")
     if stats_temp:
+        # Registro térmico persistente + efecto del ventilador (antes vs después)
+        try:
+            registrar_ciclo_termico(stats_temp)
+            stats_temp["ventilador"] = comparar_ventilador()
+        except Exception as e:
+            print(f"  ⚠️  Error en registro térmico: {e}")
         resumen_total["temperatura"] = stats_temp
 
-    # Top gangas del ciclo: favoritos primero, luego por caída vs precio típico.
-    # Deduplicado por producto (el mismo puede llegar varias veces si aparece en
-    # más de una categoría de la tienda).
-    gangas_ciclo.sort(key=lambda g: (not g["es_favorito"], -g["ahorro_vs_mediana"]))
-    vistos_ganga = set()
-    top_gangas = []
-    for g in gangas_ciclo:
-        clave = (g.get("tienda"), g.get("url") or g.get("nombre"))
-        if clave in vistos_ganga:
-            continue
-        vistos_ganga.add(clave)
-        top_gangas.append(g)
-        if len(top_gangas) == MAX_GANGAS_AVISO:
-            break
-    resumen_total["gangas"] = top_gangas
+    # Favoritos del ciclo: primero los que bajaron, que es lo que importa ver.
+    orden_estado = {"BAJO": 0, "SUBIO": 1, "NUEVO": 2, "IGUAL": 3, "SIN_DATOS": 4}
+    favoritos_ciclo.sort(key=lambda f: (orden_estado.get(f["estado"], 9),
+                                        f["tienda"], f["nombre"]))
+    resumen_total["favoritos"] = favoritos_ciclo
 
     print(f"\n{'═' * 60}")
     print(f"  ✅ Ciclo completado — {datetime.now(TZ_PERU).strftime('%H:%M:%S')}")

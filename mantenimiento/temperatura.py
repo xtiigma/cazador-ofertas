@@ -5,6 +5,10 @@ Muestrea /sys/class/thermal cada INTERVALO_SEG segundos en un hilo daemon
 y acumula máxima/promedio. Al final, resumen() devuelve las estadísticas
 listas para incluir en el aviso de Telegram.
 
+Además lleva un registro térmico persistente por ciclo (datos/temperaturas.json)
+para comparar los ciclos CON el ventilador USB externo (instalado el 18/07/2026)
+contra la línea base SIN él, y así saber si de verdad ayuda.
+
 Uso desde main.py:
     from mantenimiento.temperatura import MonitorTemperatura
 
@@ -12,9 +16,16 @@ Uso desde main.py:
     monitor.iniciar()
     ...ciclo de scraping...
     stats = monitor.detener()   # None si no hay sensores disponibles
+    registrar_ciclo(stats)
+    stats["ventilador"] = comparar_ventilador()
+
+CLI rápida (temperatura actual + efecto del ventilador hasta hoy):
+    python -m mantenimiento.temperatura
 """
 
 import glob
+import json
+import os
 import threading
 import time
 
@@ -156,3 +167,92 @@ class MonitorTemperatura:
             "diagnostico": etiqueta,
             "tiendas": self.resumen_segmentos(),
         }
+
+
+# ── Registro térmico persistente: ¿el ventilador ayuda? ──────────────────────
+# Cada ciclo guarda su máx/promedio en datos/temperaturas.json. Los ciclos
+# anteriores a VENTILADOR_DESDE son la línea base "sin ventilador" (se
+# retro-llenaron desde los avisos de Telegram guardados en registro/).
+# Un ventilador USB simple no se puede apagar por software (solo toma 5 V del
+# puerto, sin datos), así que la comparación es antes-vs-después por fecha.
+
+VENTILADOR_DESDE = "2026-07-18"
+RUTA_REGISTRO_TERMICO = os.path.join(os.path.dirname(__file__), "datos",
+                                     "temperaturas.json")
+
+
+def _leer_registro_termico() -> list:
+    try:
+        with open(RUTA_REGISTRO_TERMICO, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def registrar_ciclo(stats: dict | None) -> None:
+    """Añade las estadísticas del ciclo al registro térmico persistente."""
+    if not stats:
+        return
+    fecha = time.strftime("%Y-%m-%d")
+    entradas = _leer_registro_termico()
+    entradas.append({
+        "fecha": fecha,
+        "hora": time.strftime("%H:%M"),
+        "max": stats.get("max"),
+        "promedio": stats.get("promedio"),
+        "muestras": stats.get("muestras"),
+        "ventilador": fecha >= VENTILADOR_DESDE,
+    })
+    os.makedirs(os.path.dirname(RUTA_REGISTRO_TERMICO), exist_ok=True)
+    with open(RUTA_REGISTRO_TERMICO, "w", encoding="utf-8") as f:
+        json.dump(entradas, f, ensure_ascii=False, indent=1)
+
+
+def _mediana(valores: list) -> float | None:
+    if not valores:
+        return None
+    orden = sorted(valores)
+    n = len(orden)
+    if n % 2 == 1:
+        return orden[n // 2]
+    return (orden[n // 2 - 1] + orden[n // 2]) / 2
+
+
+def comparar_ventilador() -> dict | None:
+    """Compara los ciclos con ventilador contra la línea base sin él.
+
+    Usa la MEDIANA de las máximas (un día de ola de calor no debe tapar la
+    tendencia). Devuelve None hasta tener al menos un ciclo de cada lado."""
+    entradas = [e for e in _leer_registro_termico() if e.get("max") is not None]
+    sin = [e["max"] for e in entradas if not e.get("ventilador")]
+    con = [e["max"] for e in entradas if e.get("ventilador")]
+    if not sin or not con:
+        return None
+    max_sin, max_con = _mediana(sin), _mediana(con)
+    return {
+        "ciclos_sin": len(sin),
+        "ciclos_con": len(con),
+        "max_sin": round(max_sin, 1),
+        "max_con": round(max_con, 1),
+        "delta": round(max_con - max_sin, 1),
+    }
+
+
+if __name__ == "__main__":
+    zonas = _leer_zonas()
+    if not zonas:
+        print("Sin sensores térmicos disponibles.")
+    else:
+        print("Temperaturas actuales:")
+        for tipo, temp in sorted(zonas.items()):
+            marca = "  ← CPU" if tipo == _ZONA_PREFERIDA else ""
+            print(f"  {tipo:20s} {temp:5.1f}°C{marca}")
+    comp = comparar_ventilador()
+    if comp:
+        signo = "bajó" if comp["delta"] < 0 else "subió"
+        print(f"\nEfecto del ventilador (mediana de máximas por ciclo):")
+        print(f"  Sin ventilador: {comp['max_sin']}°C ({comp['ciclos_sin']} ciclos)")
+        print(f"  Con ventilador: {comp['max_con']}°C ({comp['ciclos_con']} ciclos)")
+        print(f"  → la máxima {signo} {abs(comp['delta'])}°C")
+    else:
+        print("\nAún no hay ciclos suficientes para medir el efecto del ventilador.")

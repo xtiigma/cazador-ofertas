@@ -414,29 +414,46 @@ def _escapar_md(texto: str) -> str:
     return texto
 
 
-def _fmt_ganga(g: dict) -> str:
-    fav    = "⭐ " if g.get("es_favorito") else ""
-    emoji  = g.get("emoji", "📉")
-    nombre = _escapar_md((g.get("nombre") or "Producto"))[:45].strip()
-    tienda = g.get("tienda", "")
-    hoy    = g.get("precio_hoy") or 0
-    tipico = g.get("precio_mediana") or 0
-    ahorro = g.get("ahorro_vs_mediana") or 0
-    tag    = "mínimo histórico" if g.get("es_nuevo_minimo") else "bajo el típico"
+def _fmt_favorito(f: dict) -> str:
+    """Línea del aviso para un producto favorito: qué pasó hoy con su precio."""
+    nombre = _escapar_md((f.get("nombre") or "Producto"))[:45].strip()
+    tienda = f.get("tienda", "")
+    estado = f.get("estado", "")
+    hoy    = f.get("precio_hoy")
+    ant    = f.get("precio_anterior")
 
-    linea = (
-        f"{fav}{emoji} *{nombre}* — {tienda}\n"
-        f"      S/{hoy:.2f} (típico S/{tipico:.2f}, *-{ahorro:.0f}%*, {tag})"
-    )
-    if g.get("url"):
-        linea += f" · [Ver]({g['url']})"
+    if estado == "BAJO":
+        pct = (1 - hoy / ant) * 100 if ant else 0
+        detalle = f"📉 *Bajó*: S/{ant:.2f} → *S/{hoy:.2f}* (-{pct:.1f}%)"
+        if f.get("es_minimo_historico"):
+            detalle += "  🏆 ¡mínimo histórico!"
+    elif estado == "SUBIO":
+        pct = (hoy / ant - 1) * 100 if ant else 0
+        detalle = f"📈 Subió: S/{ant:.2f} → S/{hoy:.2f} (+{pct:.1f}%)"
+    elif estado == "IGUAL":
+        detalle = f"➖ Sigue en S/{hoy:.2f}"
+        minimo = f.get("minimo_previo")
+        if minimo:
+            detalle += f" (su mínimo: S/{minimo:.2f})"
+    elif estado == "NUEVO":
+        detalle = f"🆕 Primer precio registrado: S/{hoy:.2f}"
+    else:  # SIN_DATOS
+        ultimo = f" (último: S/{ant:.2f} el {f.get('fecha_anterior')})" if ant else ""
+        detalle = f"❓ No apareció hoy en la tienda{ultimo}"
+
+    linea = f"⭐ *{nombre}* — {tienda}\n      {detalle}"
+    if f.get("url"):
+        linea += f" · [Ver]({f['url']})"
     return linea
+
+
+MAX_FAVORITOS_AVISO = 20  # tope de cortesía; hoy hay ~5 favoritos marcados
 
 
 def enviar_aviso_listo(resumen: dict | None = None) -> bool:
     """Avisa que el scraping del día terminó y que se puede encender el dashboard.
-    Incluye el top de gangas del ciclo (caídas fuertes validadas contra nuestro
-    propio historial; los favoritos entran con prioridad).
+    El foco del aviso son los productos favoritos: de cada uno se informa si
+    bajó, subió o sigue igual de precio (validado contra nuestro historial).
     No incluye link directo porque el dashboard está apagado (ahorro de energía):
     el usuario lo enciende con /startserver cuando quiera explorar."""
     lineas = ["🛒 *Cazador de Ofertas* — datos actualizados ✅\n"]
@@ -455,13 +472,28 @@ def enviar_aviso_listo(resumen: dict | None = None) -> bool:
             )
             for seg in temp.get("tiendas", []):
                 lineas.append(f"    · {seg['nombre']}: {seg['min']}–{seg['max']}°C")
+            vent = temp.get("ventilador")
+            if vent:
+                delta = vent.get("delta", 0)
+                signo = "−" if delta < 0 else "+"
+                lineas.append(
+                    f"🌀 Ventilador: máx típico antes {vent.get('max_sin')}°C → "
+                    f"ahora {vent.get('max_con')}°C (*{signo}{abs(delta)}°C* en "
+                    f"{vent.get('ciclos_con')} ciclo(s))"
+                )
             lineas.append("")
-        gangas = resumen.get("gangas") or []
-        if gangas:
-            lineas.append("🔥 *Gangas del día* (vs tu propio historial):")
-            for g in gangas:
-                lineas.append(_fmt_ganga(g))
+        favoritos = (resumen.get("favoritos") or [])[:MAX_FAVORITOS_AVISO]
+        if favoritos:
+            bajaron = sum(1 for f in favoritos if f.get("estado") == "BAJO")
+            titulo = f"⭐ *Tus favoritos* ({len(favoritos)})"
+            titulo += f" — {bajaron} bajaron 🎉:" if bajaron else " — ninguno bajó hoy:"
+            lineas.append(titulo)
+            for f in favoritos:
+                lineas.append(_fmt_favorito(f))
             lineas.append("")
+        elif "favoritos" in resumen:
+            lineas.append("⭐ No tienes favoritos marcados aún — "
+                          "márcalos con la estrella en el dashboard.\n")
     lineas.append("Manda /startserver para abrir el dashboard y explorar.")
     texto = "\n".join(lineas)
 
